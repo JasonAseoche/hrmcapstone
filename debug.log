@@ -1,0 +1,1892 @@
+[2025-08-04 11:34:26] Fetched 1 accounts
+[2025-08-04 11:34:26] Fetched 1 accounts
+[2025-08-11 04:34:48] Fetched 9 accounts
+[2025-08-11 04:34:48] Fetched 9 accounts
+[2025-08-11 04:34:53] Fetched 9 accounts
+[2025-08-11 04:34:53] Fetched 9 accounts
+[2025-08-11 04:34:57] POST request received: {"action":"start_registration","user_id":"103","fingerprint_id":"1"}
+[2025-08-11 04:34:57] Starting registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:34:57] Registration started successfully for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:34:57] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:34:58] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:34:59] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:00] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:01] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:02] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:04] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:06] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:08] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:10] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:12] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:14] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:16] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:18] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:20] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:22] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:24] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:26] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:28] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:30] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:32] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:34] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:36] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:38] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:40] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:42] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:44] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:46] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:48] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 04:35:50] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:19:23] Fetched 9 accounts
+[2025-08-11 05:19:23] Fetched 9 accounts
+[2025-08-11 05:23:59] POST request received: {"action":"start_registration","user_id":"103","fingerprint_id":"1"}
+[2025-08-11 05:23:59] Starting registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:23:59] Registration started successfully for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:23:59] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:00] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:01] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:02] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:03] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:04] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:05] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:06] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:08] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:09] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:10] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:11] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:12] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:13] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:14] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:15] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:16] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:16] Fetched 9 accounts
+[2025-08-11 05:24:16] Fetched 9 accounts
+[2025-08-11 05:24:17] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:18] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:19] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:20] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:21] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:22] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:23] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:24] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:25] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:26] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:27] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:28] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:24:29] Checking registration for user_id: 103, fingerprint_id: 1
+[2025-08-11 05:26:11] Fetched 9 accounts
+[2025-08-11 05:26:11] Fetched 9 accounts
+[2025-08-11 05:26:13] Fetched 9 accounts
+[2025-08-11 05:26:13] Fetched 9 accounts
+[2025-08-11 05:26:49] Fetched 9 accounts
+[2025-08-11 05:26:49] Fetched 9 accounts
+[2025-08-11 05:26:51] Fetched 9 accounts
+[2025-08-11 05:26:51] Fetched 9 accounts
+[2025-08-11 05:48:36] Fetched 9 accounts
+[2025-08-11 05:48:36] Fetched 9 accounts
+[2025-08-11 05:48:38] Fetched 9 accounts
+[2025-08-11 05:48:38] Fetched 9 accounts
+[2025-08-16 17:28:51] Fetched 11 accounts
+[2025-08-16 17:28:51] Fetched 11 accounts
+[2025-08-17 16:49:26] Fetched 13 accounts
+[2025-08-17 16:49:26] Fetched 13 accounts
+[2025-08-17 16:55:19] Fetched 13 accounts
+[2025-08-17 16:55:19] Fetched 13 accounts
+[2025-08-17 16:56:21] Fetched 14 accounts
+[2025-08-17 16:56:21] Fetched 14 accounts
+[2025-08-17 16:56:24] Fetched 14 accounts
+[2025-08-17 16:56:24] Fetched 14 accounts
+[2025-08-17 18:51:02] Fetched 14 accounts
+[2025-08-17 18:51:02] Fetched 14 accounts
+[2025-08-17 18:51:11] Fetched 14 accounts
+[2025-08-17 18:51:11] Fetched 14 accounts
+[2025-08-17 18:51:16] POST request received: {"action":"start_registration","user_id":"104","fingerprint_id":"15"}
+[2025-08-17 18:51:16] Starting registration for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:16] Registration started successfully for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:16] Checking registration for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:17] Checking registration for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:18] Checking registration for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:19] Checking registration for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:20] Checking registration for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:21] Checking registration for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:22] POST request received: {"employee_id":"15","datetime":"2025-08-18 00:51:18"}
+[2025-08-17 18:51:22] Attendance scan received - employee_id: '15', datetime: '2025-08-18 00:51:18'
+[2025-08-17 18:51:22] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 104
+[2025-08-17 18:51:22] Registration COMPLETED successfully for user_id: 104, fingerprint_id: '15' (both tables updated)
+[2025-08-17 18:51:22] Checking registration for user_id: 104, fingerprint_id: 15
+[2025-08-17 18:51:22] Registration already completed for user_id: 104
+[2025-08-17 18:51:24] Fetched 14 accounts
+[2025-08-17 18:51:30] POST request received: {"employee_id":"15","datetime":"2025-08-18 00:51:26"}
+[2025-08-17 18:51:30] Attendance scan received - employee_id: '15', datetime: '2025-08-18 00:51:26'
+[2025-08-17 18:51:30] No matching pending registration found for fingerprint_id: '15'
+[2025-08-17 18:51:30] Marking pending registration as failed for user_id: 103 - wrong fingerprint scanned
+[2025-08-19 20:27:37] Fetched 15 accounts
+[2025-08-19 20:27:37] Fetched 15 accounts
+[2025-08-19 20:28:18] POST request received: {"action":"start_registration","user_id":"115","fingerprint_id":"16"}
+[2025-08-19 20:28:18] Starting registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:18] Registration started successfully for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:18] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:20] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:21] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:22] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:23] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:24] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:25] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:26] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:27] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:28] POST request received: {"employee_id":"16","datetime":"2025-08-20 02:28:19"}
+[2025-08-19 20:28:28] Attendance scan received - employee_id: '16', datetime: '2025-08-20 02:28:19'
+[2025-08-19 20:28:28] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 115
+[2025-08-19 20:28:28] Registration COMPLETED successfully for user_id: 115, fingerprint_id: '16' (both tables updated)
+[2025-08-19 20:28:28] Checking registration for user_id: 115, fingerprint_id: 16
+[2025-08-19 20:28:28] Registration already completed for user_id: 115
+[2025-08-19 20:28:30] Fetched 15 accounts
+[2025-08-19 20:32:09] Fetched 15 accounts
+[2025-08-19 20:32:09] Fetched 15 accounts
+[2025-08-20 15:20:55] Fetched 16 accounts
+[2025-08-20 15:20:55] Fetched 16 accounts
+[2025-08-20 15:20:56] Fetched 16 accounts
+[2025-08-20 15:20:56] Fetched 16 accounts
+[2025-08-20 15:21:09] POST request received: {"action":"start_registration","user_id":"116","fingerprint_id":"17"}
+[2025-08-20 15:21:09] Starting registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:09] Registration started successfully for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:09] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:10] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:11] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:12] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:13] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:14] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:15] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:16] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:17] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:18] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:19] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:20] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:21] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:22] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:23] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:24] POST request received: {"employee_id":"17","datetime":"2025-08-20 21:21:19"}
+[2025-08-20 15:21:24] Attendance scan received - employee_id: '17', datetime: '2025-08-20 21:21:19'
+[2025-08-20 15:21:24] MATCH FOUND! Fingerprint ID '17' matches pending registration for user_id: 116
+[2025-08-20 15:21:24] Registration COMPLETED successfully for user_id: 116, fingerprint_id: '17' (both tables updated)
+[2025-08-20 15:21:24] Checking registration for user_id: 116, fingerprint_id: 17
+[2025-08-20 15:21:24] Registration already completed for user_id: 116
+[2025-08-20 15:21:26] Fetched 16 accounts
+[2025-08-22 19:04:16] Fetched 30 accounts
+[2025-08-22 19:04:16] Fetched 30 accounts
+[2025-08-23 19:58:18] Fetched 22 accounts
+[2025-08-23 19:58:36] POST request received: {"action":"start_registration","user_id":"142","fingerprint_id":"1"}
+[2025-08-23 19:58:36] Starting registration for user_id: 142, fingerprint_id: 1
+[2025-08-23 19:58:36] ERROR: Fingerprint ID '1' is already registered to Emil De Guzman
+[2025-08-23 19:58:41] POST request received: {"action":"start_registration","user_id":"142","fingerprint_id":"16"}
+[2025-08-23 19:58:41] Starting registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:41] Registration started successfully for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:41] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:42] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:43] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:44] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:45] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:46] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:47] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:48] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:49] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:50] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:51] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:52] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:53] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:54] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:55] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:57] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:58] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:59] POST request received: {"employee_id":"15","datetime":"2025-08-24 03:58:52"}
+[2025-08-23 19:58:59] Attendance scan received - employee_id: '15', datetime: '2025-08-24 03:58:52'
+[2025-08-23 19:58:59] No matching pending registration found for fingerprint_id: '15'
+[2025-08-23 19:58:59] Marking pending registration as failed for user_id: 142 - wrong fingerprint scanned
+[2025-08-23 19:58:59] Checking registration for user_id: 142, fingerprint_id: 16
+[2025-08-23 19:58:59] Registration failed for user_id: 142 - wrong fingerprint scanned
+[2025-08-23 19:59:04] POST request received: {"action":"start_registration","user_id":"142","fingerprint_id":"15"}
+[2025-08-23 19:59:04] Starting registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:04] Registration started successfully for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:04] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:05] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:06] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:07] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:08] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:09] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:10] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:10] POST request received: {"employee_id":"15","datetime":"2025-08-24 03:59:03"}
+[2025-08-23 19:59:10] Attendance scan received - employee_id: '15', datetime: '2025-08-24 03:59:03'
+[2025-08-23 19:59:10] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 142
+[2025-08-23 19:59:10] Registration COMPLETED successfully for user_id: 142, fingerprint_id: '15' (both tables updated)
+[2025-08-23 19:59:11] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 19:59:11] Registration already completed for user_id: 142
+[2025-08-23 19:59:13] Fetched 22 accounts
+[2025-08-23 19:59:28] POST request received: {"employee_id":"15","datetime":"2025-08-24 03:59:21"}
+[2025-08-23 19:59:28] Attendance scan received - employee_id: '15', datetime: '2025-08-24 03:59:21'
+[2025-08-23 19:59:28] No matching pending registration found for fingerprint_id: '15'
+[2025-08-23 19:59:47] POST request received: {"employee_id":"15","datetime":"2025-08-24 03:59:40"}
+[2025-08-23 19:59:47] Attendance scan received - employee_id: '15', datetime: '2025-08-24 03:59:40'
+[2025-08-23 19:59:47] No matching pending registration found for fingerprint_id: '15'
+[2025-08-23 20:02:52] Fetched 23 accounts
+[2025-08-23 20:02:57] POST request received: {"action":"unregister_fingerprint","user_id":"142"}
+[2025-08-23 20:02:58] Fingerprint unregistered for user_id: 142 (both tables updated)
+[2025-08-23 20:02:58] Fetched 23 accounts
+[2025-08-23 20:03:08] POST request received: {"action":"start_registration","user_id":"142","fingerprint_id":"15"}
+[2025-08-23 20:03:08] Starting registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 20:03:08] Registration started successfully for user_id: 142, fingerprint_id: 15
+[2025-08-23 20:03:08] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 20:03:09] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 20:03:10] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 20:03:11] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 20:03:13] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 20:03:14] POST request received: {"employee_id":"15","datetime":"2025-08-24 04:03:05"}
+[2025-08-23 20:03:14] Attendance scan received - employee_id: '15', datetime: '2025-08-24 04:03:05'
+[2025-08-23 20:03:14] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 142
+[2025-08-23 20:03:14] Registration COMPLETED successfully for user_id: 142, fingerprint_id: '15' (both tables updated)
+[2025-08-23 20:03:14] Checking registration for user_id: 142, fingerprint_id: 15
+[2025-08-23 20:03:14] Registration already completed for user_id: 142
+[2025-08-23 20:03:16] Fetched 23 accounts
+[2025-08-25 17:18:50] Fetched 20 accounts
+[2025-08-25 17:18:50] Fetched 20 accounts
+[2025-08-25 17:18:56] Fetched 20 accounts
+[2025-08-25 17:18:56] Fetched 20 accounts
+[2025-08-25 17:19:12] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-25 17:19:12] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:12] Registration started successfully for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:12] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:13] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:14] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:15] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:16] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:17] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:18] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:19] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:21] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:22] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:23] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:24] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:25] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:26] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:27] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:28] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:29] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:30] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:31] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:32] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:33] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:34] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:35] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:36] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:37] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:38] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:39] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:40] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:41] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:42] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:45] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-25 17:19:45] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:45] Registration started successfully for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:45] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:46] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:47] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:49] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:50] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:51] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:52] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:53] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:54] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:55] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:56] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:57] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:58] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:19:59] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:00] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:01] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:02] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:03] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:04] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:05] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:06] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:07] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:08] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:09] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:10] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:11] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:12] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:13] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:14] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:15] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:30] POST request received: {"employee_id":"15","datetime":"2025-08-25 23:20:22"}
+[2025-08-25 17:20:30] Attendance scan received - employee_id: '15', datetime: '2025-08-25 23:20:22'
+[2025-08-25 17:20:30] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 132
+[2025-08-25 17:20:30] Registration COMPLETED successfully for user_id: 132, fingerprint_id: '15' (both tables updated)
+[2025-08-25 17:20:30] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-25 17:20:30] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:30] ERROR: Fingerprint ID '15' is already registered to Employee OnSite in employee list
+[2025-08-25 17:20:32] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-25 17:20:32] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:32] ERROR: Fingerprint ID '15' is already registered to Employee OnSite in employee list
+[2025-08-25 17:20:37] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-25 17:20:37] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:37] ERROR: Fingerprint ID '15' is already registered to Employee OnSite in employee list
+[2025-08-25 17:20:44] Fetched 20 accounts
+[2025-08-25 17:20:44] Fetched 20 accounts
+[2025-08-25 17:20:50] POST request received: {"action":"unregister_fingerprint","user_id":"132"}
+[2025-08-25 17:20:50] Fingerprint unregistered for user_id: 132 (both tables updated)
+[2025-08-25 17:20:50] Fetched 20 accounts
+[2025-08-25 17:20:53] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-25 17:20:53] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:53] Registration started successfully for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:53] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:54] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:55] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:56] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:57] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:58] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:20:59] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:00] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:01] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:02] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:03] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:04] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:05] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:06] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:07] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:08] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:09] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:10] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:11] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:12] POST request received: {"employee_id":"15","datetime":"2025-08-25 23:21:04"}
+[2025-08-25 17:21:12] Attendance scan received - employee_id: '15', datetime: '2025-08-25 23:21:04'
+[2025-08-25 17:21:12] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 132
+[2025-08-25 17:21:12] Registration COMPLETED successfully for user_id: 132, fingerprint_id: '15' (both tables updated)
+[2025-08-25 17:21:12] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-25 17:21:12] Registration already completed for user_id: 132
+[2025-08-25 17:21:14] Fetched 20 accounts
+[2025-08-26 01:17:42] Fetched 20 accounts
+[2025-08-26 01:17:42] Fetched 20 accounts
+[2025-08-26 01:17:48] POST request received: {"action":"unregister_fingerprint","user_id":"130"}
+[2025-08-26 01:17:48] Fingerprint unregistered for user_id: 130 (both tables updated)
+[2025-08-26 01:17:48] Fetched 20 accounts
+[2025-08-26 01:17:54] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-26 01:17:54] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:17:54] ERROR: Fingerprint ID '15' is already registered to Employee OnSite in employee list
+[2025-08-26 01:18:04] Fetched 20 accounts
+[2025-08-26 01:18:04] Fetched 20 accounts
+[2025-08-26 01:18:11] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-26 01:18:11] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:18:11] ERROR: Fingerprint ID '15' is already registered to Employee OnSite in employee list
+[2025-08-26 01:19:01] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-26 01:19:01] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:19:01] ERROR: Fingerprint ID '15' is already registered to Employee OnSite in employee list
+[2025-08-26 01:19:02] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-26 01:19:02] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:19:02] ERROR: Fingerprint ID '15' is already registered to Employee OnSite in employee list
+[2025-08-26 01:19:04] Fetched 20 accounts
+[2025-08-26 01:19:04] Fetched 20 accounts
+[2025-08-26 01:19:58] Fetched 20 accounts
+[2025-08-26 01:19:58] Fetched 20 accounts
+[2025-08-26 01:19:59] Fetched 20 accounts
+[2025-08-26 01:19:59] Fetched 20 accounts
+[2025-08-26 01:19:59] Fetched 20 accounts
+[2025-08-26 01:19:59] Fetched 20 accounts
+[2025-08-26 01:19:59] Fetched 20 accounts
+[2025-08-26 01:19:59] Fetched 20 accounts
+[2025-08-26 01:19:59] Fetched 20 accounts
+[2025-08-26 01:20:00] Fetched 20 accounts
+[2025-08-26 01:20:00] Fetched 20 accounts
+[2025-08-26 01:20:21] Fetched 20 accounts
+[2025-08-26 01:20:21] Fetched 20 accounts
+[2025-08-26 01:20:23] POST request received: {"action":"unregister_fingerprint","user_id":"132"}
+[2025-08-26 01:20:23] Fingerprint unregistered for user_id: 132 (both tables updated)
+[2025-08-26 01:20:23] Fetched 20 accounts
+[2025-08-26 01:20:29] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"16"}
+[2025-08-26 01:20:29] Starting registration for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:29] Registration started successfully for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:29] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:30] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:31] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:32] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:33] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:34] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:34] POST request received: {"employee_id":"16","datetime":"2025-08-26 07:20:26"}
+[2025-08-26 01:20:34] Attendance scan received - employee_id: '16', datetime: '2025-08-26 07:20:26'
+[2025-08-26 01:20:34] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 132
+[2025-08-26 01:20:34] Registration COMPLETED successfully for user_id: 132, fingerprint_id: '16' (both tables updated)
+[2025-08-26 01:20:35] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-26 01:20:35] Registration already completed for user_id: 132
+[2025-08-26 01:20:37] Fetched 20 accounts
+[2025-08-26 01:20:42] POST request received: {"employee_id":"16","datetime":"2025-08-26 07:20:36"}
+[2025-08-26 01:20:42] Attendance scan received - employee_id: '16', datetime: '2025-08-26 07:20:36'
+[2025-08-26 01:20:42] No matching pending registration found for fingerprint_id: '16'
+[2025-08-26 01:43:51] Fetched 20 accounts
+[2025-08-26 01:43:51] Fetched 20 accounts
+[2025-08-26 01:44:00] Fetched 20 accounts
+[2025-08-26 01:44:00] Fetched 20 accounts
+[2025-08-26 01:44:03] POST request received: {"action":"unregister_fingerprint","user_id":"132"}
+[2025-08-26 01:44:03] Fingerprint unregistered for user_id: 132 (both tables updated)
+[2025-08-26 01:44:03] Fetched 20 accounts
+[2025-08-26 01:44:05] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-26 01:44:05] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:05] Registration started successfully for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:05] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:06] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:07] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:08] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:09] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:10] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:11] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:12] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:13] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:14] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:15] POST request received: {"employee_id":"15","datetime":"2025-08-26 07:44:06"}
+[2025-08-26 01:44:15] Attendance scan received - employee_id: '15', datetime: '2025-08-26 07:44:06'
+[2025-08-26 01:44:15] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 132
+[2025-08-26 01:44:15] Registration COMPLETED successfully for user_id: 132, fingerprint_id: '15' (both tables updated)
+[2025-08-26 01:44:15] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-26 01:44:15] Registration already completed for user_id: 132
+[2025-08-26 01:44:18] Fetched 20 accounts
+[2025-08-28 16:09:19] Fetched 20 accounts
+[2025-08-28 16:09:19] Fetched 20 accounts
+[2025-08-28 16:09:30] Fetched 20 accounts
+[2025-08-28 16:09:30] Fetched 20 accounts
+[2025-08-28 16:17:14] Fetched 20 accounts
+[2025-08-28 16:17:14] Fetched 20 accounts
+[2025-08-28 16:17:59] Fetched 20 accounts
+[2025-08-28 16:17:59] Fetched 20 accounts
+[2025-08-28 16:46:08] Fetched 20 accounts
+[2025-08-28 16:46:08] Fetched 20 accounts
+[2025-08-28 16:49:34] POST request received: {"action":"start_registration","user_id":"118","fingerprint_id":"15"}
+[2025-08-28 16:49:34] Starting registration for user_id: 118, fingerprint_id: 15
+[2025-08-28 16:49:34] ERROR: Fingerprint ID '15' is already registered to Employee OnSite
+[2025-08-28 16:49:36] POST request received: {"action":"start_registration","user_id":"118","fingerprint_id":"15"}
+[2025-08-28 16:49:36] Starting registration for user_id: 118, fingerprint_id: 15
+[2025-08-28 16:49:36] ERROR: Fingerprint ID '15' is already registered to Employee OnSite
+[2025-08-28 16:49:37] POST request received: {"action":"start_registration","user_id":"118","fingerprint_id":"15"}
+[2025-08-28 16:49:37] Starting registration for user_id: 118, fingerprint_id: 15
+[2025-08-28 16:49:37] ERROR: Fingerprint ID '15' is already registered to Employee OnSite
+[2025-08-28 16:49:46] POST request received: {"action":"unregister_fingerprint","user_id":"132"}
+[2025-08-28 16:49:46] Fingerprint unregistered for user_id: 132 (both tables updated)
+[2025-08-28 16:49:46] Fetched 20 accounts
+[2025-08-28 16:51:00] POST request received: {"action":"start_registration","user_id":"131","fingerprint_id":"15"}
+[2025-08-28 16:51:00] Starting registration for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:00] Registration started successfully for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:00] Checking registration for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:01] Checking registration for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:02] Checking registration for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:03] Checking registration for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:04] Checking registration for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:05] Checking registration for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:05] POST request received: {"employee_id":"15","datetime":"2025-08-28 22:50:58"}
+[2025-08-28 16:51:05] Attendance scan received - employee_id: '15', datetime: '2025-08-28 22:50:58'
+[2025-08-28 16:51:05] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 131
+[2025-08-28 16:51:05] Registration COMPLETED successfully for user_id: 131, fingerprint_id: '15' (both tables updated)
+[2025-08-28 16:51:06] Checking registration for user_id: 131, fingerprint_id: 15
+[2025-08-28 16:51:06] Registration already completed for user_id: 131
+[2025-08-28 16:51:08] Fetched 20 accounts
+[2025-08-28 16:51:20] POST request received: {"action":"unregister_fingerprint","user_id":"131"}
+[2025-08-28 16:51:20] Fingerprint unregistered for user_id: 131 (both tables updated)
+[2025-08-28 16:51:20] Fetched 20 accounts
+[2025-08-29 05:14:55] Fetched 20 accounts
+[2025-08-29 05:14:55] Fetched 20 accounts
+[2025-08-29 05:15:31] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"15"}
+[2025-08-29 05:15:31] Starting registration for user_id: 132, fingerprint_id: 15
+[2025-08-29 05:15:31] Registration started successfully for user_id: 132, fingerprint_id: 15
+[2025-08-29 05:15:31] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-29 05:15:32] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-29 05:15:33] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-29 05:15:34] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-29 05:15:35] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-29 05:15:36] POST request received: {"employee_id":"15","datetime":"2025-08-29 11:15:28"}
+[2025-08-29 05:15:36] Attendance scan received - employee_id: '15', datetime: '2025-08-29 11:15:28'
+[2025-08-29 05:15:36] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 132
+[2025-08-29 05:15:36] Registration COMPLETED successfully for user_id: 132, fingerprint_id: '15' (both tables updated)
+[2025-08-29 05:15:36] Checking registration for user_id: 132, fingerprint_id: 15
+[2025-08-29 05:15:36] Registration already completed for user_id: 132
+[2025-08-29 05:15:38] Fetched 20 accounts
+[2025-08-29 05:16:03] POST request received: {"employee_id":"15","datetime":"2025-08-29 11:15:55"}
+[2025-08-29 05:16:03] Attendance scan received - employee_id: '15', datetime: '2025-08-29 11:15:55'
+[2025-08-29 05:16:03] No matching pending registration found for fingerprint_id: '15'
+[2025-08-29 05:17:48] Fetched 20 accounts
+[2025-08-29 05:17:48] Fetched 20 accounts
+[2025-08-30 13:01:50] Fetched 20 accounts
+[2025-08-30 13:01:50] Fetched 20 accounts
+[2025-08-31 18:07:57] Fetched 21 accounts
+[2025-08-31 18:07:57] Fetched 21 accounts
+[2025-08-31 18:08:03] POST request received: {"action":"unregister_fingerprint","user_id":"132"}
+[2025-08-31 18:08:03] Fingerprint unregistered for user_id: 132 (both tables updated)
+[2025-08-31 18:08:03] Fetched 21 accounts
+[2025-08-31 18:08:11] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"16"}
+[2025-08-31 18:08:11] Starting registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:11] Registration started successfully for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:11] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:12] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:13] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:14] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:15] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:16] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:17] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:18] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:19] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:20] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:21] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:22] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:23] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:24] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:25] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:26] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:27] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:28] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:29] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:30] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:31] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:32] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:33] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:35] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:36] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:37] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:38] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:39] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:40] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:41] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:56] POST request received: {"employee_id":"16","datetime":"2025-09-01 00:08:48"}
+[2025-08-31 18:08:56] Attendance scan received - employee_id: '16', datetime: '2025-09-01 00:08:48'
+[2025-08-31 18:08:56] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 132
+[2025-08-31 18:08:56] Registration COMPLETED successfully for user_id: 132, fingerprint_id: '16' (both tables updated)
+[2025-08-31 18:08:57] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"16"}
+[2025-08-31 18:08:57] Starting registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:57] ERROR: Fingerprint ID '16' is already registered to Employee OnSite in employee list
+[2025-08-31 18:08:59] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"16"}
+[2025-08-31 18:08:59] Starting registration for user_id: 132, fingerprint_id: 16
+[2025-08-31 18:08:59] ERROR: Fingerprint ID '16' is already registered to Employee OnSite in employee list
+[2025-08-31 18:09:06] Fetched 21 accounts
+[2025-08-31 18:09:06] Fetched 21 accounts
+[2025-09-01 19:21:27] Fetched 21 accounts
+[2025-09-01 19:21:27] Fetched 21 accounts
+[2025-09-01 19:22:36] Fetched 21 accounts
+[2025-09-01 19:22:36] Fetched 21 accounts
+[2025-09-01 19:35:02] Fetched 21 accounts
+[2025-09-01 19:35:02] Fetched 21 accounts
+[2025-09-02 15:56:09] Fetched 21 accounts
+[2025-09-02 15:56:09] Fetched 21 accounts
+[2025-09-02 16:30:01] Fetched 22 accounts
+[2025-09-02 16:30:01] Fetched 22 accounts
+[2025-09-02 17:11:29] Fetched 24 accounts
+[2025-09-02 17:11:29] Fetched 24 accounts
+[2025-09-02 17:27:49] Fetched 24 accounts
+[2025-09-02 17:27:50] Fetched 24 accounts
+[2025-09-02 17:27:51] Fetched 24 accounts
+[2025-09-02 17:27:51] Fetched 24 accounts
+[2025-09-02 20:09:27] Fetched 24 accounts
+[2025-09-02 20:09:27] Fetched 24 accounts
+[2025-09-02 20:09:32] Fetched 24 accounts
+[2025-09-02 20:09:32] Fetched 24 accounts
+[2025-09-02 20:09:49] Fetched 24 accounts
+[2025-09-02 20:09:49] Fetched 24 accounts
+[2025-09-02 20:16:09] Fetched 24 accounts
+[2025-09-02 20:16:09] Fetched 24 accounts
+[2025-09-03 07:30:29] Fetched 24 accounts
+[2025-09-03 07:30:29] Fetched 24 accounts
+[2025-09-04 14:39:36] Fetched 24 accounts
+[2025-09-04 14:39:36] Fetched 24 accounts
+[2025-09-07 19:26:44] Fetched 25 accounts
+[2025-09-07 19:26:44] Fetched 25 accounts
+[2025-09-07 19:28:33] Fetched 25 accounts
+[2025-09-07 19:28:33] Fetched 25 accounts
+[2025-09-07 19:39:53] Fetched 25 accounts
+[2025-09-07 19:39:53] Fetched 25 accounts
+[2025-09-07 19:39:59] Fetched 25 accounts
+[2025-09-07 19:39:59] Fetched 25 accounts
+[2025-09-07 19:40:01] Fetched 25 accounts
+[2025-09-07 19:40:01] Fetched 25 accounts
+[2025-09-07 19:44:35] Fetched 25 accounts
+[2025-09-07 19:44:35] Fetched 25 accounts
+[2025-09-07 19:47:57] Fetched 25 accounts
+[2025-09-07 19:47:57] Fetched 25 accounts
+[2025-09-08 13:38:19] Fetched 25 accounts
+[2025-09-08 13:38:19] Fetched 25 accounts
+[2025-09-08 13:38:22] Fetched 25 accounts
+[2025-09-08 13:38:22] Fetched 25 accounts
+[2025-09-08 13:38:53] Fetched 25 accounts
+[2025-09-08 13:38:53] Fetched 25 accounts
+[2025-09-08 13:38:55] Fetched 25 accounts
+[2025-09-08 13:38:55] Fetched 25 accounts
+[2025-09-08 13:38:58] Fetched 25 accounts
+[2025-09-08 13:38:58] Fetched 25 accounts
+[2025-09-08 13:39:38] Fetched 25 accounts
+[2025-09-08 13:39:38] Fetched 25 accounts
+[2025-09-08 13:41:05] Fetched 25 accounts
+[2025-09-08 13:41:05] Fetched 25 accounts
+[2025-09-08 13:41:09] Fetched 25 accounts
+[2025-09-08 13:41:09] Fetched 25 accounts
+[2025-09-09 07:32:31] Fetched 27 accounts
+[2025-09-09 07:32:31] Fetched 27 accounts
+[2025-09-12 18:18:21] Fetched 28 accounts
+[2025-09-12 18:18:21] Fetched 28 accounts
+[2025-09-12 18:18:22] Fetched 28 accounts
+[2025-09-12 18:18:22] Fetched 28 accounts
+[2025-09-12 18:48:00] Fetched 28 accounts
+[2025-09-12 18:48:00] Fetched 28 accounts
+[2025-09-12 18:48:06] Fetched 28 accounts
+[2025-09-12 18:48:06] Fetched 28 accounts
+[2025-09-12 19:10:27] Fetched 28 accounts
+[2025-09-12 19:10:27] Fetched 28 accounts
+[2025-09-12 19:13:05] Fetched 28 accounts
+[2025-09-12 19:13:05] Fetched 28 accounts
+[2025-09-12 19:13:17] Fetched 28 accounts
+[2025-09-12 19:13:17] Fetched 28 accounts
+[2025-09-12 20:09:33] Fetched 28 accounts
+[2025-09-12 20:09:33] Fetched 28 accounts
+[2025-09-13 05:09:52] Fetched 28 accounts
+[2025-09-13 05:09:52] Fetched 28 accounts
+[2025-09-13 05:09:56] POST request received: {"action":"unregister_fingerprint","user_id":"132"}
+[2025-09-13 05:09:56] Fingerprint unregistered for user_id: 132 (both tables updated)
+[2025-09-13 05:09:56] Fetched 28 accounts
+[2025-09-13 05:10:00] POST request received: {"action":"start_registration","user_id":"132","fingerprint_id":"16"}
+[2025-09-13 05:10:00] Starting registration for user_id: 132, fingerprint_id: 16
+[2025-09-13 05:10:00] Registration started successfully for user_id: 132, fingerprint_id: 16
+[2025-09-13 05:10:00] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-09-13 05:10:01] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-09-13 05:10:02] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-09-13 05:10:04] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-09-13 05:10:05] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-09-13 05:10:05] POST request received: {"employee_id":"16","datetime":"2025-09-13 11:09:58"}
+[2025-09-13 05:10:05] Attendance scan received - employee_id: '16', datetime: '2025-09-13 11:09:58'
+[2025-09-13 05:10:05] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 132
+[2025-09-13 05:10:05] Registration COMPLETED successfully for user_id: 132, fingerprint_id: '16' (both tables updated)
+[2025-09-13 05:10:06] Checking registration for user_id: 132, fingerprint_id: 16
+[2025-09-13 05:10:06] Registration already completed for user_id: 132
+[2025-09-13 05:10:08] Fetched 28 accounts
+[2025-09-17 09:16:24] Fetched 28 accounts
+[2025-09-17 09:16:24] Fetched 28 accounts
+[2025-09-18 14:29:33] Fetched 28 accounts
+[2025-09-18 14:29:33] Fetched 28 accounts
+[2025-09-18 14:29:47] Fetched 27 accounts
+[2025-09-18 14:29:47] Fetched 27 accounts
+[2025-09-27 14:03:28] Fetched 30 accounts
+[2025-09-27 14:03:28] Fetched 30 accounts
+[2025-09-27 14:03:33] Fetched 30 accounts
+[2025-09-27 14:03:33] Fetched 30 accounts
+[2025-09-27 14:04:08] Fetched 30 accounts
+[2025-09-27 14:04:08] Fetched 30 accounts
+[2025-09-27 14:06:10] Fetched 30 accounts
+[2025-09-27 14:06:10] Fetched 30 accounts
+[2025-09-27 14:10:36] Fetched 30 accounts
+[2025-09-27 14:12:17] Fetched 30 accounts
+[2025-09-27 14:15:51] Fetched 30 accounts
+[2025-09-27 14:19:54] Fetched 30 accounts
+[2025-09-27 14:19:54] Fetched 30 accounts
+[2025-09-27 14:20:12] Fetched 30 accounts
+[2025-09-27 14:20:13] Fetched 30 accounts
+[2025-09-27 14:31:42] Fetched 30 accounts
+[2025-09-27 14:31:42] Fetched 30 accounts
+[2025-09-27 14:32:03] Fetched 30 accounts
+[2025-09-28 06:40:37] Fetched 30 accounts
+[2025-09-28 06:40:37] Fetched 30 accounts
+[2025-09-28 06:41:53] Fetched 30 accounts
+[2025-09-28 06:41:53] Fetched 30 accounts
+[2025-09-28 06:43:12] Fetched 30 accounts
+[2025-09-28 06:43:12] Fetched 30 accounts
+[2025-09-28 06:47:10] Fetched 30 accounts
+[2025-09-28 06:47:10] Fetched 30 accounts
+[2025-09-28 06:50:08] Fetched 30 accounts
+[2025-09-28 06:56:22] Fetched 30 accounts
+[2025-09-28 06:56:22] Fetched 30 accounts
+[2025-09-28 07:00:39] Fetched 30 accounts
+[2025-09-28 07:00:39] Fetched 30 accounts
+[2025-09-28 07:12:09] Fetched 30 accounts
+[2025-09-28 07:12:09] Fetched 30 accounts
+[2025-09-28 07:12:16] Fetched 30 accounts
+[2025-09-28 07:12:16] Fetched 30 accounts
+[2025-09-28 07:12:17] Fetched 30 accounts
+[2025-09-28 07:12:18] Fetched 30 accounts
+[2025-09-28 07:12:23] Fetched 30 accounts
+[2025-09-28 07:12:23] Fetched 30 accounts
+[2025-09-28 07:22:02] Fetched 30 accounts
+[2025-09-28 07:22:02] Fetched 30 accounts
+[2025-09-28 07:22:13] Fetched 30 accounts
+[2025-09-28 07:22:13] Fetched 30 accounts
+[2025-09-28 07:22:24] Fetched 30 accounts
+[2025-09-28 07:22:24] Fetched 30 accounts
+[2025-09-28 07:22:47] Fetched 30 accounts
+[2025-09-28 07:22:47] Fetched 30 accounts
+[2025-09-28 07:23:02] Fetched 30 accounts
+[2025-09-28 07:23:02] Fetched 30 accounts
+[2025-10-08 06:39:17] Fetched 30 accounts
+[2025-10-08 06:39:17] Fetched 30 accounts
+[2025-10-08 05:04:00] Fetched 24 accounts
+[2025-10-08 05:10:22] Fetched 24 accounts
+[2025-10-08 05:58:28] Fetched 25 accounts
+[2025-10-08 06:00:09] POST request received: {"action":"start_registration","user_id":"148","fingerprint_id":"21"}
+[2025-10-08 06:00:09] Starting registration for user_id: 148, fingerprint_id: 21
+[2025-10-08 06:00:09] Registration started successfully for user_id: 148, fingerprint_id: 21
+[2025-10-08 06:00:09] Checking registration for user_id: 148, fingerprint_id: 21
+[2025-10-08 06:00:10] Checking registration for user_id: 148, fingerprint_id: 21
+[2025-10-08 06:00:11] POST request received: {"employee_id":"21","datetime":"2025-10-08 14:00:02"}
+[2025-10-08 06:00:11] Attendance scan received - employee_id: '21', datetime: '2025-10-08 14:00:02'
+[2025-10-08 06:00:11] MATCH FOUND! Fingerprint ID '21' matches pending registration for user_id: 148
+[2025-10-08 06:00:11] Registration COMPLETED successfully for user_id: 148, fingerprint_id: '21' (both tables updated)
+[2025-10-08 06:00:12] Checking registration for user_id: 148, fingerprint_id: 21
+[2025-10-08 06:00:12] Registration already completed for user_id: 148
+[2025-10-08 06:00:14] Fetched 25 accounts
+[2025-10-08 06:03:55] Fetched 25 accounts
+[2025-10-08 06:39:55] Fetched 25 accounts
+[2025-10-08 06:40:10] Fetched 25 accounts
+[2025-10-08 06:41:54] Fetched 25 accounts
+[2025-10-08 07:18:43] Fetched 25 accounts
+[2025-10-08 07:19:22] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-08 07:19:22] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-08 07:19:22] Fetched 25 accounts
+[2025-10-08 07:19:43] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-08 07:19:43] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:43] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:43] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:44] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:45] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:46] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:48] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:49] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:50] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:52] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:53] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:54] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:55] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:57] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:58] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:19:59] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:00] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:02] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:03] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:04] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:05] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:07] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:08] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:09] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:10] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:11] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:13] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:14] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:15] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:16] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:18] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:19] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:24] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-08 07:20:24] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:24] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:24] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:25] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:26] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:27] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:29] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:30] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:31] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:32] POST request received: {"employee_id":"15","datetime":"2025-10-08 15:20:23"}
+[2025-10-08 07:20:32] Attendance scan received - employee_id: '15', datetime: '2025-10-08 15:20:23'
+[2025-10-08 07:20:32] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-08 07:20:32] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-08 07:20:32] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-08 07:20:32] Registration already completed for user_id: 122
+[2025-10-08 07:20:34] Fetched 25 accounts
+[2025-10-08 07:21:38] Fetched 25 accounts
+[2025-10-08 15:29:03] Fetched 25 accounts
+[2025-10-08 15:29:06] Fetched 25 accounts
+[2025-10-08 15:29:17] Fetched 25 accounts
+[2025-10-09 10:53:27] Fetched 25 accounts
+[2025-10-09 10:53:28] Fetched 25 accounts
+[2025-10-09 10:55:16] Fetched 25 accounts
+[2025-10-09 10:55:35] Fetched 25 accounts
+[2025-10-09 10:55:36] Fetched 25 accounts
+[2025-10-16 04:31:27] Fetched 25 accounts
+[2025-10-16 04:31:30] Fetched 25 accounts
+[2025-10-16 04:31:31] Fetched 25 accounts
+[2025-10-16 04:31:33] Fetched 25 accounts
+[2025-10-16 04:31:34] Fetched 25 accounts
+[2025-10-16 04:31:47] Fetched 25 accounts
+[2025-10-16 04:36:22] Fetched 25 accounts
+[2025-10-16 06:39:44] Fetched 25 accounts
+[2025-10-16 06:39:56] POST request received: {"action":"unregister_fingerprint","user_id":"147"}
+[2025-10-16 06:39:56] Fingerprint unregistered for user_id: 147 (both tables updated)
+[2025-10-16 06:39:56] Fetched 25 accounts
+[2025-10-16 06:40:00] POST request received: {"action":"start_registration","user_id":"147","fingerprint_id":"16"}
+[2025-10-16 06:40:00] Starting registration for user_id: 147, fingerprint_id: 16
+[2025-10-16 06:40:00] ERROR: Fingerprint ID '16' is already registered to Ericka Flores
+[2025-10-16 06:40:02] POST request received: {"action":"start_registration","user_id":"147","fingerprint_id":"16"}
+[2025-10-16 06:40:02] Starting registration for user_id: 147, fingerprint_id: 16
+[2025-10-16 06:40:02] ERROR: Fingerprint ID '16' is already registered to Ericka Flores
+[2025-10-16 06:40:03] POST request received: {"action":"start_registration","user_id":"147","fingerprint_id":"16"}
+[2025-10-16 06:40:03] Starting registration for user_id: 147, fingerprint_id: 16
+[2025-10-16 06:40:03] ERROR: Fingerprint ID '16' is already registered to Ericka Flores
+[2025-10-16 06:40:49] POST request received: {"action":"unregister_fingerprint","user_id":"128"}
+[2025-10-16 06:40:49] Fingerprint unregistered for user_id: 128 (both tables updated)
+[2025-10-16 06:40:49] Fetched 25 accounts
+[2025-10-16 06:40:57] POST request received: {"action":"start_registration","user_id":"128","fingerprint_id":"16"}
+[2025-10-16 06:40:57] Starting registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:40:57] Registration started successfully for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:40:57] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:40:58] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:40:59] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:00] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:01] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:02] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:04] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:05] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:06] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:07] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:08] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:09] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:10] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:11] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:12] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:13] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:14] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:15] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:16] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:17] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:19] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:20] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:21] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:22] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:23] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:24] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:25] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:26] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:27] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:28] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:32] POST request received: {"action":"start_registration","user_id":"128","fingerprint_id":"16"}
+[2025-10-16 06:41:32] Starting registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:32] Registration started successfully for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:32] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:33] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:34] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:35] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:36] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:37] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:38] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:39] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:40] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:41] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:42] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:43] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:44] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:46] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:47] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:48] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:49] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:50] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:51] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:52] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:53] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:54] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:55] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:56] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:57] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:58] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:41:59] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:42:00] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:42:02] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:42:03] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:30] POST request received: {"action":"start_registration","user_id":"128","fingerprint_id":"16"}
+[2025-10-16 06:44:30] Starting registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:30] Registration started successfully for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:30] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:31] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:32] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:33] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:34] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:35] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:36] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:38] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:39] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:40] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:41] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:42] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:43] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:44] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:45] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:46] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:47] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:48] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:48] POST request received: {"employee_id":"16","datetime":"2025-10-16 14:44:39"}
+[2025-10-16 06:44:48] Attendance scan received - employee_id: '16', datetime: '2025-10-16 14:44:39'
+[2025-10-16 06:44:48] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 128
+[2025-10-16 06:44:48] Registration COMPLETED successfully for user_id: 128, fingerprint_id: '16' (both tables updated)
+[2025-10-16 06:44:49] Checking registration for user_id: 128, fingerprint_id: 16
+[2025-10-16 06:44:49] Registration already completed for user_id: 128
+[2025-10-16 06:44:51] Fetched 25 accounts
+[2025-10-16 06:45:44] Fetched 25 accounts
+[2025-10-16 06:45:47] POST request received: {"action":"unregister_fingerprint","user_id":"128"}
+[2025-10-16 06:45:47] Fingerprint unregistered for user_id: 128 (both tables updated)
+[2025-10-16 06:45:47] Fetched 25 accounts
+[2025-10-16 06:45:52] POST request received: {"action":"start_registration","user_id":"124","fingerprint_id":"16"}
+[2025-10-16 06:45:52] Starting registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:52] Registration started successfully for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:52] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:53] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:54] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:55] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:56] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:57] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:58] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:45:59] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:46:00] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:46:01] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:46:03] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:46:03] POST request received: {"employee_id":"16","datetime":"2025-10-16 14:45:53"}
+[2025-10-16 06:46:03] Attendance scan received - employee_id: '16', datetime: '2025-10-16 14:45:53'
+[2025-10-16 06:46:03] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 124
+[2025-10-16 06:46:03] Registration COMPLETED successfully for user_id: 124, fingerprint_id: '16' (both tables updated)
+[2025-10-16 06:46:04] Checking registration for user_id: 124, fingerprint_id: 16
+[2025-10-16 06:46:04] Registration already completed for user_id: 124
+[2025-10-16 06:46:06] Fetched 25 accounts
+[2025-10-16 06:46:57] Fetched 25 accounts
+[2025-10-16 06:47:00] POST request received: {"action":"unregister_fingerprint","user_id":"124"}
+[2025-10-16 06:47:00] Fingerprint unregistered for user_id: 124 (both tables updated)
+[2025-10-16 06:47:00] Fetched 25 accounts
+[2025-10-16 06:47:10] POST request received: {"action":"start_registration","user_id":"120","fingerprint_id":"16"}
+[2025-10-16 06:47:10] Starting registration for user_id: 120, fingerprint_id: 16
+[2025-10-16 06:47:10] Registration started successfully for user_id: 120, fingerprint_id: 16
+[2025-10-16 06:47:10] Checking registration for user_id: 120, fingerprint_id: 16
+[2025-10-16 06:47:11] Checking registration for user_id: 120, fingerprint_id: 16
+[2025-10-16 06:47:12] Checking registration for user_id: 120, fingerprint_id: 16
+[2025-10-16 06:47:13] Checking registration for user_id: 120, fingerprint_id: 16
+[2025-10-16 06:47:14] Checking registration for user_id: 120, fingerprint_id: 16
+[2025-10-16 06:47:15] POST request received: {"employee_id":"16","datetime":"2025-10-16 14:47:05"}
+[2025-10-16 06:47:15] Attendance scan received - employee_id: '16', datetime: '2025-10-16 14:47:05'
+[2025-10-16 06:47:15] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 120
+[2025-10-16 06:47:15] Registration COMPLETED successfully for user_id: 120, fingerprint_id: '16' (both tables updated)
+[2025-10-16 06:47:15] Checking registration for user_id: 120, fingerprint_id: 16
+[2025-10-16 06:47:15] Registration already completed for user_id: 120
+[2025-10-16 06:47:17] Fetched 25 accounts
+[2025-10-16 06:49:03] Fetched 25 accounts
+[2025-10-16 06:49:06] POST request received: {"action":"unregister_fingerprint","user_id":"130"}
+[2025-10-16 06:49:06] Fingerprint unregistered for user_id: 130 (both tables updated)
+[2025-10-16 06:49:06] Fetched 25 accounts
+[2025-10-16 06:49:11] POST request received: {"action":"start_registration","user_id":"130","fingerprint_id":"16"}
+[2025-10-16 06:49:11] Starting registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:11] ERROR: Fingerprint ID '16' is already registered to Mikka Dela Rosa
+[2025-10-16 06:49:17] POST request received: {"action":"unregister_fingerprint","user_id":"120"}
+[2025-10-16 06:49:17] Fingerprint unregistered for user_id: 120 (both tables updated)
+[2025-10-16 06:49:17] Fetched 25 accounts
+[2025-10-16 06:49:24] POST request received: {"action":"start_registration","user_id":"130","fingerprint_id":"16"}
+[2025-10-16 06:49:24] Starting registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:24] Registration started successfully for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:24] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:25] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:26] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:27] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:28] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:29] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:30] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:31] POST request received: {"employee_id":"16","datetime":"2025-10-16 14:49:20"}
+[2025-10-16 06:49:31] Attendance scan received - employee_id: '16', datetime: '2025-10-16 14:49:20'
+[2025-10-16 06:49:31] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 130
+[2025-10-16 06:49:31] Registration COMPLETED successfully for user_id: 130, fingerprint_id: '16' (both tables updated)
+[2025-10-16 06:49:31] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-16 06:49:31] Registration already completed for user_id: 130
+[2025-10-16 06:49:33] Fetched 25 accounts
+[2025-10-17 03:44:02] Fetched 25 accounts
+[2025-10-17 03:45:21] Fetched 25 accounts
+[2025-10-17 03:45:25] POST request received: {"action":"unregister_fingerprint","user_id":"130"}
+[2025-10-17 03:45:25] Fingerprint unregistered for user_id: 130 (both tables updated)
+[2025-10-17 03:45:25] Fetched 25 accounts
+[2025-10-17 03:45:28] POST request received: {"action":"start_registration","user_id":"130","fingerprint_id":"16"}
+[2025-10-17 03:45:28] Starting registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:28] Registration started successfully for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:28] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:29] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:31] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:32] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:33] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:34] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:35] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:36] POST request received: {"employee_id":"16","datetime":"2025-10-17 11:45:27"}
+[2025-10-17 03:45:36] Attendance scan received - employee_id: '16', datetime: '2025-10-17 11:45:27'
+[2025-10-17 03:45:36] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 130
+[2025-10-17 03:45:36] Registration COMPLETED successfully for user_id: 130, fingerprint_id: '16' (both tables updated)
+[2025-10-17 03:45:36] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-17 03:45:36] Registration already completed for user_id: 130
+[2025-10-17 03:45:38] Fetched 25 accounts
+[2025-10-17 09:26:10] Fetched 25 accounts
+[2025-10-18 04:36:26] Fetched 25 accounts
+[2025-10-18 16:41:33] Fetched 25 accounts
+[2025-10-18 16:41:39] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-18 16:41:39] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-18 16:41:39] Fetched 25 accounts
+[2025-10-18 16:41:56] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 16:41:56] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:41:56] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:41:56] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:41:57] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:41:58] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:41:59] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:00] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:02] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:03] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:04] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:05] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:06] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:07] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:08] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:09] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:10] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:11] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:12] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:13] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:14] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:15] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:16] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:17] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:19] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:20] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:21] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:22] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:23] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:24] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:25] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:26] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:42:27] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:21] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 16:43:21] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:21] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:21] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:22] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:24] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:25] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:26] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:27] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:28] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:29] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:30] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:31] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:32] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:33] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:34] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:35] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:36] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:37] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:38] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:40] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:41] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:42] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:43] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:44] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:45] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:46] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:48] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:49] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:50] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:51] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:52] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:43:53] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 16:48:57] POST request received: {"employee_id":"15","datetime":"2025-10-19 00:48:47"}
+[2025-10-18 16:48:57] Attendance scan received - employee_id: '15', datetime: '2025-10-19 00:48:47'
+[2025-10-18 16:48:57] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-18 16:48:57] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-18 16:53:59] POST request received: {"employee_id":"16","datetime":"2025-10-19 00:53:49"}
+[2025-10-18 16:53:59] Attendance scan received - employee_id: '16', datetime: '2025-10-19 00:53:49'
+[2025-10-18 16:53:59] No matching pending registration found for fingerprint_id: '16'
+[2025-10-18 16:54:20] POST request received: {"employee_id":"16","datetime":"2025-10-19 00:54:10"}
+[2025-10-18 16:54:20] Attendance scan received - employee_id: '16', datetime: '2025-10-19 00:54:10'
+[2025-10-18 16:54:20] No matching pending registration found for fingerprint_id: '16'
+[2025-10-18 16:54:38] POST request received: {"employee_id":"16","datetime":"2025-10-19 00:54:29"}
+[2025-10-18 16:54:38] Attendance scan received - employee_id: '16', datetime: '2025-10-19 00:54:29'
+[2025-10-18 16:54:38] No matching pending registration found for fingerprint_id: '16'
+[2025-10-18 17:06:46] POST request received: {"employee_id":"17","datetime":"2025-10-19 01:06:35"}
+[2025-10-18 17:06:46] Attendance scan received - employee_id: '17', datetime: '2025-10-19 01:06:35'
+[2025-10-18 17:06:46] No matching pending registration found for fingerprint_id: '17'
+[2025-10-18 17:38:04] POST request received: {"employee_id":"16","datetime":"2025-10-19 01:37:55"}
+[2025-10-18 17:38:04] Attendance scan received - employee_id: '16', datetime: '2025-10-19 01:37:55'
+[2025-10-18 17:38:04] No matching pending registration found for fingerprint_id: '16'
+[2025-10-18 19:01:40] Fetched 25 accounts
+[2025-10-18 19:01:48] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-18 19:01:48] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-18 19:01:48] Fetched 25 accounts
+[2025-10-18 19:01:51] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 19:01:51] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:51] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:51] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:52] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:53] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:54] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:55] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:56] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:57] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:01:59] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:00] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:01] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:02] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:03] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:04] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:05] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:06] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:07] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:08] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:09] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:10] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:11] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:12] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:13] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:15] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:16] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:17] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:18] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:19] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:20] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:21] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:22] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:24] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 19:02:24] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:24] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:24] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:26] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:28] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:30] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:32] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:34] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:36] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:38] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:40] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:42] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:44] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:46] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:48] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:50] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:52] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:54] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:56] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:02:58] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:00] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:02] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:04] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:06] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:08] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:10] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:12] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:14] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:16] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:18] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:20] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:03:22] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:10:24] Fetched 25 accounts
+[2025-10-18 19:11:20] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 19:11:20] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:20] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:20] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:21] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:22] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:23] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:24] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:25] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:26] POST request received: {"employee_id":"15","datetime":"2025-10-19 03:11:16"}
+[2025-10-18 19:11:26] Attendance scan received - employee_id: '15', datetime: '2025-10-19 03:11:16'
+[2025-10-18 19:11:26] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-18 19:11:26] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-18 19:11:26] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:26] Registration already completed for user_id: 122
+[2025-10-18 19:11:29] Fetched 25 accounts
+[2025-10-18 19:11:30] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-18 19:11:30] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-18 19:11:30] Fetched 25 accounts
+[2025-10-18 19:11:34] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 19:11:34] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:34] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:34] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:35] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:36] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:37] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:38] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:39] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:40] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:41] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:42] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:44] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:45] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:46] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:47] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:48] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:49] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:50] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:51] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:52] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:53] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:54] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:55] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:56] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:57] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:11:59] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:12:00] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:12:01] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:12:02] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:12:03] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:12:04] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:12:05] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:07] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 19:13:07] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:07] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:07] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:08] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:09] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:11] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:12] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:13] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:13] POST request received: {"employee_id":"15","datetime":"2025-10-19 03:13:03"}
+[2025-10-18 19:13:13] Attendance scan received - employee_id: '15', datetime: '2025-10-19 03:13:03'
+[2025-10-18 19:13:13] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-18 19:13:13] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-18 19:13:14] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:13:14] Registration already completed for user_id: 122
+[2025-10-18 19:13:16] Fetched 25 accounts
+[2025-10-18 19:20:30] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-18 19:20:30] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-18 19:20:31] Fetched 25 accounts
+[2025-10-18 19:20:33] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 19:20:33] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:33] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:33] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:34] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:35] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:36] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:38] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:39] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:39] POST request received: {"employee_id":"15","datetime":"2025-10-19 03:20:30"}
+[2025-10-18 19:20:39] Attendance scan received - employee_id: '15', datetime: '2025-10-19 03:20:30'
+[2025-10-18 19:20:39] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-18 19:20:39] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-18 19:20:40] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:20:40] Registration already completed for user_id: 122
+[2025-10-18 19:20:42] Fetched 25 accounts
+[2025-10-18 19:21:17] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-18 19:21:17] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-18 19:21:17] Fetched 25 accounts
+[2025-10-18 19:21:20] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 19:21:20] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:20] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:20] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:21] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:22] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:23] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:24] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:25] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:26] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:27] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:28] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:29] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:30] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:31] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:33] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:34] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:35] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:36] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:37] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:38] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:39] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:40] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:41] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:42] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:43] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:44] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:45] POST request received: {"employee_id":"15","datetime":"2025-10-19 03:21:35"}
+[2025-10-18 19:21:45] Attendance scan received - employee_id: '15', datetime: '2025-10-19 03:21:35'
+[2025-10-18 19:21:45] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-18 19:21:45] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-18 19:21:45] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:21:45] Registration already completed for user_id: 122
+[2025-10-18 19:21:47] Fetched 25 accounts
+[2025-10-18 19:32:17] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-18 19:32:17] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-18 19:32:17] Fetched 25 accounts
+[2025-10-18 19:32:20] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-18 19:32:20] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:20] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:20] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:21] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:22] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:23] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:24] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:25] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:27] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:27] POST request received: {"employee_id":"15","datetime":"2025-10-19 03:32:18"}
+[2025-10-18 19:32:27] Attendance scan received - employee_id: '15', datetime: '2025-10-19 03:32:18'
+[2025-10-18 19:32:27] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-18 19:32:27] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-18 19:32:28] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-18 19:32:28] Registration already completed for user_id: 122
+[2025-10-18 19:32:30] Fetched 25 accounts
+[2025-10-18 19:33:33] POST request received: {"employee_id":"15","datetime":"2025-10-19 03:33:24"}
+[2025-10-18 19:33:33] Attendance scan received - employee_id: '15', datetime: '2025-10-19 03:33:24'
+[2025-10-18 19:33:33] No matching pending registration found for fingerprint_id: '15'
+[2025-10-19 04:59:48] POST request received: {"employee_id":"16","datetime":"2025-10-19 12:59:38"}
+[2025-10-19 04:59:48] Attendance scan received - employee_id: '16', datetime: '2025-10-19 12:59:38'
+[2025-10-19 04:59:48] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 04:59:58] POST request received: {"employee_id":"16","datetime":"2025-10-19 12:59:48"}
+[2025-10-19 04:59:58] Attendance scan received - employee_id: '16', datetime: '2025-10-19 12:59:48'
+[2025-10-19 04:59:58] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 05:01:16] POST request received: {"employee_id":"16","datetime":"2025-10-19 13:01:07"}
+[2025-10-19 05:01:16] Attendance scan received - employee_id: '16', datetime: '2025-10-19 13:01:07'
+[2025-10-19 05:01:16] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 05:16:44] POST request received: {"employee_id":"16","datetime":"2025-10-19 13:16:35"}
+[2025-10-19 05:16:44] Attendance scan received - employee_id: '16', datetime: '2025-10-19 13:16:35'
+[2025-10-19 05:16:44] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 05:17:11] POST request received: {"employee_id":"16","datetime":"2025-10-19 13:17:03"}
+[2025-10-19 05:17:11] Attendance scan received - employee_id: '16', datetime: '2025-10-19 13:17:03'
+[2025-10-19 05:17:11] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 05:21:52] POST request received: {"employee_id":"16","datetime":"2025-10-19 13:21:43"}
+[2025-10-19 05:21:52] Attendance scan received - employee_id: '16', datetime: '2025-10-19 13:21:43'
+[2025-10-19 05:21:52] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 05:22:08] POST request received: {"employee_id":"16","datetime":"2025-10-19 13:21:59"}
+[2025-10-19 05:22:08] Attendance scan received - employee_id: '16', datetime: '2025-10-19 13:21:59'
+[2025-10-19 05:22:08] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 05:25:09] POST request received: {"employee_id":"15","datetime":"2025-10-19 13:25:00"}
+[2025-10-19 05:25:09] Attendance scan received - employee_id: '15', datetime: '2025-10-19 13:25:00'
+[2025-10-19 05:25:09] No matching pending registration found for fingerprint_id: '15'
+[2025-10-19 05:51:34] Fetched 25 accounts
+[2025-10-19 05:51:38] POST request received: {"action":"unregister_fingerprint","user_id":"130"}
+[2025-10-19 05:51:38] Fingerprint unregistered for user_id: 130 (both tables updated)
+[2025-10-19 05:51:38] Fetched 25 accounts
+[2025-10-19 05:52:01] POST request received: {"action":"start_registration","user_id":"130","fingerprint_id":"16"}
+[2025-10-19 05:52:01] Starting registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:01] Registration started successfully for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:01] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:02] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:03] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:04] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:06] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:07] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:08] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:09] POST request received: {"employee_id":"16","datetime":"2025-10-19 13:51:58"}
+[2025-10-19 05:52:09] Attendance scan received - employee_id: '16', datetime: '2025-10-19 13:51:58'
+[2025-10-19 05:52:09] MATCH FOUND! Fingerprint ID '16' matches pending registration for user_id: 130
+[2025-10-19 05:52:09] Registration COMPLETED successfully for user_id: 130, fingerprint_id: '16' (both tables updated)
+[2025-10-19 05:52:09] Checking registration for user_id: 130, fingerprint_id: 16
+[2025-10-19 05:52:09] Registration already completed for user_id: 130
+[2025-10-19 05:52:11] Fetched 25 accounts
+[2025-10-19 05:53:06] Fetched 25 accounts
+[2025-10-19 06:48:53] POST request received: {"employee_id":"16","datetime":"2025-10-19 14:48:43"}
+[2025-10-19 06:48:53] Attendance scan received - employee_id: '16', datetime: '2025-10-19 14:48:43'
+[2025-10-19 06:48:53] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 06:49:20] Fetched 25 accounts
+[2025-10-19 07:35:55] POST request received: {"employee_id":"16","datetime":"2025-10-19 15:35:44"}
+[2025-10-19 07:35:55] Attendance scan received - employee_id: '16', datetime: '2025-10-19 15:35:44'
+[2025-10-19 07:35:55] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 10:37:37] POST request received: {"employee_id":"16","datetime":"2025-10-19 18:37:29"}
+[2025-10-19 10:37:37] Attendance scan received - employee_id: '16', datetime: '2025-10-19 18:37:29'
+[2025-10-19 10:37:37] No matching pending registration found for fingerprint_id: '16'
+[2025-10-19 13:36:58] POST request received: {"employee_id":"16","datetime":"2025-10-19 21:36:49"}
+[2025-10-19 13:36:58] Attendance scan received - employee_id: '16', datetime: '2025-10-19 21:36:49'
+[2025-10-19 13:36:58] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 06:28:19] Fetched 27 accounts
+[2025-10-22 06:28:28] POST request received: {"action":"unregister_fingerprint","user_id":"127"}
+[2025-10-22 06:28:28] Fingerprint unregistered for user_id: 127 (both tables updated)
+[2025-10-22 06:28:29] Fetched 27 accounts
+[2025-10-22 06:29:32] Fetched 27 accounts
+[2025-10-22 06:29:36] Fetched 27 accounts
+[2025-10-22 06:31:46] Fetched 27 accounts
+[2025-10-22 06:32:16] POST request received: {"action":"start_registration","user_id":"127","fingerprint_id":"22"}
+[2025-10-22 06:32:16] Starting registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:16] Registration started successfully for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:16] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:18] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:19] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:20] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:22] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:23] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:24] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:26] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:27] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:29] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:30] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:31] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:32] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:33] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:35] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:36] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:38] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:39] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:42] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:43] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:45] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:47] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:48] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:50] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:51] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:53] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:54] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:55] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:57] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:32:58] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:04] POST request received: {"action":"start_registration","user_id":"127","fingerprint_id":"22"}
+[2025-10-22 06:33:04] Starting registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:04] Registration started successfully for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:04] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:06] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:07] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:09] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:10] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:12] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:13] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:14] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:15] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:17] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:18] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:21] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:22] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:24] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:25] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:27] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:28] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:30] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:32] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:37] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:39] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:41] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:42] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:43] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:45] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:46] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:47] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:48] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:50] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:51] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:54] POST request received: {"action":"start_registration","user_id":"127","fingerprint_id":"22"}
+[2025-10-22 06:33:54] Starting registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:54] Registration started successfully for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:54] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:56] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:57] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:58] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:58] POST request received: {"employee_id":"22","datetime":"2025-10-22 14:33:48"}
+[2025-10-22 06:33:58] Attendance scan received - employee_id: '22', datetime: '2025-10-22 14:33:48'
+[2025-10-22 06:33:58] MATCH FOUND! Fingerprint ID '22' matches pending registration for user_id: 127
+[2025-10-22 06:33:58] Registration COMPLETED successfully for user_id: 127, fingerprint_id: '22' (both tables updated)
+[2025-10-22 06:33:59] Checking registration for user_id: 127, fingerprint_id: 22
+[2025-10-22 06:33:59] Registration already completed for user_id: 127
+[2025-10-22 06:34:01] Fetched 27 accounts
+[2025-10-22 07:42:07] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:41:58"}
+[2025-10-22 07:42:07] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:41:58'
+[2025-10-22 07:42:07] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:42:13] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:42:03"}
+[2025-10-22 07:42:13] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:42:03'
+[2025-10-22 07:42:13] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:42:43] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:42:35"}
+[2025-10-22 07:42:43] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:42:35'
+[2025-10-22 07:42:43] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:42:55] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:42:45"}
+[2025-10-22 07:42:55] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:42:45'
+[2025-10-22 07:42:55] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:43:08] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:42:59"}
+[2025-10-22 07:43:08] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:42:59'
+[2025-10-22 07:43:08] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:43:08] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:42:59"}
+[2025-10-22 07:43:08] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:42:59'
+[2025-10-22 07:43:08] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:43:18] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:43:09"}
+[2025-10-22 07:43:18] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:43:09'
+[2025-10-22 07:43:18] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:43:27] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:43:16"}
+[2025-10-22 07:43:27] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:43:16'
+[2025-10-22 07:43:27] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:44:31] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:44:21"}
+[2025-10-22 07:44:31] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:44:21'
+[2025-10-22 07:44:31] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:45:01] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:44:53"}
+[2025-10-22 07:45:01] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:44:53'
+[2025-10-22 07:45:01] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:45:08] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:45:00"}
+[2025-10-22 07:45:08] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:45:00'
+[2025-10-22 07:45:08] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:45:11] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:45:00"}
+[2025-10-22 07:45:11] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:45:00'
+[2025-10-22 07:45:11] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:45:23] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:45:15"}
+[2025-10-22 07:45:23] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:45:15'
+[2025-10-22 07:45:23] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:45:26] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:45:15"}
+[2025-10-22 07:45:26] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:45:15'
+[2025-10-22 07:45:26] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 07:58:02] POST request received: {"employee_id":"16","datetime":"2025-10-22 15:57:53"}
+[2025-10-22 07:58:02] Attendance scan received - employee_id: '16', datetime: '2025-10-22 15:57:53'
+[2025-10-22 07:58:02] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 08:38:40] POST request received: {"employee_id":"16","datetime":"2025-10-22 16:38:26"}
+[2025-10-22 08:38:40] Attendance scan received - employee_id: '16', datetime: '2025-10-22 16:38:26'
+[2025-10-22 08:38:40] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 08:39:39] POST request received: {"employee_id":"16","datetime":"2025-10-22 16:39:28"}
+[2025-10-22 08:39:39] Attendance scan received - employee_id: '16', datetime: '2025-10-22 16:39:28'
+[2025-10-22 08:39:39] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 08:39:39] POST request received: {"employee_id":"16","datetime":"2025-10-22 16:39:28"}
+[2025-10-22 08:39:39] Attendance scan received - employee_id: '16', datetime: '2025-10-22 16:39:28'
+[2025-10-22 08:39:39] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 08:39:48] POST request received: {"employee_id":"16","datetime":"2025-10-22 16:39:37"}
+[2025-10-22 08:39:48] Attendance scan received - employee_id: '16', datetime: '2025-10-22 16:39:37'
+[2025-10-22 08:39:48] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 08:39:56] POST request received: {"employee_id":"15","datetime":"2025-10-22 16:39:46"}
+[2025-10-22 08:39:56] Attendance scan received - employee_id: '15', datetime: '2025-10-22 16:39:46'
+[2025-10-22 08:39:56] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 08:40:05] POST request received: {"employee_id":"17","datetime":"2025-10-22 16:39:55"}
+[2025-10-22 08:40:05] Attendance scan received - employee_id: '17', datetime: '2025-10-22 16:39:55'
+[2025-10-22 08:40:05] No matching pending registration found for fingerprint_id: '17'
+[2025-10-22 11:40:22] POST request received: {"employee_id":"16","datetime":"2025-10-22 19:40:13"}
+[2025-10-22 11:40:22] Attendance scan received - employee_id: '16', datetime: '2025-10-22 19:40:13'
+[2025-10-22 11:40:22] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 11:40:22] POST request received: {"employee_id":"16","datetime":"2025-10-22 19:40:13"}
+[2025-10-22 11:40:22] Attendance scan received - employee_id: '16', datetime: '2025-10-22 19:40:13'
+[2025-10-22 11:40:22] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 11:45:17] POST request received: {"employee_id":"16","datetime":"2025-10-22 19:45:07"}
+[2025-10-22 11:45:17] Attendance scan received - employee_id: '16', datetime: '2025-10-22 19:45:07'
+[2025-10-22 11:45:17] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 11:52:34] POST request received: {"employee_id":"16","datetime":"2025-10-22 19:52:21"}
+[2025-10-22 11:52:34] Attendance scan received - employee_id: '16', datetime: '2025-10-22 19:52:21'
+[2025-10-22 11:52:34] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 11:52:40] POST request received: {"employee_id":"16","datetime":"2025-10-22 19:52:28"}
+[2025-10-22 11:52:40] Attendance scan received - employee_id: '16', datetime: '2025-10-22 19:52:28'
+[2025-10-22 11:52:40] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 11:52:58] POST request received: {"employee_id":"16","datetime":"2025-10-22 19:52:49"}
+[2025-10-22 11:52:58] Attendance scan received - employee_id: '16', datetime: '2025-10-22 19:52:49'
+[2025-10-22 11:52:58] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 11:56:28] POST request received: {"employee_id":"16","datetime":"2025-10-22 19:56:19"}
+[2025-10-22 11:56:28] Attendance scan received - employee_id: '16', datetime: '2025-10-22 19:56:19'
+[2025-10-22 11:56:28] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:02:31] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:02:22"}
+[2025-10-22 12:02:31] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:02:22'
+[2025-10-22 12:02:31] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:08:48] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:08:37"}
+[2025-10-22 12:08:48] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:08:37'
+[2025-10-22 12:08:48] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:08:54] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:08:45"}
+[2025-10-22 12:08:54] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:08:45'
+[2025-10-22 12:08:54] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:09:00] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:08:50"}
+[2025-10-22 12:09:00] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:08:50'
+[2025-10-22 12:09:00] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:10:35] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:10:23"}
+[2025-10-22 12:10:35] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:10:23'
+[2025-10-22 12:10:35] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:10:55] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:10:44"}
+[2025-10-22 12:10:55] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:10:44'
+[2025-10-22 12:10:55] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:11:15] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:11:04"}
+[2025-10-22 12:11:15] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:11:04'
+[2025-10-22 12:11:15] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:17:50] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:17:40"}
+[2025-10-22 12:17:50] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:17:40'
+[2025-10-22 12:17:50] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:17:57] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:17:46"}
+[2025-10-22 12:17:57] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:17:46'
+[2025-10-22 12:17:57] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:19:06] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:18:56"}
+[2025-10-22 12:19:06] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:18:56'
+[2025-10-22 12:19:06] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:21:58] POST request received: {"employee_id":"15","datetime":"2025-10-22 20:21:47"}
+[2025-10-22 12:21:58] Attendance scan received - employee_id: '15', datetime: '2025-10-22 20:21:47'
+[2025-10-22 12:21:58] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 12:23:43] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:23:30"}
+[2025-10-22 12:23:43] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:23:30'
+[2025-10-22 12:23:43] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:23:49] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:23:35"}
+[2025-10-22 12:23:49] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:23:35'
+[2025-10-22 12:23:49] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:23:59] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:23:45"}
+[2025-10-22 12:23:59] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:23:45'
+[2025-10-22 12:23:59] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:24:04] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:23:50"}
+[2025-10-22 12:24:04] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:23:50'
+[2025-10-22 12:24:04] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:24:13] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:24:02"}
+[2025-10-22 12:24:13] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:24:02'
+[2025-10-22 12:24:13] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:26:33] POST request received: {"employee_id":"15","datetime":"2025-10-22 20:26:24"}
+[2025-10-22 12:26:33] Attendance scan received - employee_id: '15', datetime: '2025-10-22 20:26:24'
+[2025-10-22 12:26:33] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 12:26:48] POST request received: {"employee_id":"15","datetime":"2025-10-22 20:26:34"}
+[2025-10-22 12:26:48] Attendance scan received - employee_id: '15', datetime: '2025-10-22 20:26:34'
+[2025-10-22 12:26:48] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 12:26:59] POST request received: {"employee_id":"15","datetime":"2025-10-22 20:26:49"}
+[2025-10-22 12:26:59] Attendance scan received - employee_id: '15', datetime: '2025-10-22 20:26:49'
+[2025-10-22 12:26:59] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 12:30:40] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:30:31"}
+[2025-10-22 12:30:40] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:30:31'
+[2025-10-22 12:30:40] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:37:01] POST request received: {"employee_id":"15","datetime":"2025-10-22 20:36:52"}
+[2025-10-22 12:37:01] Attendance scan received - employee_id: '15', datetime: '2025-10-22 20:36:52'
+[2025-10-22 12:37:01] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 12:37:01] POST request received: {"employee_id":"15","datetime":"2025-10-22 20:36:52"}
+[2025-10-22 12:37:01] Attendance scan received - employee_id: '15', datetime: '2025-10-22 20:36:52'
+[2025-10-22 12:37:01] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 12:37:11] POST request received: {"employee_id":"17","datetime":"2025-10-22 20:37:02"}
+[2025-10-22 12:37:11] Attendance scan received - employee_id: '17', datetime: '2025-10-22 20:37:02'
+[2025-10-22 12:37:11] No matching pending registration found for fingerprint_id: '17'
+[2025-10-22 12:38:47] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:38:37"}
+[2025-10-22 12:38:47] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:38:37'
+[2025-10-22 12:38:47] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:39:38] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:39:12"}
+[2025-10-22 12:39:38] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:39:12'
+[2025-10-22 12:39:38] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:39:50] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:39:41"}
+[2025-10-22 12:39:50] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:39:41'
+[2025-10-22 12:39:50] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:39:50] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:39:41"}
+[2025-10-22 12:39:50] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:39:41'
+[2025-10-22 12:39:50] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:40:02] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:39:53"}
+[2025-10-22 12:40:02] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:39:53'
+[2025-10-22 12:40:02] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:40:02] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:39:53"}
+[2025-10-22 12:40:02] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:39:53'
+[2025-10-22 12:40:02] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:40:14] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:40:05"}
+[2025-10-22 12:40:14] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:40:05'
+[2025-10-22 12:40:14] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 12:40:14] POST request received: {"employee_id":"16","datetime":"2025-10-22 20:40:05"}
+[2025-10-22 12:40:14] Attendance scan received - employee_id: '16', datetime: '2025-10-22 20:40:05'
+[2025-10-22 12:40:14] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:02:12] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:02:00"}
+[2025-10-22 13:02:12] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:02:00'
+[2025-10-22 13:02:12] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:02:22] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:02:13"}
+[2025-10-22 13:02:22] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:02:13'
+[2025-10-22 13:02:22] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:03:57] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:03:49"}
+[2025-10-22 13:03:57] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:03:49'
+[2025-10-22 13:03:57] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:08:31] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:08:21"}
+[2025-10-22 13:08:31] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:08:21'
+[2025-10-22 13:08:31] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:33:24] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:33:14"}
+[2025-10-22 13:33:24] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:33:14'
+[2025-10-22 13:33:24] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:34:44] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:34:34"}
+[2025-10-22 13:34:44] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:34:34'
+[2025-10-22 13:34:44] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:34:56] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:34:40"}
+[2025-10-22 13:34:56] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:34:40'
+[2025-10-22 13:34:56] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:35:06] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:34:48"}
+[2025-10-22 13:35:06] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:34:48'
+[2025-10-22 13:35:06] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:35:11] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:35:00"}
+[2025-10-22 13:35:11] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:35:00'
+[2025-10-22 13:35:11] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:35:26] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:35:09"}
+[2025-10-22 13:35:26] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:35:09'
+[2025-10-22 13:35:26] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:35:38] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:35:16"}
+[2025-10-22 13:35:38] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:35:16'
+[2025-10-22 13:35:38] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:36:25] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:36:04"}
+[2025-10-22 13:36:25] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:36:04'
+[2025-10-22 13:36:25] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:36:30] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:36:19"}
+[2025-10-22 13:36:30] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:36:19'
+[2025-10-22 13:36:30] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:36:44] POST request received: {"employee_id":"16","datetime":"2025-10-22 21:36:31"}
+[2025-10-22 13:36:44] Attendance scan received - employee_id: '16', datetime: '2025-10-22 21:36:31'
+[2025-10-22 13:36:44] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 13:51:18] Fetched 27 accounts
+[2025-10-22 13:51:30] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-22 13:51:30] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-22 13:51:30] Fetched 27 accounts
+[2025-10-22 13:51:36] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-22 13:51:36] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:36] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:36] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:37] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:38] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:39] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:40] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:41] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:41] POST request received: {"employee_id":"15","datetime":"2025-10-22 21:51:32"}
+[2025-10-22 13:51:41] Attendance scan received - employee_id: '15', datetime: '2025-10-22 21:51:32'
+[2025-10-22 13:51:41] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-22 13:51:41] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-22 13:51:42] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:51:42] Registration already completed for user_id: 122
+[2025-10-22 13:51:44] Fetched 27 accounts
+[2025-10-22 13:54:00] POST request received: {"employee_id":"15","datetime":"2025-10-22 21:53:50"}
+[2025-10-22 13:54:00] Attendance scan received - employee_id: '15', datetime: '2025-10-22 21:53:50'
+[2025-10-22 13:54:00] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 13:55:09] POST request received: {"employee_id":"15","datetime":"2025-10-22 21:54:46"}
+[2025-10-22 13:55:09] Attendance scan received - employee_id: '15', datetime: '2025-10-22 21:54:46'
+[2025-10-22 13:55:09] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 13:55:25] POST request received: {"employee_id":"15","datetime":"2025-10-22 21:55:17"}
+[2025-10-22 13:55:25] Attendance scan received - employee_id: '15', datetime: '2025-10-22 21:55:17'
+[2025-10-22 13:55:25] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 13:55:36] POST request received: {"employee_id":"15","datetime":"2025-10-22 21:55:26"}
+[2025-10-22 13:55:36] Attendance scan received - employee_id: '15', datetime: '2025-10-22 21:55:26'
+[2025-10-22 13:55:36] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 13:57:43] Fetched 27 accounts
+[2025-10-22 13:57:46] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-22 13:57:46] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-22 13:57:46] Fetched 27 accounts
+[2025-10-22 13:57:49] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-22 13:57:49] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:49] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:49] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:50] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:51] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:52] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:53] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:55] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:56] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:57] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:58] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:57:59] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:58:00] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:58:01] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:58:02] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:58:03] POST request received: {"employee_id":"15","datetime":"2025-10-22 21:57:48"}
+[2025-10-22 13:58:03] Attendance scan received - employee_id: '15', datetime: '2025-10-22 21:57:48'
+[2025-10-22 13:58:03] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-22 13:58:03] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-22 13:58:03] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 13:58:03] Registration already completed for user_id: 122
+[2025-10-22 13:58:05] Fetched 27 accounts
+[2025-10-22 13:58:17] POST request received: {"employee_id":"15","datetime":"2025-10-22 21:58:02"}
+[2025-10-22 13:58:17] Attendance scan received - employee_id: '15', datetime: '2025-10-22 21:58:02'
+[2025-10-22 13:58:17] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 14:00:35] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:00:22"}
+[2025-10-22 14:00:35] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:00:22'
+[2025-10-22 14:00:35] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:00:47] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:00:37"}
+[2025-10-22 14:00:47] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:00:37'
+[2025-10-22 14:00:47] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:00:57] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:00:47"}
+[2025-10-22 14:00:57] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:00:47'
+[2025-10-22 14:00:57] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:00:57] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:00:47"}
+[2025-10-22 14:00:57] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:00:47'
+[2025-10-22 14:00:57] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:01:09] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:00:55"}
+[2025-10-22 14:01:09] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:00:55'
+[2025-10-22 14:01:09] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:01:14] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:01:02"}
+[2025-10-22 14:01:14] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:01:02'
+[2025-10-22 14:01:14] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:17:30] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:17:22"}
+[2025-10-22 14:17:30] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:17:22'
+[2025-10-22 14:17:30] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:17:37] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:17:28"}
+[2025-10-22 14:17:37] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:17:28'
+[2025-10-22 14:17:37] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:32:27] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:32:16"}
+[2025-10-22 14:32:27] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:32:16'
+[2025-10-22 14:32:27] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:32:31] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:32:22"}
+[2025-10-22 14:32:31] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:32:22'
+[2025-10-22 14:32:31] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:32:39] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:32:28"}
+[2025-10-22 14:32:39] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:32:28'
+[2025-10-22 14:32:39] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:32:43] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:32:34"}
+[2025-10-22 14:32:43] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:32:34'
+[2025-10-22 14:32:43] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:32:47] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:32:39"}
+[2025-10-22 14:32:47] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:32:39'
+[2025-10-22 14:32:47] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:32:54] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:32:43"}
+[2025-10-22 14:32:54] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:32:43'
+[2025-10-22 14:32:54] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:32:59] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:32:48"}
+[2025-10-22 14:32:59] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:32:48'
+[2025-10-22 14:32:59] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:33:05] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:32:56"}
+[2025-10-22 14:33:05] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:32:56'
+[2025-10-22 14:33:05] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:42:03] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:41:52"}
+[2025-10-22 14:42:03] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:41:52'
+[2025-10-22 14:42:03] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:42:08] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:42:00"}
+[2025-10-22 14:42:08] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:42:00'
+[2025-10-22 14:42:08] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:53:40] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:53:30"}
+[2025-10-22 14:53:40] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:53:30'
+[2025-10-22 14:53:40] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:54:49] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:54:36"}
+[2025-10-22 14:54:49] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:54:36'
+[2025-10-22 14:54:49] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:54:55] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:54:42"}
+[2025-10-22 14:54:55] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:54:42'
+[2025-10-22 14:54:55] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:58:16] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:58:07"}
+[2025-10-22 14:58:16] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:58:07'
+[2025-10-22 14:58:16] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 14:58:26] POST request received: {"employee_id":"16","datetime":"2025-10-22 22:58:15"}
+[2025-10-22 14:58:26] Attendance scan received - employee_id: '16', datetime: '2025-10-22 22:58:15'
+[2025-10-22 14:58:26] No matching pending registration found for fingerprint_id: '16'
+[2025-10-22 15:19:32] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:19:22"}
+[2025-10-22 15:19:32] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:19:22'
+[2025-10-22 15:19:32] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:19:35] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:19:26"}
+[2025-10-22 15:19:35] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:19:26'
+[2025-10-22 15:19:35] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:19:43] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:19:31"}
+[2025-10-22 15:19:43] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:19:31'
+[2025-10-22 15:19:43] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:19:47] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:19:36"}
+[2025-10-22 15:19:47] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:19:36'
+[2025-10-22 15:19:47] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:27:49] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:27:40"}
+[2025-10-22 15:27:49] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:27:40'
+[2025-10-22 15:27:49] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:27:54] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:27:46"}
+[2025-10-22 15:27:54] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:27:46'
+[2025-10-22 15:27:54] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:28:40] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:28:32"}
+[2025-10-22 15:28:40] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:28:32'
+[2025-10-22 15:28:40] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:41:09] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:41:00"}
+[2025-10-22 15:41:09] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:41:00'
+[2025-10-22 15:41:09] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:41:15] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:41:06"}
+[2025-10-22 15:41:15] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:41:06'
+[2025-10-22 15:41:15] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:49:11] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:49:03"}
+[2025-10-22 15:49:11] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:49:03'
+[2025-10-22 15:49:11] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:50:19] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:50:10"}
+[2025-10-22 15:50:19] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:50:10'
+[2025-10-22 15:50:19] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 15:50:27] POST request received: {"employee_id":"17","datetime":"2025-10-22 23:50:18"}
+[2025-10-22 15:50:27] Attendance scan received - employee_id: '17', datetime: '2025-10-22 23:50:18'
+[2025-10-22 15:50:27] No matching pending registration found for fingerprint_id: '17'
+[2025-10-22 15:54:05] POST request received: {"employee_id":"15","datetime":"2025-10-22 23:53:56"}
+[2025-10-22 15:54:05] Attendance scan received - employee_id: '15', datetime: '2025-10-22 23:53:56'
+[2025-10-22 15:54:05] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 16:51:22] POST request received: {"employee_id":"15","datetime":"2025-10-23 00:51:13"}
+[2025-10-22 16:51:22] Attendance scan received - employee_id: '15', datetime: '2025-10-23 00:51:13'
+[2025-10-22 16:51:22] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 16:52:24] Fetched 27 accounts
+[2025-10-22 16:52:52] Fetched 27 accounts
+[2025-10-22 16:52:59] POST request received: {"action":"unregister_fingerprint","user_id":"122"}
+[2025-10-22 16:52:59] Fingerprint unregistered for user_id: 122 (both tables updated)
+[2025-10-22 16:52:59] Fetched 27 accounts
+[2025-10-22 16:53:43] POST request received: {"action":"start_registration","user_id":"122","fingerprint_id":"15"}
+[2025-10-22 16:53:43] Starting registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:43] Registration started successfully for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:43] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:45] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:46] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:47] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:48] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:49] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:49] POST request received: {"employee_id":"15","datetime":"2025-10-23 00:53:41"}
+[2025-10-22 16:53:49] Attendance scan received - employee_id: '15', datetime: '2025-10-23 00:53:41'
+[2025-10-22 16:53:49] MATCH FOUND! Fingerprint ID '15' matches pending registration for user_id: 122
+[2025-10-22 16:53:49] Registration COMPLETED successfully for user_id: 122, fingerprint_id: '15' (both tables updated)
+[2025-10-22 16:53:50] Checking registration for user_id: 122, fingerprint_id: 15
+[2025-10-22 16:53:50] Registration already completed for user_id: 122
+[2025-10-22 16:53:52] Fetched 27 accounts
+[2025-10-22 16:54:21] POST request received: {"employee_id":"15","datetime":"2025-10-23 00:54:13"}
+[2025-10-22 16:54:21] Attendance scan received - employee_id: '15', datetime: '2025-10-23 00:54:13'
+[2025-10-22 16:54:21] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 16:54:48] POST request received: {"employee_id":"15","datetime":"2025-10-23 00:54:39"}
+[2025-10-22 16:54:48] Attendance scan received - employee_id: '15', datetime: '2025-10-23 00:54:39'
+[2025-10-22 16:54:48] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 16:54:48] POST request received: {"employee_id":"15","datetime":"2025-10-23 00:54:39"}
+[2025-10-22 16:54:48] Attendance scan received - employee_id: '15', datetime: '2025-10-23 00:54:39'
+[2025-10-22 16:54:48] No matching pending registration found for fingerprint_id: '15'
+[2025-10-22 16:58:53] Fetched 27 accounts
+[2025-10-22 23:23:58] Fetched 27 accounts
+[2025-10-22 23:23:58] Fetched 27 accounts
+[2025-10-22 23:29:40] Fetched 27 accounts
+[2025-10-22 23:29:40] Fetched 27 accounts
+[2025-10-22 23:29:46] Fetched 27 accounts
+[2025-10-22 23:29:46] Fetched 27 accounts

@@ -1,0 +1,22 @@
+2025-10-08 06:00:46: === Verify OTP Script Started ===
+2025-10-08 06:00:46: Raw input data: {"action":"verify","user_id":148,"otp":"580131"}
+2025-10-08 06:00:46: Decoded data: Array
+(
+    [action] => verify
+    [user_id] => 148
+    [otp] => 580131
+)
+
+2025-10-08 06:00:46: Action requested: verify
+2025-10-08 06:00:46: Processing verify action
+2025-10-08 06:00:46: Verifying OTP for user_id: 148, OTP: '580131'
+2025-10-08 06:00:46: User found: icongko09@gmail.com
+2025-10-08 06:00:46: Stored OTP: '580131'
+2025-10-08 06:00:46: Entered OTP: '580131'
+2025-10-08 06:00:46: Expiry time: 2025-10-08 06:10:31
+2025-10-08 06:00:46: Current time: 2025-10-08 06:00:46
+2025-10-08 06:00:46: OTP matches: YES
+2025-10-08 06:00:46: Is expired: NO
+2025-10-08 06:00:46: OTP verified successfully for user: icongko09@gmail.com
+2025-10-08 06:00:46: User auth_status updated to Verified
+2025-10-08 06:00:46: === Verify OTP Script Completed ===

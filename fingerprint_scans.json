@@ -1,0 +1,314 @@
+[
+    {
+        "id": 1,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:16:13",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:16:25"
+    },
+    {
+        "id": 2,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:16:55",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:17:02"
+    },
+    {
+        "id": 3,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:17:06",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:17:12"
+    },
+    {
+        "id": 4,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:17:33",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:17:39"
+    },
+    {
+        "id": 5,
+        "employee_id": "2",
+        "datetime": "2025-07-06 21:18:06",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:18:12"
+    },
+    {
+        "id": 6,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:18:22",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:18:28"
+    },
+    {
+        "id": 7,
+        "employee_id": "1",
+        "datetime": "2025-07-06 14:43:03",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:57"
+    },
+    {
+        "id": 8,
+        "employee_id": "2",
+        "datetime": "2025-07-06 14:44:05",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:57"
+    },
+    {
+        "id": 9,
+        "employee_id": "2",
+        "datetime": "2025-07-06 14:44:40",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:57"
+    },
+    {
+        "id": 10,
+        "employee_id": "1",
+        "datetime": "2025-07-06 14:45:00",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 11,
+        "employee_id": "1",
+        "datetime": "2025-07-06 14:45:09",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 12,
+        "employee_id": "2",
+        "datetime": "2025-07-06 14:45:37",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 13,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:16:29",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 14,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:16:35",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 15,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:16:44",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 16,
+        "employee_id": "2",
+        "datetime": "2025-07-06 21:16:51",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 17,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:17:17",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 18,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:18:13",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:19:58"
+    },
+    {
+        "id": 19,
+        "employee_id": "1",
+        "datetime": "2025-07-06 14:43:03",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 20,
+        "employee_id": "2",
+        "datetime": "2025-07-06 14:44:05",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 21,
+        "employee_id": "2",
+        "datetime": "2025-07-06 14:44:40",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 22,
+        "employee_id": "1",
+        "datetime": "2025-07-06 14:45:00",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 23,
+        "employee_id": "1",
+        "datetime": "2025-07-06 14:45:09",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 24,
+        "employee_id": "2",
+        "datetime": "2025-07-06 14:45:37",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 25,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:16:29",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 26,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:16:35",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 27,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:16:44",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 28,
+        "employee_id": "2",
+        "datetime": "2025-07-06 21:16:51",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 29,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:17:17",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:28"
+    },
+    {
+        "id": 30,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:18:13",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:29"
+    },
+    {
+        "id": 31,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:21:40",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:46"
+    },
+    {
+        "id": 32,
+        "employee_id": "2",
+        "datetime": "2025-07-06 21:21:51",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:21:57"
+    },
+    {
+        "id": 33,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:21:57",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:22:08"
+    },
+    {
+        "id": 34,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:25:03",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:25:29"
+    },
+    {
+        "id": 35,
+        "employee_id": "1",
+        "datetime": "2025-07-06 21:25:33",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:25:38"
+    },
+    {
+        "id": 36,
+        "employee_id": "2",
+        "datetime": "2025-07-06 21:25:46",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:26:00"
+    },
+    {
+        "id": 37,
+        "employee_id": "2",
+        "datetime": "2025-07-06 21:25:52",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:26:00"
+    },
+    {
+        "id": 38,
+        "employee_id": "2",
+        "datetime": "2025-07-06 21:26:07",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:26:12"
+    },
+    {
+        "id": 39,
+        "employee_id": "2",
+        "datetime": "2025-07-06 21:26:20",
+        "device_id": "1",
+        "fingerprint_template": "",
+        "created_at": "2025-07-06 15:26:26"
+    }
+]

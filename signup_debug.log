@@ -1,0 +1,1161 @@
+2025-08-04 11:20:04: Script started
+2025-08-04 11:20:04: OPTIONS request received
+2025-08-04 11:20:04: Script started
+2025-08-04 11:20:04: Raw input data: {"firstName":"adasd","lastName":"adasda","email":"admin@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 11:20:04: Decoded data: Array
+(
+    [firstName] => adasd
+    [lastName] => adasda
+    [email] => admin@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 11:20:04: Including database connection file
+2025-08-04 11:20:04: Database connection successful
+2025-08-04 11:20:04: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 11:20:04: Binding email parameter: admin@gmail.com
+2025-08-04 11:20:04: Executing email check
+2025-08-04 11:20:04: Email check result: 1 rows found
+2025-08-04 11:20:04: Email already exists: admin@gmail.com
+2025-08-04 11:20:16: Script started
+2025-08-04 11:20:16: OPTIONS request received
+2025-08-04 11:20:16: Script started
+2025-08-04 11:20:16: Raw input data: {"firstName":"asda","lastName":"dadas","email":"wewqe@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 11:20:16: Decoded data: Array
+(
+    [firstName] => asda
+    [lastName] => dadas
+    [email] => wewqe@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 11:20:16: Including database connection file
+2025-08-04 11:20:16: Database connection successful
+2025-08-04 11:20:16: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 11:20:16: Binding email parameter: wewqe@gmail.com
+2025-08-04 11:20:16: Executing email check
+2025-08-04 11:20:16: Email check result: 0 rows found
+2025-08-04 11:20:16: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 11:20:16: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 11:20:16: id column exists: Yes
+2025-08-04 11:20:16: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 11:20:16: Next ID to be assigned: 104
+2025-08-04 11:20:16: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 11:20:16: Started database transaction
+2025-08-04 11:20:16: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 11:20:16: Binding insert parameters with ID, role, and auth_status
+2025-08-04 11:20:16: Executing useraccounts insert
+2025-08-04 11:20:16: Useraccounts insert successful. Affected rows: 1
+2025-08-04 11:20:16: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 11:20:16: Binding applicantList parameters including email
+2025-08-04 11:20:16: Executing applicantList insert with email: wewqe@gmail.com
+2025-08-04 11:20:16: ApplicantList insert successful. Affected rows: 1
+2025-08-04 11:20:16: Transaction committed successfully
+2025-08-04 11:20:16: Database connection closed
+2025-08-04 11:20:16: Sending response: {"success":true,"message":"User registered successfully","id":104,"role":"Applicant","auth_status":"New Account","email":"wewqe@gmail.com"}
+2025-08-04 11:20:16: Script completed
+2025-08-04 11:21:10: Script started
+2025-08-04 11:21:10: OPTIONS request received
+2025-08-04 11:21:10: Script started
+2025-08-04 11:21:10: Raw input data: {"firstName":"asdasdasd","lastName":"asdasdas","email":"admin@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 11:21:10: Decoded data: Array
+(
+    [firstName] => asdasdasd
+    [lastName] => asdasdas
+    [email] => admin@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 11:21:10: Including database connection file
+2025-08-04 11:21:10: Database connection successful
+2025-08-04 11:21:10: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 11:21:10: Binding email parameter: admin@gmail.com
+2025-08-04 11:21:10: Executing email check
+2025-08-04 11:21:10: Email check result: 0 rows found
+2025-08-04 11:21:10: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 11:21:10: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 11:21:10: id column exists: Yes
+2025-08-04 11:21:10: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 11:21:10: Next ID to be assigned: 101
+2025-08-04 11:21:10: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 11:21:10: Started database transaction
+2025-08-04 11:21:10: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 11:21:10: Binding insert parameters with ID, role, and auth_status
+2025-08-04 11:21:10: Executing useraccounts insert
+2025-08-04 11:21:10: Useraccounts insert successful. Affected rows: 1
+2025-08-04 11:21:10: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 11:21:10: Binding applicantList parameters including email
+2025-08-04 11:21:10: Executing applicantList insert with email: admin@gmail.com
+2025-08-04 11:21:10: ApplicantList insert successful. Affected rows: 1
+2025-08-04 11:21:10: Transaction committed successfully
+2025-08-04 11:21:10: Database connection closed
+2025-08-04 11:21:10: Sending response: {"success":true,"message":"User registered successfully","id":101,"role":"Applicant","auth_status":"New Account","email":"admin@gmail.com"}
+2025-08-04 11:21:10: Script completed
+2025-08-04 11:22:53: Script started
+2025-08-04 11:22:53: Invalid request method: GET
+2025-08-04 11:34:39: Script started
+2025-08-04 11:34:39: OPTIONS request received
+2025-08-04 11:34:39: Script started
+2025-08-04 11:34:39: Raw input data: {"firstName":"HR","lastName":"Account","email":"hr@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 11:34:39: Decoded data: Array
+(
+    [firstName] => HR
+    [lastName] => Account
+    [email] => hr@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 11:34:39: Including database connection file
+2025-08-04 11:34:39: Database connection successful
+2025-08-04 11:34:39: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 11:34:39: Binding email parameter: hr@gmail.com
+2025-08-04 11:34:39: Executing email check
+2025-08-04 11:34:39: Email check result: 0 rows found
+2025-08-04 11:34:39: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 11:34:39: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 11:34:39: id column exists: Yes
+2025-08-04 11:34:39: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 11:34:39: Next ID to be assigned: 102
+2025-08-04 11:34:39: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 11:34:39: Started database transaction
+2025-08-04 11:34:39: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 11:34:39: Binding insert parameters with ID, role, and auth_status
+2025-08-04 11:34:39: Executing useraccounts insert
+2025-08-04 11:34:39: Useraccounts insert successful. Affected rows: 1
+2025-08-04 11:34:39: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 11:34:39: Binding applicantList parameters including email
+2025-08-04 11:34:39: Executing applicantList insert with email: hr@gmail.com
+2025-08-04 11:34:39: ApplicantList insert successful. Affected rows: 1
+2025-08-04 11:34:39: Transaction committed successfully
+2025-08-04 11:34:39: Database connection closed
+2025-08-04 11:34:39: Sending response: {"success":true,"message":"User registered successfully","id":102,"role":"Applicant","auth_status":"New Account","email":"hr@gmail.com"}
+2025-08-04 11:34:39: Script completed
+2025-08-04 11:35:56: Script started
+2025-08-04 11:35:56: OPTIONS request received
+2025-08-04 11:35:56: Script started
+2025-08-04 11:35:56: Raw input data: {"firstName":"Accountant","lastName":"Account","email":"accountant@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 11:35:56: Decoded data: Array
+(
+    [firstName] => Accountant
+    [lastName] => Account
+    [email] => accountant@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 11:35:56: Including database connection file
+2025-08-04 11:35:56: Database connection successful
+2025-08-04 11:35:56: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 11:35:56: Binding email parameter: accountant@gmail.com
+2025-08-04 11:35:56: Executing email check
+2025-08-04 11:35:56: Email check result: 0 rows found
+2025-08-04 11:35:56: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 11:35:56: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 11:35:56: id column exists: Yes
+2025-08-04 11:35:56: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 11:35:56: Next ID to be assigned: 103
+2025-08-04 11:35:56: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 11:35:56: Started database transaction
+2025-08-04 11:35:56: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 11:35:56: Binding insert parameters with ID, role, and auth_status
+2025-08-04 11:35:56: Executing useraccounts insert
+2025-08-04 11:35:56: Useraccounts insert successful. Affected rows: 1
+2025-08-04 11:35:56: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 11:35:56: Binding applicantList parameters including email
+2025-08-04 11:35:56: Executing applicantList insert with email: accountant@gmail.com
+2025-08-04 11:35:56: ApplicantList insert successful. Affected rows: 1
+2025-08-04 11:35:56: Transaction committed successfully
+2025-08-04 11:35:56: Database connection closed
+2025-08-04 11:35:56: Sending response: {"success":true,"message":"User registered successfully","id":103,"role":"Applicant","auth_status":"New Account","email":"accountant@gmail.com"}
+2025-08-04 11:35:56: Script completed
+2025-08-04 11:52:45: Script started
+2025-08-04 11:52:45: OPTIONS request received
+2025-08-04 11:52:45: Script started
+2025-08-04 11:52:45: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"jason@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 11:52:45: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => jason@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 11:52:45: Including database connection file
+2025-08-04 11:52:45: Database connection successful
+2025-08-04 11:52:45: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 11:52:45: Binding email parameter: jason@gmail.com
+2025-08-04 11:52:45: Executing email check
+2025-08-04 11:52:45: Email check result: 0 rows found
+2025-08-04 11:52:45: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 11:52:45: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 11:52:45: id column exists: Yes
+2025-08-04 11:52:45: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 11:52:45: Next ID to be assigned: 104
+2025-08-04 11:52:45: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 11:52:45: Started database transaction
+2025-08-04 11:52:45: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 11:52:45: Binding insert parameters with ID, role, and auth_status
+2025-08-04 11:52:45: Executing useraccounts insert
+2025-08-04 11:52:45: Useraccounts insert successful. Affected rows: 1
+2025-08-04 11:52:45: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 11:52:45: Binding applicantList parameters including email
+2025-08-04 11:52:45: Executing applicantList insert with email: jason@gmail.com
+2025-08-04 11:52:45: ApplicantList insert successful. Affected rows: 1
+2025-08-04 11:52:45: Transaction committed successfully
+2025-08-04 11:52:45: Database connection closed
+2025-08-04 11:52:45: Sending response: {"success":true,"message":"User registered successfully","id":104,"role":"Applicant","auth_status":"New Account","email":"jason@gmail.com"}
+2025-08-04 11:52:45: Script completed
+2025-08-04 14:32:58: Script started
+2025-08-04 14:32:58: OPTIONS request received
+2025-08-04 14:32:59: Script started
+2025-08-04 14:32:59: Raw input data: {"firstName":"asda","lastName":"asdasdsa","email":"asd@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 14:32:59: Decoded data: Array
+(
+    [firstName] => asda
+    [lastName] => asdasdsa
+    [email] => asd@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 14:32:59: Including database connection file
+2025-08-04 14:32:59: Database connection successful
+2025-08-04 14:32:59: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 14:32:59: Binding email parameter: asd@gmail.com
+2025-08-04 14:32:59: Executing email check
+2025-08-04 14:32:59: Email check result: 0 rows found
+2025-08-04 14:32:59: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 14:32:59: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 14:32:59: id column exists: Yes
+2025-08-04 14:32:59: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 14:32:59: Next ID to be assigned: 105
+2025-08-04 14:32:59: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 14:32:59: Started database transaction
+2025-08-04 14:32:59: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 14:32:59: Binding insert parameters with ID, role, and auth_status
+2025-08-04 14:32:59: Executing useraccounts insert
+2025-08-04 14:32:59: Useraccounts insert successful. Affected rows: 1
+2025-08-04 14:32:59: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 14:32:59: Binding applicantList parameters including email
+2025-08-04 14:32:59: Executing applicantList insert with email: asd@gmail.com
+2025-08-04 14:32:59: ApplicantList insert successful. Affected rows: 1
+2025-08-04 14:32:59: Transaction committed successfully
+2025-08-04 14:32:59: Database connection closed
+2025-08-04 14:32:59: Sending response: {"success":true,"message":"User registered successfully","id":105,"role":"Applicant","auth_status":"New Account","email":"asd@gmail.com"}
+2025-08-04 14:32:59: Script completed
+2025-08-04 14:33:06: Script started
+2025-08-04 14:33:06: OPTIONS request received
+2025-08-04 14:33:06: Script started
+2025-08-04 14:33:06: Raw input data: {"firstName":"fd","lastName":"dfgdfg","email":"sdfsdf@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 14:33:06: Decoded data: Array
+(
+    [firstName] => fd
+    [lastName] => dfgdfg
+    [email] => sdfsdf@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 14:33:06: Including database connection file
+2025-08-04 14:33:06: Database connection successful
+2025-08-04 14:33:06: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 14:33:06: Binding email parameter: sdfsdf@gmail.com
+2025-08-04 14:33:06: Executing email check
+2025-08-04 14:33:06: Email check result: 0 rows found
+2025-08-04 14:33:06: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 14:33:06: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 14:33:06: id column exists: Yes
+2025-08-04 14:33:06: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 14:33:06: Next ID to be assigned: 106
+2025-08-04 14:33:06: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 14:33:06: Started database transaction
+2025-08-04 14:33:06: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 14:33:06: Binding insert parameters with ID, role, and auth_status
+2025-08-04 14:33:06: Executing useraccounts insert
+2025-08-04 14:33:06: Useraccounts insert successful. Affected rows: 1
+2025-08-04 14:33:06: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 14:33:06: Binding applicantList parameters including email
+2025-08-04 14:33:06: Executing applicantList insert with email: sdfsdf@gmail.com
+2025-08-04 14:33:06: ApplicantList insert successful. Affected rows: 1
+2025-08-04 14:33:06: Transaction committed successfully
+2025-08-04 14:33:06: Database connection closed
+2025-08-04 14:33:06: Sending response: {"success":true,"message":"User registered successfully","id":106,"role":"Applicant","auth_status":"New Account","email":"sdfsdf@gmail.com"}
+2025-08-04 14:33:06: Script completed
+2025-08-04 14:33:21: Script started
+2025-08-04 14:33:21: OPTIONS request received
+2025-08-04 14:33:21: Script started
+2025-08-04 14:33:21: Raw input data: {"firstName":"asda","lastName":"ddadas","email":"sfsd@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 14:33:21: Decoded data: Array
+(
+    [firstName] => asda
+    [lastName] => ddadas
+    [email] => sfsd@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 14:33:21: Including database connection file
+2025-08-04 14:33:21: Database connection successful
+2025-08-04 14:33:21: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 14:33:21: Binding email parameter: sfsd@gmail.com
+2025-08-04 14:33:21: Executing email check
+2025-08-04 14:33:21: Email check result: 0 rows found
+2025-08-04 14:33:21: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 14:33:21: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 14:33:21: id column exists: Yes
+2025-08-04 14:33:21: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 14:33:21: Next ID to be assigned: 107
+2025-08-04 14:33:21: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 14:33:21: Started database transaction
+2025-08-04 14:33:21: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 14:33:21: Binding insert parameters with ID, role, and auth_status
+2025-08-04 14:33:21: Executing useraccounts insert
+2025-08-04 14:33:21: Useraccounts insert successful. Affected rows: 1
+2025-08-04 14:33:21: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 14:33:21: Binding applicantList parameters including email
+2025-08-04 14:33:21: Executing applicantList insert with email: sfsd@gmail.com
+2025-08-04 14:33:21: ApplicantList insert successful. Affected rows: 1
+2025-08-04 14:33:21: Transaction committed successfully
+2025-08-04 14:33:21: Database connection closed
+2025-08-04 14:33:21: Sending response: {"success":true,"message":"User registered successfully","id":107,"role":"Applicant","auth_status":"New Account","email":"sfsd@gmail.com"}
+2025-08-04 14:33:21: Script completed
+2025-08-04 14:33:27: Script started
+2025-08-04 14:33:27: OPTIONS request received
+2025-08-04 14:33:27: Script started
+2025-08-04 14:33:27: Raw input data: {"firstName":"Flora","lastName":"Aseoche","email":"ee@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 14:33:27: Decoded data: Array
+(
+    [firstName] => Flora
+    [lastName] => Aseoche
+    [email] => ee@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 14:33:27: Including database connection file
+2025-08-04 14:33:27: Database connection successful
+2025-08-04 14:33:27: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 14:33:27: Binding email parameter: ee@gmail.com
+2025-08-04 14:33:27: Executing email check
+2025-08-04 14:33:27: Email check result: 0 rows found
+2025-08-04 14:33:27: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 14:33:27: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 14:33:27: id column exists: Yes
+2025-08-04 14:33:27: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 14:33:27: Next ID to be assigned: 108
+2025-08-04 14:33:27: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 14:33:27: Started database transaction
+2025-08-04 14:33:27: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 14:33:27: Binding insert parameters with ID, role, and auth_status
+2025-08-04 14:33:27: Executing useraccounts insert
+2025-08-04 14:33:27: Useraccounts insert successful. Affected rows: 1
+2025-08-04 14:33:27: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 14:33:27: Binding applicantList parameters including email
+2025-08-04 14:33:27: Executing applicantList insert with email: ee@gmail.com
+2025-08-04 14:33:27: ApplicantList insert successful. Affected rows: 1
+2025-08-04 14:33:27: Transaction committed successfully
+2025-08-04 14:33:27: Database connection closed
+2025-08-04 14:33:27: Sending response: {"success":true,"message":"User registered successfully","id":108,"role":"Applicant","auth_status":"New Account","email":"ee@gmail.com"}
+2025-08-04 14:33:27: Script completed
+2025-08-04 14:37:21: Script started
+2025-08-04 14:37:21: OPTIONS request received
+2025-08-04 14:37:21: Script started
+2025-08-04 14:37:21: Raw input data: {"firstName":"asdad","lastName":"asdasd","email":"hradad@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-04 14:37:21: Decoded data: Array
+(
+    [firstName] => asdad
+    [lastName] => asdasd
+    [email] => hradad@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-04 14:37:21: Including database connection file
+2025-08-04 14:37:21: Database connection successful
+2025-08-04 14:37:21: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-04 14:37:21: Binding email parameter: hradad@gmail.com
+2025-08-04 14:37:21: Executing email check
+2025-08-04 14:37:21: Email check result: 0 rows found
+2025-08-04 14:37:21: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-04 14:37:21: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-04 14:37:21: id column exists: Yes
+2025-08-04 14:37:21: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-04 14:37:21: Next ID to be assigned: 109
+2025-08-04 14:37:21: Setting default role to: Applicant and auth_status to: New Account
+2025-08-04 14:37:21: Started database transaction
+2025-08-04 14:37:21: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-04 14:37:21: Binding insert parameters with ID, role, and auth_status
+2025-08-04 14:37:21: Executing useraccounts insert
+2025-08-04 14:37:21: Useraccounts insert successful. Affected rows: 1
+2025-08-04 14:37:21: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-04 14:37:21: Binding applicantList parameters including email
+2025-08-04 14:37:21: Executing applicantList insert with email: hradad@gmail.com
+2025-08-04 14:37:21: ApplicantList insert successful. Affected rows: 1
+2025-08-04 14:37:21: Transaction committed successfully
+2025-08-04 14:37:21: Database connection closed
+2025-08-04 14:37:21: Sending response: {"success":true,"message":"User registered successfully","id":109,"role":"Applicant","auth_status":"New Account","email":"hradad@gmail.com"}
+2025-08-04 14:37:21: Script completed
+2025-08-11 14:15:22: Script started
+2025-08-11 14:15:22: OPTIONS request received
+2025-08-11 14:15:22: Script started
+2025-08-11 14:15:22: Raw input data: {"firstName":"Flora","lastName":"Aseoche","email":"cfryujin@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-11 14:15:22: Decoded data: Array
+(
+    [firstName] => Flora
+    [lastName] => Aseoche
+    [email] => cfryujin@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-11 14:15:22: Including database connection file
+2025-08-11 14:15:22: Database connection successful
+2025-08-11 14:15:22: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-11 14:15:22: Binding email parameter: cfryujin@gmail.com
+2025-08-11 14:15:22: Executing email check
+2025-08-11 14:15:22: Email check result: 0 rows found
+2025-08-11 14:15:22: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-11 14:15:22: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-11 14:15:22: id column exists: Yes
+2025-08-11 14:15:22: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-11 14:15:22: Next ID to be assigned: 110
+2025-08-11 14:15:22: Setting default role to: Applicant and auth_status to: New Account
+2025-08-11 14:15:22: Started database transaction
+2025-08-11 14:15:22: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-11 14:15:22: Binding insert parameters with ID, role, and auth_status
+2025-08-11 14:15:22: Executing useraccounts insert
+2025-08-11 14:15:22: Useraccounts insert successful. Affected rows: 1
+2025-08-11 14:15:22: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-11 14:15:22: Binding applicantList parameters including email
+2025-08-11 14:15:22: Executing applicantList insert with email: cfryujin@gmail.com
+2025-08-11 14:15:22: ApplicantList insert successful. Affected rows: 1
+2025-08-11 14:15:22: Transaction committed successfully
+2025-08-11 14:15:22: Database connection closed
+2025-08-11 14:15:22: Sending response: {"success":true,"message":"User registered successfully","id":110,"role":"Applicant","auth_status":"New Account","email":"cfryujin@gmail.com"}
+2025-08-11 14:15:22: Script completed
+2025-08-11 14:18:02: Script started
+2025-08-11 14:18:02: OPTIONS request received
+2025-08-11 14:18:02: Script started
+2025-08-11 14:18:02: Raw input data: {"firstName":"asdas","lastName":"lkjasda","email":"jasonaseoche2@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-11 14:18:02: Decoded data: Array
+(
+    [firstName] => asdas
+    [lastName] => lkjasda
+    [email] => jasonaseoche2@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-11 14:18:02: Including database connection file
+2025-08-11 14:18:02: Database connection successful
+2025-08-11 14:18:02: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-11 14:18:02: Binding email parameter: jasonaseoche2@gmail.com
+2025-08-11 14:18:02: Executing email check
+2025-08-11 14:18:02: Email check result: 0 rows found
+2025-08-11 14:18:02: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-11 14:18:02: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-11 14:18:02: id column exists: Yes
+2025-08-11 14:18:02: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-11 14:18:02: Next ID to be assigned: 111
+2025-08-11 14:18:02: Setting default role to: Applicant and auth_status to: New Account
+2025-08-11 14:18:02: Started database transaction
+2025-08-11 14:18:02: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-11 14:18:02: Binding insert parameters with ID, role, and auth_status
+2025-08-11 14:18:02: Executing useraccounts insert
+2025-08-11 14:18:02: Useraccounts insert successful. Affected rows: 1
+2025-08-11 14:18:02: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-11 14:18:02: Binding applicantList parameters including email
+2025-08-11 14:18:02: Executing applicantList insert with email: jasonaseoche2@gmail.com
+2025-08-11 14:18:02: ApplicantList insert successful. Affected rows: 1
+2025-08-11 14:18:02: Transaction committed successfully
+2025-08-11 14:18:02: Database connection closed
+2025-08-11 14:18:02: Sending response: {"success":true,"message":"User registered successfully","id":111,"role":"Applicant","auth_status":"New Account","email":"jasonaseoche2@gmail.com"}
+2025-08-11 14:18:02: Script completed
+2025-08-17 16:49:19: Script started
+2025-08-17 16:49:19: OPTIONS request received
+2025-08-17 16:49:19: Script started
+2025-08-17 16:49:19: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"sup2@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-17 16:49:19: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => sup2@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-17 16:49:19: Including database connection file
+2025-08-17 16:49:19: Database connection successful
+2025-08-17 16:49:19: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-17 16:49:19: Binding email parameter: sup2@gmail.com
+2025-08-17 16:49:19: Executing email check
+2025-08-17 16:49:19: Email check result: 0 rows found
+2025-08-17 16:49:19: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-17 16:49:19: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-17 16:49:19: id column exists: Yes
+2025-08-17 16:49:19: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-17 16:49:19: Next ID to be assigned: 113
+2025-08-17 16:49:19: Setting default role to: Applicant and auth_status to: New Account
+2025-08-17 16:49:19: Started database transaction
+2025-08-17 16:49:19: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-17 16:49:19: Binding insert parameters with ID, role, and auth_status
+2025-08-17 16:49:19: Executing useraccounts insert
+2025-08-17 16:49:19: Useraccounts insert successful. Affected rows: 1
+2025-08-17 16:49:19: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-17 16:49:19: Binding applicantList parameters including email
+2025-08-17 16:49:19: Executing applicantList insert with email: sup2@gmail.com
+2025-08-17 16:49:19: ApplicantList insert successful. Affected rows: 1
+2025-08-17 16:49:19: Transaction committed successfully
+2025-08-17 16:49:19: Database connection closed
+2025-08-17 16:49:19: Sending response: {"success":true,"message":"User registered successfully","id":113,"role":"Applicant","auth_status":"New Account","email":"sup2@gmail.com"}
+2025-08-17 16:49:19: Script completed
+2025-08-19 17:01:37: Script started
+2025-08-19 17:01:37: OPTIONS request received
+2025-08-19 17:01:37: Script started
+2025-08-19 17:01:37: Raw input data: {"firstName":"asd","lastName":"dfgdfgd","email":"try@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-19 17:01:37: Decoded data: Array
+(
+    [firstName] => asd
+    [lastName] => dfgdfgd
+    [email] => try@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-19 17:01:37: Including database connection file
+2025-08-19 17:01:37: Database connection successful
+2025-08-19 17:01:37: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-19 17:01:37: Binding email parameter: try@gmail.com
+2025-08-19 17:01:37: Executing email check
+2025-08-19 17:01:37: Email check result: 0 rows found
+2025-08-19 17:01:37: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-19 17:01:37: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-19 17:01:37: id column exists: Yes
+2025-08-19 17:01:37: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-19 17:01:37: Next ID to be assigned: 115
+2025-08-19 17:01:37: Setting default role to: Applicant and auth_status to: New Account
+2025-08-19 17:01:37: Started database transaction
+2025-08-19 17:01:37: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-19 17:01:37: Binding insert parameters with ID, role, and auth_status
+2025-08-19 17:01:37: Executing useraccounts insert
+2025-08-19 17:01:37: Useraccounts insert successful. Affected rows: 1
+2025-08-19 17:01:37: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-19 17:01:37: Binding applicantList parameters including email
+2025-08-19 17:01:37: Executing applicantList insert with email: try@gmail.com
+2025-08-19 17:01:37: ApplicantList insert successful. Affected rows: 1
+2025-08-19 17:01:37: Transaction committed successfully
+2025-08-19 17:01:37: Database connection closed
+2025-08-19 17:01:37: Sending response: {"success":true,"message":"User registered successfully","id":115,"role":"Applicant","auth_status":"New Account","email":"try@gmail.com"}
+2025-08-19 17:01:37: Script completed
+2025-08-20 15:15:58: Script started
+2025-08-20 15:15:58: OPTIONS request received
+2025-08-20 15:15:58: Script started
+2025-08-20 15:15:58: Raw input data: {"firstName":"try","lastName":"lang","email":"try2@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-20 15:15:58: Decoded data: Array
+(
+    [firstName] => try
+    [lastName] => lang
+    [email] => try2@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-20 15:15:58: Including database connection file
+2025-08-20 15:15:59: Database connection successful
+2025-08-20 15:15:59: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-20 15:15:59: Binding email parameter: try2@gmail.com
+2025-08-20 15:15:59: Executing email check
+2025-08-20 15:15:59: Email check result: 0 rows found
+2025-08-20 15:15:59: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-20 15:15:59: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-20 15:15:59: id column exists: Yes
+2025-08-20 15:15:59: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-20 15:15:59: Next ID to be assigned: 116
+2025-08-20 15:15:59: Setting default role to: Applicant and auth_status to: New Account
+2025-08-20 15:15:59: Started database transaction
+2025-08-20 15:15:59: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-20 15:15:59: Binding insert parameters with ID, role, and auth_status
+2025-08-20 15:15:59: Executing useraccounts insert
+2025-08-20 15:15:59: Useraccounts insert successful. Affected rows: 1
+2025-08-20 15:15:59: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-20 15:15:59: Binding applicantList parameters including email
+2025-08-20 15:15:59: Executing applicantList insert with email: try2@gmail.com
+2025-08-20 15:15:59: ApplicantList insert successful. Affected rows: 1
+2025-08-20 15:15:59: Transaction committed successfully
+2025-08-20 15:15:59: Database connection closed
+2025-08-20 15:15:59: Sending response: {"success":true,"message":"User registered successfully","id":116,"role":"Applicant","auth_status":"New Account","email":"try2@gmail.com"}
+2025-08-20 15:15:59: Script completed
+2025-08-22 19:52:15: Script started
+2025-08-22 19:52:15: OPTIONS request received
+2025-08-22 19:52:15: Script started
+2025-08-22 19:52:15: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"jasonaseoche1@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-22 19:52:15: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => jasonaseoche1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-22 19:52:15: Including database connection file
+2025-08-22 19:52:15: Database connection successful
+2025-08-22 19:52:15: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-22 19:52:15: Binding email parameter: jasonaseoche1@gmail.com
+2025-08-22 19:52:15: Executing email check
+2025-08-22 19:52:15: Email check result: 0 rows found
+2025-08-22 19:52:15: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-22 19:52:15: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-22 19:52:15: id column exists: Yes
+2025-08-22 19:52:15: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-22 19:52:15: Next ID to be assigned: 132
+2025-08-22 19:52:15: Setting default role to: Applicant and auth_status to: New Account
+2025-08-22 19:52:15: Started database transaction
+2025-08-22 19:52:15: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-22 19:52:15: Binding insert parameters with ID, role, and auth_status
+2025-08-22 19:52:15: Executing useraccounts insert
+2025-08-22 19:52:15: Useraccounts insert successful. Affected rows: 1
+2025-08-22 19:52:15: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-22 19:52:15: Binding applicantList parameters including email
+2025-08-22 19:52:15: Executing applicantList insert with email: jasonaseoche1@gmail.com
+2025-08-22 19:52:15: ApplicantList insert successful. Affected rows: 1
+2025-08-22 19:52:15: Transaction committed successfully
+2025-08-22 19:52:15: Database connection closed
+2025-08-22 19:52:15: Sending response: {"success":true,"message":"User registered successfully","id":132,"role":"Applicant","auth_status":"New Account","email":"jasonaseoche1@gmail.com"}
+2025-08-22 19:52:15: Script completed
+2025-08-23 19:56:40: Script started
+2025-08-23 19:56:40: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"icongko09@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-23 19:56:40: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => icongko09@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-23 19:56:40: Including database connection file
+2025-08-23 19:56:40: Database connection successful
+2025-08-23 19:56:40: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-23 19:56:40: Binding email parameter: icongko09@gmail.com
+2025-08-23 19:56:40: Executing email check
+2025-08-23 19:56:40: Email check result: 0 rows found
+2025-08-23 19:56:40: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-23 19:56:40: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-23 19:56:40: id column exists: Yes
+2025-08-23 19:56:40: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-23 19:56:40: Next ID to be assigned: 142
+2025-08-23 19:56:40: Setting default role to: Applicant and auth_status to: New Account
+2025-08-23 19:56:40: Started database transaction
+2025-08-23 19:56:40: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-23 19:56:40: Binding insert parameters with ID, role, and auth_status
+2025-08-23 19:56:40: Executing useraccounts insert
+2025-08-23 19:56:40: Useraccounts insert successful. Affected rows: 1
+2025-08-23 19:56:40: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-23 19:56:40: Binding applicantList parameters including email
+2025-08-23 19:56:40: Executing applicantList insert with email: icongko09@gmail.com
+2025-08-23 19:56:40: ApplicantList insert successful. Affected rows: 1
+2025-08-23 19:56:40: Transaction committed successfully
+2025-08-23 19:56:40: Database connection closed
+2025-08-23 19:56:40: Sending response: {"success":true,"message":"User registered successfully","id":142,"role":"Applicant","auth_status":"New Account","email":"icongko09@gmail.com"}
+2025-08-23 19:56:40: Script completed
+2025-08-23 20:01:22: Script started
+2025-08-23 20:01:22: Raw input data: {"firstName":"Flora","lastName":"Aseoche","email":"jasonaseoche1@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-23 20:01:22: Decoded data: Array
+(
+    [firstName] => Flora
+    [lastName] => Aseoche
+    [email] => jasonaseoche1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-23 20:01:22: Including database connection file
+2025-08-23 20:01:22: Database connection successful
+2025-08-23 20:01:22: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-23 20:01:22: Binding email parameter: jasonaseoche1@gmail.com
+2025-08-23 20:01:22: Executing email check
+2025-08-23 20:01:22: Email check result: 0 rows found
+2025-08-23 20:01:22: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-23 20:01:22: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-23 20:01:22: id column exists: Yes
+2025-08-23 20:01:22: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-23 20:01:22: Next ID to be assigned: 143
+2025-08-23 20:01:22: Setting default role to: Applicant and auth_status to: New Account
+2025-08-23 20:01:22: Started database transaction
+2025-08-23 20:01:22: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-23 20:01:22: Binding insert parameters with ID, role, and auth_status
+2025-08-23 20:01:22: Executing useraccounts insert
+2025-08-23 20:01:22: Useraccounts insert successful. Affected rows: 1
+2025-08-23 20:01:22: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-23 20:01:22: Binding applicantList parameters including email
+2025-08-23 20:01:22: Executing applicantList insert with email: jasonaseoche1@gmail.com
+2025-08-23 20:01:22: ApplicantList insert successful. Affected rows: 1
+2025-08-23 20:01:22: Transaction committed successfully
+2025-08-23 20:01:22: Database connection closed
+2025-08-23 20:01:22: Sending response: {"success":true,"message":"User registered successfully","id":143,"role":"Applicant","auth_status":"New Account","email":"jasonaseoche1@gmail.com"}
+2025-08-23 20:01:22: Script completed
+2025-08-24 22:01:37: Script started
+2025-08-24 22:01:37: OPTIONS request received
+2025-08-24 22:01:37: Script started
+2025-08-24 22:01:37: Raw input data: {"firstName":"Employee","lastName":"NS1","email":"emp5@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-24 22:01:37: Decoded data: Array
+(
+    [firstName] => Employee
+    [lastName] => NS1
+    [email] => emp5@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-24 22:01:37: Including database connection file
+2025-08-24 22:01:37: Database connection successful
+2025-08-24 22:01:37: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-24 22:01:37: Binding email parameter: emp5@gmail.com
+2025-08-24 22:01:37: Executing email check
+2025-08-24 22:01:37: Email check result: 0 rows found
+2025-08-24 22:01:37: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-24 22:01:37: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-24 22:01:37: id column exists: Yes
+2025-08-24 22:01:37: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-24 22:01:37: Next ID to be assigned: 133
+2025-08-24 22:01:37: Setting default role to: Applicant and auth_status to: New Account
+2025-08-24 22:01:37: Started database transaction
+2025-08-24 22:01:37: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-24 22:01:37: Binding insert parameters with ID, role, and auth_status
+2025-08-24 22:01:37: Executing useraccounts insert
+2025-08-24 22:01:37: Useraccounts insert successful. Affected rows: 1
+2025-08-24 22:01:37: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-24 22:01:37: Binding applicantList parameters including email
+2025-08-24 22:01:37: Executing applicantList insert with email: emp5@gmail.com
+2025-08-24 22:01:37: ApplicantList insert successful. Affected rows: 1
+2025-08-24 22:01:37: Transaction committed successfully
+2025-08-24 22:01:37: Database connection closed
+2025-08-24 22:01:37: Sending response: {"success":true,"message":"User registered successfully","id":133,"role":"Applicant","auth_status":"New Account","email":"emp5@gmail.com"}
+2025-08-24 22:01:37: Script completed
+2025-08-31 13:51:23: Script started
+2025-08-31 13:51:23: OPTIONS request received
+2025-08-31 13:51:23: Script started
+2025-08-31 13:51:23: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"app1@gmail.com","password":"123","confirmPassword":"123"}
+2025-08-31 13:51:23: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => app1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-08-31 13:51:23: Including database connection file
+2025-08-31 13:51:23: Database connection successful
+2025-08-31 13:51:23: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-08-31 13:51:23: Binding email parameter: app1@gmail.com
+2025-08-31 13:51:23: Executing email check
+2025-08-31 13:51:23: Email check result: 0 rows found
+2025-08-31 13:51:23: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-08-31 13:51:23: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-08-31 13:51:24: id column exists: Yes
+2025-08-31 13:51:24: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-08-31 13:51:24: Next ID to be assigned: 134
+2025-08-31 13:51:24: Setting default role to: Applicant and auth_status to: New Account
+2025-08-31 13:51:24: Started database transaction
+2025-08-31 13:51:24: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-08-31 13:51:24: Binding insert parameters with ID, role, and auth_status
+2025-08-31 13:51:24: Executing useraccounts insert
+2025-08-31 13:51:24: Useraccounts insert successful. Affected rows: 1
+2025-08-31 13:51:24: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-08-31 13:51:24: Binding applicantList parameters including email
+2025-08-31 13:51:24: Executing applicantList insert with email: app1@gmail.com
+2025-08-31 13:51:24: ApplicantList insert successful. Affected rows: 1
+2025-08-31 13:51:24: Transaction committed successfully
+2025-08-31 13:51:24: Database connection closed
+2025-08-31 13:51:24: Sending response: {"success":true,"message":"User registered successfully","id":134,"role":"Applicant","auth_status":"New Account","email":"app1@gmail.com"}
+2025-08-31 13:51:24: Script completed
+2025-09-06 13:27:50: Script started
+2025-09-06 13:27:50: OPTIONS request received
+2025-09-06 13:27:50: Script started
+2025-09-06 13:27:50: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"app2@gmail.com","password":"123","confirmPassword":"123"}
+2025-09-06 13:27:50: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => app2@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-09-06 13:27:50: Including database connection file
+2025-09-06 13:27:50: Database connection successful
+2025-09-06 13:27:50: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-06 13:27:50: Binding email parameter: app2@gmail.com
+2025-09-06 13:27:50: Executing email check
+2025-09-06 13:27:50: Email check result: 0 rows found
+2025-09-06 13:27:50: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-09-06 13:27:50: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-09-06 13:27:50: id column exists: Yes
+2025-09-06 13:27:50: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-09-06 13:27:50: Next ID to be assigned: 138
+2025-09-06 13:27:50: Setting default role to: Applicant and auth_status to: New Account
+2025-09-06 13:27:50: Started database transaction
+2025-09-06 13:27:50: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-09-06 13:27:50: Binding insert parameters with ID, role, and auth_status
+2025-09-06 13:27:50: Executing useraccounts insert
+2025-09-06 13:27:50: Useraccounts insert successful. Affected rows: 1
+2025-09-06 13:27:50: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-09-06 13:27:50: Binding applicantList parameters including email
+2025-09-06 13:27:50: Executing applicantList insert with email: app2@gmail.com
+2025-09-06 13:27:50: ApplicantList insert successful. Affected rows: 1
+2025-09-06 13:27:50: Transaction committed successfully
+2025-09-06 13:27:50: Database connection closed
+2025-09-06 13:27:50: Sending response: {"success":true,"message":"User registered successfully","id":138,"role":"Applicant","auth_status":"New Account","email":"app2@gmail.com"}
+2025-09-06 13:27:50: Script completed
+2025-09-08 14:07:53: Script started
+2025-09-08 14:07:53: OPTIONS request received
+2025-09-08 14:07:53: Script started
+2025-09-08 14:07:53: Raw input data: {"firstName":"asdas","lastName":"asdasda","email":"app1@gmail.com","password":"123","confirmPassword":"123"}
+2025-09-08 14:07:53: Decoded data: Array
+(
+    [firstName] => asdas
+    [lastName] => asdasda
+    [email] => app1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-09-08 14:07:53: Including database connection file
+2025-09-08 14:07:53: Database connection successful
+2025-09-08 14:07:53: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-08 14:07:53: Binding email parameter: app1@gmail.com
+2025-09-08 14:07:53: Executing email check
+2025-09-08 14:07:53: Email check result: 1 rows found
+2025-09-08 14:07:53: Email already exists: app1@gmail.com
+2025-09-08 14:07:55: Script started
+2025-09-08 14:07:55: Raw input data: {"firstName":"asdas","lastName":"asdasda","email":"app5@gmail.com","password":"123","confirmPassword":"123"}
+2025-09-08 14:07:55: Decoded data: Array
+(
+    [firstName] => asdas
+    [lastName] => asdasda
+    [email] => app5@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-09-08 14:07:55: Including database connection file
+2025-09-08 14:07:55: Database connection successful
+2025-09-08 14:07:55: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-08 14:07:55: Binding email parameter: app5@gmail.com
+2025-09-08 14:07:55: Executing email check
+2025-09-08 14:07:55: Email check result: 0 rows found
+2025-09-08 14:07:55: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-09-08 14:07:55: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-09-08 14:07:55: id column exists: Yes
+2025-09-08 14:07:55: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-09-08 14:07:55: Next ID to be assigned: 139
+2025-09-08 14:07:55: Setting default role to: Applicant and auth_status to: New Account
+2025-09-08 14:07:55: Started database transaction
+2025-09-08 14:07:55: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-09-08 14:07:55: Binding insert parameters with ID, role, and auth_status
+2025-09-08 14:07:55: Executing useraccounts insert
+2025-09-08 14:07:55: Useraccounts insert successful. Affected rows: 1
+2025-09-08 14:07:55: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-09-08 14:07:55: Binding applicantList parameters including email
+2025-09-08 14:07:55: Executing applicantList insert with email: app5@gmail.com
+2025-09-08 14:07:55: ApplicantList insert successful. Affected rows: 1
+2025-09-08 14:07:55: Transaction committed successfully
+2025-09-08 14:07:55: Database connection closed
+2025-09-08 14:07:55: Sending response: {"success":true,"message":"User registered successfully","id":139,"role":"Applicant","auth_status":"New Account","email":"app5@gmail.com"}
+2025-09-08 14:07:55: Script completed
+2025-09-08 14:58:51: Script started
+2025-09-08 14:58:51: OPTIONS request received
+2025-09-08 14:58:51: Script started
+2025-09-08 14:58:51: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"jasonaseoche6@gmail.com","password":"123","confirmPassword":"123"}
+2025-09-08 14:58:51: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => jasonaseoche6@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-09-08 14:58:51: Including database connection file
+2025-09-08 14:58:51: Database connection successful
+2025-09-08 14:58:51: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-08 14:58:51: Binding email parameter: jasonaseoche6@gmail.com
+2025-09-08 14:58:51: Executing email check
+2025-09-08 14:58:51: Email check result: 0 rows found
+2025-09-08 14:58:51: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-09-08 14:58:51: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-09-08 14:58:51: id column exists: Yes
+2025-09-08 14:58:51: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-09-08 14:58:51: Next ID to be assigned: 140
+2025-09-08 14:58:51: Setting default role to: Applicant and auth_status to: New Account
+2025-09-08 14:58:51: Started database transaction
+2025-09-08 14:58:51: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-09-08 14:58:51: Binding insert parameters with ID, role, and auth_status
+2025-09-08 14:58:51: Executing useraccounts insert
+2025-09-08 14:58:51: Useraccounts insert successful. Affected rows: 1
+2025-09-08 14:58:51: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-09-08 14:58:51: Binding applicantList parameters including email
+2025-09-08 14:58:51: Executing applicantList insert with email: jasonaseoche6@gmail.com
+2025-09-08 14:58:51: ApplicantList insert successful. Affected rows: 1
+2025-09-08 14:58:51: Transaction committed successfully
+2025-09-08 14:58:51: Database connection closed
+2025-09-08 14:58:51: Sending response: {"success":true,"message":"User registered successfully","id":140,"role":"Applicant","auth_status":"New Account","email":"jasonaseoche6@gmail.com"}
+2025-09-08 14:58:51: Script completed
+2025-09-12 15:44:12: Script started
+2025-09-12 15:44:12: OPTIONS request received
+2025-09-12 15:44:12: Script started
+2025-09-12 15:44:12: Raw input data: {"firstName":"sdfdsf","lastName":"sdfsdfs","email":"sdjfsdfsd@gmail.com","password":"123","confirmPassword":"123"}
+2025-09-12 15:44:12: Decoded data: Array
+(
+    [firstName] => sdfdsf
+    [lastName] => sdfsdfs
+    [email] => sdjfsdfsd@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-09-12 15:44:12: Including database connection file
+2025-09-12 15:44:12: Database connection successful
+2025-09-12 15:44:12: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-12 15:44:12: Binding email parameter: sdjfsdfsd@gmail.com
+2025-09-12 15:44:12: Executing email check
+2025-09-12 15:44:12: Email check result: 0 rows found
+2025-09-12 15:44:12: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-09-12 15:44:12: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-09-12 15:44:12: id column exists: Yes
+2025-09-12 15:44:12: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-09-12 15:44:12: Next ID to be assigned: 141
+2025-09-12 15:44:12: Setting default role to: Applicant and auth_status to: New Account
+2025-09-12 15:44:12: Started database transaction
+2025-09-12 15:44:12: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-09-12 15:44:12: Binding insert parameters with ID, role, and auth_status
+2025-09-12 15:44:12: Executing useraccounts insert
+2025-09-12 15:44:12: Useraccounts insert successful. Affected rows: 1
+2025-09-12 15:44:12: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-09-12 15:44:12: Binding applicantList parameters including email
+2025-09-12 15:44:12: Executing applicantList insert with email: sdjfsdfsd@gmail.com
+2025-09-12 15:44:12: ApplicantList insert successful. Affected rows: 1
+2025-09-12 15:44:12: Transaction committed successfully
+2025-09-12 15:44:12: Database connection closed
+2025-09-12 15:44:12: Sending response: {"success":true,"message":"User registered successfully","id":141,"role":"Applicant","auth_status":"New Account","email":"sdjfsdfsd@gmail.com"}
+2025-09-12 15:44:12: Script completed
+2025-09-18 14:30:26: Script started
+2025-09-18 14:30:26: OPTIONS request received
+2025-09-18 14:30:26: Script started
+2025-09-18 14:30:26: Raw input data: {"firstName":"Agua","lastName":"Bendida","email":"app1@gmail.com","password":"123","confirmPassword":"123"}
+2025-09-18 14:30:26: Decoded data: Array
+(
+    [firstName] => Agua
+    [lastName] => Bendida
+    [email] => app1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-09-18 14:30:26: Including database connection file
+2025-09-18 14:30:26: Database connection successful
+2025-09-18 14:30:26: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-18 14:30:26: Binding email parameter: app1@gmail.com
+2025-09-18 14:30:26: Executing email check
+2025-09-18 14:30:26: Email check result: 0 rows found
+2025-09-18 14:30:26: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-09-18 14:30:26: Email already exists in applicantList: app1@gmail.com
+2025-09-18 14:31:21: Script started
+2025-09-18 14:31:21: OPTIONS request received
+2025-09-18 14:31:21: Script started
+2025-09-18 14:31:21: Raw input data: {"firstName":"Agua","lastName":"Bendida","email":"app1@gmail.com","password":"123","confirmPassword":"123"}
+2025-09-18 14:31:21: Decoded data: Array
+(
+    [firstName] => Agua
+    [lastName] => Bendida
+    [email] => app1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-09-18 14:31:21: Including database connection file
+2025-09-18 14:31:21: Database connection successful
+2025-09-18 14:31:21: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-18 14:31:21: Binding email parameter: app1@gmail.com
+2025-09-18 14:31:21: Executing email check
+2025-09-18 14:31:22: Email check result: 0 rows found
+2025-09-18 14:31:22: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-09-18 14:31:22: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-09-18 14:31:22: id column exists: Yes
+2025-09-18 14:31:22: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-09-18 14:31:22: Next ID to be assigned: 142
+2025-09-18 14:31:22: Setting default role to: Applicant and auth_status to: New Account
+2025-09-18 14:31:22: Started database transaction
+2025-09-18 14:31:22: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-09-18 14:31:22: Binding insert parameters with ID, role, and auth_status
+2025-09-18 14:31:22: Executing useraccounts insert
+2025-09-18 14:31:22: Useraccounts insert successful. Affected rows: 1
+2025-09-18 14:31:22: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-09-18 14:31:22: Binding applicantList parameters including email
+2025-09-18 14:31:22: Executing applicantList insert with email: app1@gmail.com
+2025-09-18 14:31:22: ApplicantList insert successful. Affected rows: 1
+2025-09-18 14:31:22: Transaction committed successfully
+2025-09-18 14:31:22: Database connection closed
+2025-09-18 14:31:22: Sending response: {"success":true,"message":"User registered successfully","id":142,"role":"Applicant","auth_status":"New Account","email":"app1@gmail.com"}
+2025-09-18 14:31:22: Script completed
+2025-09-18 14:31:45: Script started
+2025-09-18 14:31:45: Invalid request method: GET
+2025-09-27 13:41:06: Script started
+2025-09-27 13:41:06: OPTIONS request received
+2025-09-27 13:41:06: Script started
+2025-09-27 13:41:06: Raw input data: {"firstName":"dfgdfg","lastName":"dfgdgd","email":"asdasda@gmail.com","password":"123","confirmPassword":"123","agreeToTerms":true}
+2025-09-27 13:41:06: Decoded data: Array
+(
+    [firstName] => dfgdfg
+    [lastName] => dfgdgd
+    [email] => asdasda@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+    [agreeToTerms] => 1
+)
+
+2025-09-27 13:41:06: Including database connection file
+2025-09-27 13:41:06: Database connection successful
+2025-09-27 13:41:06: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-27 13:41:06: Binding email parameter: asdasda@gmail.com
+2025-09-27 13:41:06: Executing email check
+2025-09-27 13:41:06: Email check result: 0 rows found
+2025-09-27 13:41:06: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-09-27 13:41:06: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-09-27 13:41:06: id column exists: Yes
+2025-09-27 13:41:06: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-09-27 13:41:06: Next ID to be assigned: 143
+2025-09-27 13:41:06: Setting default role to: Applicant and auth_status to: New Account
+2025-09-27 13:41:06: Started database transaction
+2025-09-27 13:41:06: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-09-27 13:41:06: Binding insert parameters with ID, role, and auth_status
+2025-09-27 13:41:06: Executing useraccounts insert
+2025-09-27 13:41:06: Useraccounts insert successful. Affected rows: 1
+2025-09-27 13:41:06: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-09-27 13:41:06: Binding applicantList parameters including email
+2025-09-27 13:41:06: Executing applicantList insert with email: asdasda@gmail.com
+2025-09-27 13:41:06: ApplicantList insert successful. Affected rows: 1
+2025-09-27 13:41:06: Transaction committed successfully
+2025-09-27 13:41:06: Database connection closed
+2025-09-27 13:41:06: Sending response: {"success":true,"message":"User registered successfully","id":143,"role":"Applicant","auth_status":"New Account","email":"asdasda@gmail.com"}
+2025-09-27 13:41:06: Script completed
+2025-09-27 13:45:45: Script started
+2025-09-27 13:45:45: OPTIONS request received
+2025-09-27 13:45:45: Script started
+2025-09-27 13:45:45: Raw input data: {"firstName":"asdasas","lastName":"asdas","email":"sdfssdf@gmail.com","password":"123sdfs","confirmPassword":"123sdfs","agreeToTerms":true}
+2025-09-27 13:45:45: Decoded data: Array
+(
+    [firstName] => asdasas
+    [lastName] => asdas
+    [email] => sdfssdf@gmail.com
+    [password] => 123sdfs
+    [confirmPassword] => 123sdfs
+    [agreeToTerms] => 1
+)
+
+2025-09-27 13:45:45: Including database connection file
+2025-09-27 13:45:45: Database connection successful
+2025-09-27 13:45:45: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-09-27 13:45:45: Binding email parameter: sdfssdf@gmail.com
+2025-09-27 13:45:45: Executing email check
+2025-09-27 13:45:45: Email check result: 0 rows found
+2025-09-27 13:45:45: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-09-27 13:45:45: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-09-27 13:45:45: id column exists: Yes
+2025-09-27 13:45:45: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-09-27 13:45:45: Next ID to be assigned: 144
+2025-09-27 13:45:45: Setting default role to: Applicant and auth_status to: New Account
+2025-09-27 13:45:45: Started database transaction
+2025-09-27 13:45:45: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-09-27 13:45:45: Binding insert parameters with ID, role, and auth_status
+2025-09-27 13:45:45: Executing useraccounts insert
+2025-09-27 13:45:45: Useraccounts insert successful. Affected rows: 1
+2025-09-27 13:45:45: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-09-27 13:45:45: Binding applicantList parameters including email
+2025-09-27 13:45:45: Executing applicantList insert with email: sdfssdf@gmail.com
+2025-09-27 13:45:45: ApplicantList insert successful. Affected rows: 1
+2025-09-27 13:45:45: Transaction committed successfully
+2025-09-27 13:45:45: Database connection closed
+2025-09-27 13:45:45: Sending response: {"success":true,"message":"User registered successfully","id":144,"role":"Applicant","auth_status":"New Account","email":"sdfssdf@gmail.com"}
+2025-09-27 13:45:45: Script completed
+2025-10-20 17:20:14: Script started
+2025-10-20 17:20:14: Raw input data: {"firstName":"asdada","lastName":"dasdasd","email":"asdass@gmail.com","password":"Jason@100903","confirmPassword":"Jason@100903","agreeToTerms":true}
+2025-10-20 17:20:14: Decoded data: Array
+(
+    [firstName] => asdada
+    [lastName] => dasdasd
+    [email] => asdass@gmail.com
+    [password] => Jason@100903
+    [confirmPassword] => Jason@100903
+    [agreeToTerms] => 1
+)
+
+2025-10-20 17:20:14: Including database connection file
+2025-10-20 17:20:14: Database connection successful
+2025-10-20 17:20:14: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-10-20 17:20:14: Binding email parameter: asdass@gmail.com
+2025-10-20 17:20:14: Executing email check
+2025-10-20 17:20:14: Email check result: 0 rows found
+2025-10-20 17:20:14: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-10-20 17:20:14: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-10-20 17:20:14: id column exists: Yes
+2025-10-20 17:20:14: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-10-20 17:20:14: Next ID to be assigned: 149
+2025-10-20 17:20:14: Setting default role to: Applicant and auth_status to: New Account
+2025-10-20 17:20:14: Started database transaction
+2025-10-20 17:20:14: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-10-20 17:20:14: Binding insert parameters with ID, role, and auth_status
+2025-10-20 17:20:14: Executing useraccounts insert
+2025-10-20 17:20:14: Useraccounts insert successful. Affected rows: 1
+2025-10-20 17:20:14: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-10-20 17:20:14: Binding applicantList parameters including email
+2025-10-20 17:20:14: Executing applicantList insert with email: asdass@gmail.com
+2025-10-20 17:20:14: ApplicantList insert successful. Affected rows: 1
+2025-10-20 17:20:14: Transaction committed successfully
+2025-10-20 17:20:14: Database connection closed
+2025-10-20 17:20:14: Sending response: {"success":true,"message":"User registered successfully","id":149,"role":"Applicant","auth_status":"New Account","email":"asdass@gmail.com"}
+2025-10-20 17:20:14: Script completed
+2025-10-20 17:20:38: Script started
+2025-10-20 17:20:38: Raw input data: {"firstName":"AASDASD","lastName":"ASDASDAS","email":"hr232@gmail.com","password":"jASON@100903","confirmPassword":"jASON@100903","agreeToTerms":true}
+2025-10-20 17:20:38: Decoded data: Array
+(
+    [firstName] => AASDASD
+    [lastName] => ASDASDAS
+    [email] => hr232@gmail.com
+    [password] => jASON@100903
+    [confirmPassword] => jASON@100903
+    [agreeToTerms] => 1
+)
+
+2025-10-20 17:20:38: Including database connection file
+2025-10-20 17:20:38: Database connection successful
+2025-10-20 17:20:38: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-10-20 17:20:38: Binding email parameter: hr232@gmail.com
+2025-10-20 17:20:38: Executing email check
+2025-10-20 17:20:38: Email check result: 0 rows found
+2025-10-20 17:20:38: Preparing applicant email check query: SELECT email FROM applicantlist WHERE email = ?
+2025-10-20 17:20:38: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-10-20 17:20:38: id column exists: Yes
+2025-10-20 17:20:38: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-10-20 17:20:38: Next ID to be assigned: 150
+2025-10-20 17:20:38: Setting default role to: Applicant and auth_status to: New Account
+2025-10-20 17:20:38: Started database transaction
+2025-10-20 17:20:38: Preparing insert statement with user_id, role, and auth_status: INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)
+2025-10-20 17:20:38: Binding insert parameters with ID, role, and auth_status
+2025-10-20 17:20:38: Executing useraccounts insert
+2025-10-20 17:20:38: Useraccounts insert successful. Affected rows: 1
+2025-10-20 17:20:38: Preparing applicantList insert statement: INSERT INTO applicantlist (app_id, firstName, lastName, email, role, status) VALUES (?, ?, ?, ?, ?, ?)
+2025-10-20 17:20:38: Binding applicantList parameters including email
+2025-10-20 17:20:38: Executing applicantList insert with email: hr232@gmail.com
+2025-10-20 17:20:38: ApplicantList insert successful. Affected rows: 1
+2025-10-20 17:20:38: Transaction committed successfully
+2025-10-20 17:20:38: Database connection closed
+2025-10-20 17:20:38: Sending response: {"success":true,"message":"User registered successfully","id":150,"role":"Applicant","auth_status":"New Account","email":"hr232@gmail.com"}
+2025-10-20 17:20:38: Script completed

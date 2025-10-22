@@ -1,0 +1,137 @@
+{
+    "0": {
+        "user_id": "121",
+        "fingerprint_id": "2",
+        "created_at": "2025-07-28 07:48:02",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-07-28 07:48:07",
+        "scan_datetime": "2025-07-28 13:48:02"
+    },
+    "1": {
+        "user_id": "103",
+        "fingerprint_id": "1",
+        "created_at": "2025-08-11 05:23:59",
+        "completed": false,
+        "failed": true,
+        "failed_at": "2025-08-17 18:51:30",
+        "wrong_fingerprint_id": "15"
+    },
+    "2": {
+        "user_id": "104",
+        "fingerprint_id": "15",
+        "created_at": "2025-08-17 18:51:16",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-08-17 18:51:22",
+        "scan_datetime": "2025-08-18 00:51:18"
+    },
+    "3": {
+        "user_id": "115",
+        "fingerprint_id": "16",
+        "created_at": "2025-08-19 20:28:18",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-08-19 20:28:28",
+        "scan_datetime": "2025-08-20 02:28:19"
+    },
+    "4": {
+        "user_id": "116",
+        "fingerprint_id": "17",
+        "created_at": "2025-08-20 15:21:09",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-08-20 15:21:24",
+        "scan_datetime": "2025-08-20 21:21:19"
+    },
+    "5": {
+        "user_id": "142",
+        "fingerprint_id": "15",
+        "created_at": "2025-08-23 20:03:08",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-08-23 20:03:14",
+        "scan_datetime": "2025-08-24 04:03:05"
+    },
+    "7": {
+        "user_id": "131",
+        "fingerprint_id": "15",
+        "created_at": "2025-08-28 16:51:00",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-08-28 16:51:05",
+        "scan_datetime": "2025-08-28 22:50:58"
+    },
+    "8": {
+        "user_id": "132",
+        "fingerprint_id": "16",
+        "created_at": "2025-09-13 05:10:00",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-09-13 05:10:05",
+        "scan_datetime": "2025-09-13 11:09:58"
+    },
+    "9": {
+        "user_id": "148",
+        "fingerprint_id": "21",
+        "created_at": "2025-10-08 06:00:09",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-10-08 06:00:11",
+        "scan_datetime": "2025-10-08 14:00:02"
+    },
+    "11": {
+        "user_id": "128",
+        "fingerprint_id": "16",
+        "created_at": "2025-10-16 06:44:30",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-10-16 06:44:48",
+        "scan_datetime": "2025-10-16 14:44:39"
+    },
+    "12": {
+        "user_id": "124",
+        "fingerprint_id": "16",
+        "created_at": "2025-10-16 06:45:52",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-10-16 06:46:03",
+        "scan_datetime": "2025-10-16 14:45:53"
+    },
+    "13": {
+        "user_id": "120",
+        "fingerprint_id": "16",
+        "created_at": "2025-10-16 06:47:10",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-10-16 06:47:15",
+        "scan_datetime": "2025-10-16 14:47:05"
+    },
+    "16": {
+        "user_id": "130",
+        "fingerprint_id": "16",
+        "created_at": "2025-10-19 05:52:01",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-10-19 05:52:09",
+        "scan_datetime": "2025-10-19 13:51:58"
+    },
+    "17": {
+        "user_id": "127",
+        "fingerprint_id": "22",
+        "created_at": "2025-10-22 06:33:54",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-10-22 06:33:58",
+        "scan_datetime": "2025-10-22 14:33:48"
+    },
+    "18": {
+        "user_id": "122",
+        "fingerprint_id": "15",
+        "created_at": "2025-10-22 16:53:43",
+        "completed": true,
+        "failed": false,
+        "completed_at": "2025-10-22 16:53:49",
+        "scan_datetime": "2025-10-23 00:53:41"
+    }
+}
