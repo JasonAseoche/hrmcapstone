@@ -1,0 +1,1137 @@
+2025-05-19 17:56:10: Script started
+2025-05-19 17:56:10: OPTIONS request received
+2025-05-19 17:56:10: Script started
+2025-05-19 17:56:10: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:56:10: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:56:10: Including database connection file
+2025-05-19 17:56:10: Database connection successful
+2025-05-19 17:56:10: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:56:10: Binding email parameter: perez1@gmail.com
+2025-05-19 17:56:10: Executing email check
+2025-05-19 17:56:10: Email check result: 0 rows found
+2025-05-19 17:56:10: Getting last used ID: SELECT MAX(user_id) as max_id FROM useraccounts
+2025-05-19 17:56:12: Script started
+2025-05-19 17:56:12: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:56:12: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:56:12: Including database connection file
+2025-05-19 17:56:12: Database connection successful
+2025-05-19 17:56:12: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:56:12: Binding email parameter: perez1@gmail.com
+2025-05-19 17:56:12: Executing email check
+2025-05-19 17:56:12: Email check result: 0 rows found
+2025-05-19 17:56:12: Getting last used ID: SELECT MAX(user_id) as max_id FROM useraccounts
+2025-05-19 17:56:15: Script started
+2025-05-19 17:56:15: OPTIONS request received
+2025-05-19 17:56:15: Script started
+2025-05-19 17:56:15: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:56:15: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:56:15: Including database connection file
+2025-05-19 17:56:15: Database connection successful
+2025-05-19 17:56:15: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:56:15: Binding email parameter: perez1@gmail.com
+2025-05-19 17:56:15: Executing email check
+2025-05-19 17:56:15: Email check result: 0 rows found
+2025-05-19 17:56:15: Getting last used ID: SELECT MAX(user_id) as max_id FROM useraccounts
+2025-05-19 17:56:22: Script started
+2025-05-19 17:56:22: OPTIONS request received
+2025-05-19 17:56:22: Script started
+2025-05-19 17:56:22: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:56:22: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:56:22: Including database connection file
+2025-05-19 17:56:22: Database connection successful
+2025-05-19 17:56:22: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:56:22: Binding email parameter: perez1@gmail.com
+2025-05-19 17:56:22: Executing email check
+2025-05-19 17:56:22: Email check result: 0 rows found
+2025-05-19 17:56:22: Preparing insert statement: INSERT INTO useraccounts (firstName, lastName, email, password) VALUES (?, ?, ?, ?)
+2025-05-19 17:56:22: Binding insert parameters
+2025-05-19 17:56:22: Executing insert
+2025-05-19 17:56:22: Insert successful. Affected rows: 1
+2025-05-19 17:56:22: Database connection closed
+2025-05-19 17:56:22: Sending response: {"success":true,"message":"User registered successfully"}
+2025-05-19 17:56:22: Script completed
+2025-05-19 17:57:00: Script started
+2025-05-19 17:57:00: OPTIONS request received
+2025-05-19 17:57:00: Script started
+2025-05-19 17:57:00: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1s@gmail.com","password":"123ads","confirmPassword":"ads"}
+2025-05-19 17:57:00: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1s@gmail.com
+    [password] => 123ads
+    [confirmPassword] => ads
+)
+
+2025-05-19 17:57:00: Passwords do not match
+2025-05-19 17:57:00: Script started
+2025-05-19 17:57:00: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1s@gmail.com","password":"123ads","confirmPassword":"ads"}
+2025-05-19 17:57:00: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1s@gmail.com
+    [password] => 123ads
+    [confirmPassword] => ads
+)
+
+2025-05-19 17:57:00: Passwords do not match
+2025-05-19 17:57:05: Script started
+2025-05-19 17:57:05: OPTIONS request received
+2025-05-19 17:57:05: Script started
+2025-05-19 17:57:05: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1s@gmail.com","password":"123","confirmPassword":"ads"}
+2025-05-19 17:57:05: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1s@gmail.com
+    [password] => 123
+    [confirmPassword] => ads
+)
+
+2025-05-19 17:57:05: Passwords do not match
+2025-05-19 17:57:06: Script started
+2025-05-19 17:57:06: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1s@gmail.com","password":"123","confirmPassword":"ads"}
+2025-05-19 17:57:06: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1s@gmail.com
+    [password] => 123
+    [confirmPassword] => ads
+)
+
+2025-05-19 17:57:06: Passwords do not match
+2025-05-19 17:57:09: Script started
+2025-05-19 17:57:09: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1s@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:57:09: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1s@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:57:09: Including database connection file
+2025-05-19 17:57:09: Database connection successful
+2025-05-19 17:57:09: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:57:09: Binding email parameter: perez1s@gmail.com
+2025-05-19 17:57:09: Executing email check
+2025-05-19 17:57:09: Email check result: 0 rows found
+2025-05-19 17:57:09: Getting last used ID: SELECT MAX(user_id) as max_id FROM useraccounts
+2025-05-19 17:57:10: Script started
+2025-05-19 17:57:10: OPTIONS request received
+2025-05-19 17:57:10: Script started
+2025-05-19 17:57:10: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1s@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:57:10: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1s@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:57:10: Including database connection file
+2025-05-19 17:57:10: Database connection successful
+2025-05-19 17:57:10: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:57:10: Binding email parameter: perez1s@gmail.com
+2025-05-19 17:57:10: Executing email check
+2025-05-19 17:57:10: Email check result: 0 rows found
+2025-05-19 17:57:10: Getting last used ID: SELECT MAX(user_id) as max_id FROM useraccounts
+2025-05-19 17:57:11: Script started
+2025-05-19 17:57:11: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1s@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:57:11: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1s@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:57:11: Including database connection file
+2025-05-19 17:57:11: Database connection successful
+2025-05-19 17:57:11: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:57:11: Binding email parameter: perez1s@gmail.com
+2025-05-19 17:57:11: Executing email check
+2025-05-19 17:57:11: Email check result: 0 rows found
+2025-05-19 17:57:11: Getting last used ID: SELECT MAX(user_id) as max_id FROM useraccounts
+2025-05-19 17:57:11: Script started
+2025-05-19 17:57:11: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1s@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:57:11: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1s@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:57:11: Including database connection file
+2025-05-19 17:57:11: Database connection successful
+2025-05-19 17:57:11: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:57:11: Binding email parameter: perez1s@gmail.com
+2025-05-19 17:57:11: Executing email check
+2025-05-19 17:57:11: Email check result: 0 rows found
+2025-05-19 17:57:11: Getting last used ID: SELECT MAX(user_id) as max_id FROM useraccounts
+2025-05-19 17:59:05: Script started
+2025-05-19 17:59:05: OPTIONS request received
+2025-05-19 17:59:05: Script started
+2025-05-19 17:59:05: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 17:59:05: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 17:59:05: Including database connection file
+2025-05-19 17:59:05: Database connection successful
+2025-05-19 17:59:05: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 17:59:05: Binding email parameter: perez1@gmail.com
+2025-05-19 17:59:05: Executing email check
+2025-05-19 17:59:05: Email check result: 1 rows found
+2025-05-19 17:59:05: Email already exists: perez1@gmail.com
+2025-05-19 18:00:39: Script started
+2025-05-19 18:00:39: OPTIONS request received
+2025-05-19 18:00:39: Script started
+2025-05-19 18:00:39: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:00:39: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:00:39: Including database connection file
+2025-05-19 18:00:39: Database connection successful
+2025-05-19 18:00:39: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:00:39: Binding email parameter: perez1@gmail.com
+2025-05-19 18:00:39: Executing email check
+2025-05-19 18:00:39: Email check result: 1 rows found
+2025-05-19 18:00:39: Email already exists: perez1@gmail.com
+2025-05-19 18:00:44: Script started
+2025-05-19 18:00:44: Raw input data: {"firstName":"Jasons","lastName":"Aseoches","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:00:44: Decoded data: Array
+(
+    [firstName] => Jasons
+    [lastName] => Aseoches
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:00:44: Including database connection file
+2025-05-19 18:00:44: Database connection successful
+2025-05-19 18:00:44: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:00:44: Binding email parameter: perez1@gmail.com
+2025-05-19 18:00:44: Executing email check
+2025-05-19 18:00:44: Email check result: 1 rows found
+2025-05-19 18:00:44: Email already exists: perez1@gmail.com
+2025-05-19 18:00:46: Script started
+2025-05-19 18:00:46: OPTIONS request received
+2025-05-19 18:00:46: Script started
+2025-05-19 18:00:46: Raw input data: {"firstName":"Jasons","lastName":"Aseoches","email":"pere1z1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:00:46: Decoded data: Array
+(
+    [firstName] => Jasons
+    [lastName] => Aseoches
+    [email] => pere1z1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:00:46: Including database connection file
+2025-05-19 18:00:46: Database connection successful
+2025-05-19 18:00:46: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:00:46: Binding email parameter: pere1z1@gmail.com
+2025-05-19 18:00:46: Executing email check
+2025-05-19 18:00:46: Email check result: 0 rows found
+2025-05-19 18:00:46: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:00:46: Next ID to be assigned: 1
+2025-05-19 18:00:46: Preparing insert statement: INSERT INTO useraccounts (user_id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:00:48: Script started
+2025-05-19 18:00:48: Raw input data: {"firstName":"Jasons","lastName":"Aseoches","email":"pere1z1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:00:48: Decoded data: Array
+(
+    [firstName] => Jasons
+    [lastName] => Aseoches
+    [email] => pere1z1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:00:48: Including database connection file
+2025-05-19 18:00:48: Database connection successful
+2025-05-19 18:00:48: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:00:48: Binding email parameter: pere1z1@gmail.com
+2025-05-19 18:00:48: Executing email check
+2025-05-19 18:00:48: Email check result: 0 rows found
+2025-05-19 18:00:48: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:00:48: Next ID to be assigned: 1
+2025-05-19 18:00:48: Preparing insert statement: INSERT INTO useraccounts (user_id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:00:48: Script started
+2025-05-19 18:00:48: Raw input data: {"firstName":"Jasons","lastName":"Aseoches","email":"pere1z1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:00:48: Decoded data: Array
+(
+    [firstName] => Jasons
+    [lastName] => Aseoches
+    [email] => pere1z1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:00:48: Including database connection file
+2025-05-19 18:00:48: Database connection successful
+2025-05-19 18:00:48: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:00:48: Binding email parameter: pere1z1@gmail.com
+2025-05-19 18:00:48: Executing email check
+2025-05-19 18:00:48: Email check result: 0 rows found
+2025-05-19 18:00:48: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:00:48: Next ID to be assigned: 1
+2025-05-19 18:00:48: Preparing insert statement: INSERT INTO useraccounts (user_id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:00:49: Script started
+2025-05-19 18:00:49: Raw input data: {"firstName":"Jasons","lastName":"Aseoches","email":"pere1z1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:00:49: Decoded data: Array
+(
+    [firstName] => Jasons
+    [lastName] => Aseoches
+    [email] => pere1z1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:00:49: Including database connection file
+2025-05-19 18:00:49: Database connection successful
+2025-05-19 18:00:49: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:00:49: Binding email parameter: pere1z1@gmail.com
+2025-05-19 18:00:49: Executing email check
+2025-05-19 18:00:49: Email check result: 0 rows found
+2025-05-19 18:00:49: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:00:49: Next ID to be assigned: 1
+2025-05-19 18:00:49: Preparing insert statement: INSERT INTO useraccounts (user_id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:01:44: Script started
+2025-05-19 18:01:44: OPTIONS request received
+2025-05-19 18:01:44: Script started
+2025-05-19 18:01:44: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"pere2z1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:01:44: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => pere2z1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:01:44: Including database connection file
+2025-05-19 18:01:44: Database connection successful
+2025-05-19 18:01:44: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:01:44: Binding email parameter: pere2z1@gmail.com
+2025-05-19 18:01:44: Executing email check
+2025-05-19 18:01:44: Email check result: 0 rows found
+2025-05-19 18:01:44: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:01:44: Next ID to be assigned: 101
+2025-05-19 18:01:44: Preparing insert statement: INSERT INTO useraccounts (user_id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:02:15: Script started
+2025-05-19 18:02:15: OPTIONS request received
+2025-05-19 18:02:15: Script started
+2025-05-19 18:02:15: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:02:15: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:02:15: Including database connection file
+2025-05-19 18:02:15: Database connection successful
+2025-05-19 18:02:15: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:02:15: Binding email parameter: perez1@gmail.com
+2025-05-19 18:02:15: Executing email check
+2025-05-19 18:02:15: Email check result: 1 rows found
+2025-05-19 18:02:15: Email already exists: perez1@gmail.com
+2025-05-19 18:02:17: Script started
+2025-05-19 18:02:17: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez11@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:02:17: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez11@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:02:17: Including database connection file
+2025-05-19 18:02:17: Database connection successful
+2025-05-19 18:02:17: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:02:17: Binding email parameter: perez11@gmail.com
+2025-05-19 18:02:17: Executing email check
+2025-05-19 18:02:17: Email check result: 0 rows found
+2025-05-19 18:02:17: Checking if user_id column exists: SHOW COLUMNS FROM useraccounts LIKE 'user_id'
+2025-05-19 18:02:17: user_id column exists: No
+2025-05-19 18:02:17: Preparing original insert statement: INSERT INTO useraccounts (firstName, lastName, email, password) VALUES (?, ?, ?, ?)
+2025-05-19 18:02:17: Binding original insert parameters
+2025-05-19 18:02:17: Executing insert
+2025-05-19 18:02:17: Insert successful. Affected rows: 1
+2025-05-19 18:02:17: Database connection closed
+2025-05-19 18:02:17: Sending response: {"success":true,"message":"User registered successfully","user_id":0}
+2025-05-19 18:02:17: Script completed
+2025-05-19 18:02:50: Script started
+2025-05-19 18:02:50: OPTIONS request received
+2025-05-19 18:02:50: Script started
+2025-05-19 18:02:50: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez1123321@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:02:50: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez1123321@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:02:50: Including database connection file
+2025-05-19 18:02:50: Database connection successful
+2025-05-19 18:02:50: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:02:50: Binding email parameter: perez1123321@gmail.com
+2025-05-19 18:02:50: Executing email check
+2025-05-19 18:02:50: Email check result: 0 rows found
+2025-05-19 18:02:50: Checking if user_id column exists: SHOW COLUMNS FROM useraccounts LIKE 'user_id'
+2025-05-19 18:02:50: user_id column exists: No
+2025-05-19 18:02:50: Preparing original insert statement: INSERT INTO useraccounts (firstName, lastName, email, password) VALUES (?, ?, ?, ?)
+2025-05-19 18:02:50: Binding original insert parameters
+2025-05-19 18:02:50: Executing insert
+2025-05-19 18:02:50: Insert successful. Affected rows: 1
+2025-05-19 18:02:50: Database connection closed
+2025-05-19 18:02:50: Sending response: {"success":true,"message":"User registered successfully","user_id":0}
+2025-05-19 18:02:50: Script completed
+2025-05-19 18:04:52: Script started
+2025-05-19 18:04:52: OPTIONS request received
+2025-05-19 18:04:52: Script started
+2025-05-19 18:04:52: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"pere231z1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:04:52: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => pere231z1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:04:52: Including database connection file
+2025-05-19 18:04:52: Database connection successful
+2025-05-19 18:04:52: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:04:52: Binding email parameter: pere231z1@gmail.com
+2025-05-19 18:04:52: Executing email check
+2025-05-19 18:04:52: Email check result: 0 rows found
+2025-05-19 18:04:52: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-19 18:04:52: id column exists: Yes
+2025-05-19 18:04:52: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:04:52: Next ID to be assigned: 1
+2025-05-19 18:04:52: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:04:52: Binding insert parameters with ID: 1
+2025-05-19 18:04:52: Executing insert
+2025-05-19 18:04:52: Insert successful. Affected rows: 1
+2025-05-19 18:04:52: Database connection closed
+2025-05-19 18:04:52: Sending response: {"success":true,"message":"User registered successfully","id":1}
+2025-05-19 18:04:52: Script completed
+2025-05-19 18:05:08: Script started
+2025-05-19 18:05:08: OPTIONS request received
+2025-05-19 18:05:08: Script started
+2025-05-19 18:05:08: Raw input data: {"firstName":"Jasno","lastName":"Aseoche","email":"jasonaseoche2121122@gmail.com","password":"Jason123","confirmPassword":"Jason123"}
+2025-05-19 18:05:08: Decoded data: Array
+(
+    [firstName] => Jasno
+    [lastName] => Aseoche
+    [email] => jasonaseoche2121122@gmail.com
+    [password] => Jason123
+    [confirmPassword] => Jason123
+)
+
+2025-05-19 18:05:08: Including database connection file
+2025-05-19 18:05:08: Database connection successful
+2025-05-19 18:05:08: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:05:08: Binding email parameter: jasonaseoche2121122@gmail.com
+2025-05-19 18:05:08: Executing email check
+2025-05-19 18:05:08: Email check result: 0 rows found
+2025-05-19 18:05:08: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-19 18:05:08: id column exists: Yes
+2025-05-19 18:05:08: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:05:08: Next ID to be assigned: 2
+2025-05-19 18:05:08: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:05:08: Binding insert parameters with ID: 2
+2025-05-19 18:05:08: Executing insert
+2025-05-19 18:05:08: Insert successful. Affected rows: 1
+2025-05-19 18:05:08: Database connection closed
+2025-05-19 18:05:08: Sending response: {"success":true,"message":"User registered successfully","id":2}
+2025-05-19 18:05:08: Script completed
+2025-05-19 18:06:54: Script started
+2025-05-19 18:06:54: OPTIONS request received
+2025-05-19 18:06:54: Script started
+2025-05-19 18:06:54: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"perez1@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:06:54: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => perez1@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:06:54: Including database connection file
+2025-05-19 18:06:54: Database connection successful
+2025-05-19 18:06:54: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:06:54: Binding email parameter: perez1@gmail.com
+2025-05-19 18:06:54: Executing email check
+2025-05-19 18:06:54: Email check result: 0 rows found
+2025-05-19 18:06:54: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-19 18:06:54: id column exists: Yes
+2025-05-19 18:06:54: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:06:54: Next ID to be assigned: 101
+2025-05-19 18:06:54: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:06:54: Binding insert parameters with ID: 101
+2025-05-19 18:06:54: Executing insert
+2025-05-19 18:06:54: Insert successful. Affected rows: 1
+2025-05-19 18:06:54: Database connection closed
+2025-05-19 18:06:54: Sending response: {"success":true,"message":"User registered successfully","id":101}
+2025-05-19 18:06:54: Script completed
+2025-05-19 18:07:04: Script started
+2025-05-19 18:07:04: OPTIONS request received
+2025-05-19 18:07:04: Script started
+2025-05-19 18:07:04: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"icongk2o09@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-19 18:07:04: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => icongk2o09@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-19 18:07:04: Including database connection file
+2025-05-19 18:07:04: Database connection successful
+2025-05-19 18:07:04: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:07:04: Binding email parameter: icongk2o09@gmail.com
+2025-05-19 18:07:04: Executing email check
+2025-05-19 18:07:04: Email check result: 0 rows found
+2025-05-19 18:07:04: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-19 18:07:04: id column exists: Yes
+2025-05-19 18:07:04: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:07:04: Next ID to be assigned: 102
+2025-05-19 18:07:04: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:07:04: Binding insert parameters with ID: 102
+2025-05-19 18:07:04: Executing insert
+2025-05-19 18:07:04: Insert successful. Affected rows: 1
+2025-05-19 18:07:04: Database connection closed
+2025-05-19 18:07:04: Sending response: {"success":true,"message":"User registered successfully","id":102}
+2025-05-19 18:07:04: Script completed
+2025-05-19 18:09:08: Script started
+2025-05-19 18:09:08: OPTIONS request received
+2025-05-19 18:09:08: Script started
+2025-05-19 18:09:08: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"jasonaseoche3231323132@gmail.com","password":"123456","confirmPassword":"123456"}
+2025-05-19 18:09:08: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => jasonaseoche3231323132@gmail.com
+    [password] => 123456
+    [confirmPassword] => 123456
+)
+
+2025-05-19 18:09:08: Including database connection file
+2025-05-19 18:09:08: Database connection successful
+2025-05-19 18:09:08: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:09:08: Binding email parameter: jasonaseoche3231323132@gmail.com
+2025-05-19 18:09:08: Executing email check
+2025-05-19 18:09:08: Email check result: 1 rows found
+2025-05-19 18:09:08: Email already exists: jasonaseoche3231323132@gmail.com
+2025-05-19 18:09:13: Script started
+2025-05-19 18:09:13: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"jasonaseoch222@gmail.com","password":"123456","confirmPassword":"123456"}
+2025-05-19 18:09:13: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => jasonaseoch222@gmail.com
+    [password] => 123456
+    [confirmPassword] => 123456
+)
+
+2025-05-19 18:09:13: Including database connection file
+2025-05-19 18:09:13: Database connection successful
+2025-05-19 18:09:13: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-19 18:09:13: Binding email parameter: jasonaseoch222@gmail.com
+2025-05-19 18:09:13: Executing email check
+2025-05-19 18:09:13: Email check result: 0 rows found
+2025-05-19 18:09:13: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-19 18:09:13: id column exists: Yes
+2025-05-19 18:09:13: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-19 18:09:13: Next ID to be assigned: 103
+2025-05-19 18:09:13: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-19 18:09:13: Binding insert parameters with ID: 103
+2025-05-19 18:09:13: Executing insert
+2025-05-19 18:09:13: Insert successful. Affected rows: 1
+2025-05-19 18:09:13: Database connection closed
+2025-05-19 18:09:13: Sending response: {"success":true,"message":"User registered successfully","id":103}
+2025-05-19 18:09:13: Script completed
+2025-05-20 14:19:22: Script started
+2025-05-20 14:19:22: OPTIONS request received
+2025-05-20 14:19:22: Script started
+2025-05-20 14:19:22: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"jasonaseoche3sda232231323132@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-20 14:19:22: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => jasonaseoche3sda232231323132@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-20 14:19:22: Including database connection file
+2025-05-20 14:19:22: Database connection successful
+2025-05-20 14:19:22: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-20 14:19:22: Binding email parameter: jasonaseoche3sda232231323132@gmail.com
+2025-05-20 14:19:22: Executing email check
+2025-05-20 14:19:22: Email check result: 0 rows found
+2025-05-20 14:19:22: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-20 14:19:22: id column exists: Yes
+2025-05-20 14:19:22: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-20 14:19:22: Next ID to be assigned: 2
+2025-05-20 14:19:22: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-20 14:19:22: Binding insert parameters with ID: 2
+2025-05-20 14:19:22: Executing insert
+2025-05-20 14:19:22: Insert successful. Affected rows: 1
+2025-05-20 14:19:22: Database connection closed
+2025-05-20 14:19:22: Sending response: {"success":true,"message":"User registered successfully","id":2}
+2025-05-20 14:19:22: Script completed
+2025-05-20 14:19:37: Script started
+2025-05-20 14:19:37: OPTIONS request received
+2025-05-20 14:19:37: Script started
+2025-05-20 14:19:37: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"icongko09@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-20 14:19:37: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => icongko09@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-20 14:19:37: Including database connection file
+2025-05-20 14:19:37: Database connection successful
+2025-05-20 14:19:37: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-20 14:19:37: Binding email parameter: icongko09@gmail.com
+2025-05-20 14:19:37: Executing email check
+2025-05-20 14:19:37: Email check result: 0 rows found
+2025-05-20 14:19:37: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-20 14:19:37: id column exists: Yes
+2025-05-20 14:19:37: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-20 14:19:37: Next ID to be assigned: 101
+2025-05-20 14:19:37: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-20 14:19:37: Binding insert parameters with ID: 101
+2025-05-20 14:19:37: Executing insert
+2025-05-20 14:19:37: Insert successful. Affected rows: 1
+2025-05-20 14:19:37: Database connection closed
+2025-05-20 14:19:37: Sending response: {"success":true,"message":"User registered successfully","id":101}
+2025-05-20 14:19:37: Script completed
+2025-05-20 14:20:38: Script started
+2025-05-20 14:20:38: OPTIONS request received
+2025-05-20 14:20:38: Script started
+2025-05-20 14:20:38: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"jason123@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-20 14:20:38: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => jason123@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-20 14:20:38: Including database connection file
+2025-05-20 14:20:38: Database connection successful
+2025-05-20 14:20:38: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-20 14:20:38: Binding email parameter: jason123@gmail.com
+2025-05-20 14:20:38: Executing email check
+2025-05-20 14:20:38: Email check result: 0 rows found
+2025-05-20 14:20:38: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-20 14:20:38: id column exists: Yes
+2025-05-20 14:20:38: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-20 14:20:38: Next ID to be assigned: 103
+2025-05-20 14:20:38: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-20 14:20:38: Binding insert parameters with ID: 103
+2025-05-20 14:20:38: Executing insert
+2025-05-20 14:20:38: Insert successful. Affected rows: 1
+2025-05-20 14:20:38: Database connection closed
+2025-05-20 14:20:38: Sending response: {"success":true,"message":"User registered successfully","id":103}
+2025-05-20 14:20:38: Script completed
+2025-05-20 18:31:02: Script started
+2025-05-20 18:31:02: OPTIONS request received
+2025-05-20 18:31:02: Script started
+2025-05-20 18:31:02: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"icongko09@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-20 18:31:02: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => icongko09@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-20 18:31:02: Including database connection file
+2025-05-20 18:31:02: Database connection successful
+2025-05-20 18:31:02: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-20 18:31:02: Binding email parameter: icongko09@gmail.com
+2025-05-20 18:31:02: Executing email check
+2025-05-20 18:31:02: Email check result: 0 rows found
+2025-05-20 18:31:02: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-20 18:31:03: id column exists: Yes
+2025-05-20 18:31:03: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-20 18:31:03: Next ID to be assigned: 3
+2025-05-20 18:31:03: Preparing insert statement with user_id: INSERT INTO useraccounts (id, firstName, lastName, email, password) VALUES (?, ?, ?, ?, ?)
+2025-05-20 18:31:03: Binding insert parameters with ID: 3
+2025-05-20 18:31:03: Executing insert
+2025-05-20 18:31:03: Insert successful. Affected rows: 1
+2025-05-20 18:31:03: Database connection closed
+2025-05-20 18:31:03: Sending response: {"success":true,"message":"User registered successfully","id":3}
+2025-05-20 18:31:03: Script completed
+2025-05-21 07:34:25: Script started
+2025-05-21 07:34:25: OPTIONS request received
+2025-05-21 07:34:25: Script started
+2025-05-21 07:34:25: Raw input data: {"firstName":"Jasonss","lastName":"Aseochess","email":"jason@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 07:34:25: Decoded data: Array
+(
+    [firstName] => Jasonss
+    [lastName] => Aseochess
+    [email] => jason@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 07:34:25: Including database connection file
+2025-05-21 07:34:25: Database connection successful
+2025-05-21 07:34:25: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 07:34:25: Binding email parameter: jason@gmail.com
+2025-05-21 07:34:25: Executing email check
+2025-05-21 07:34:25: Email check result: 0 rows found
+2025-05-21 07:34:25: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 07:34:25: id column exists: Yes
+2025-05-21 07:34:25: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 07:34:25: Next ID to be assigned: 4
+2025-05-21 07:34:25: Setting default role to: Applicant
+2025-05-21 07:34:25: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 07:34:25: Binding insert parameters with ID and role
+2025-05-21 07:34:25: Executing insert
+2025-05-21 07:34:25: Insert successful. Affected rows: 1
+2025-05-21 07:34:25: Database connection closed
+2025-05-21 07:34:25: Sending response: {"success":true,"message":"User registered successfully","id":4,"role":"Applicant"}
+2025-05-21 07:34:25: Script completed
+2025-05-21 09:04:25: Script started
+2025-05-21 09:04:25: OPTIONS request received
+2025-05-21 09:04:25: Script started
+2025-05-21 09:04:25: Raw input data: {"firstName":"Jason","lastName":"Aseoche","email":"123@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 09:04:25: Decoded data: Array
+(
+    [firstName] => Jason
+    [lastName] => Aseoche
+    [email] => 123@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 09:04:25: Including database connection file
+2025-05-21 09:04:25: Database connection successful
+2025-05-21 09:04:25: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 09:04:25: Binding email parameter: 123@gmail.com
+2025-05-21 09:04:25: Executing email check
+2025-05-21 09:04:25: Email check result: 0 rows found
+2025-05-21 09:04:25: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 09:04:25: id column exists: Yes
+2025-05-21 09:04:25: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 09:04:25: Next ID to be assigned: 6
+2025-05-21 09:04:25: Setting default role to: Applicant
+2025-05-21 09:04:25: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 09:04:25: Binding insert parameters with ID and role
+2025-05-21 09:04:25: Executing insert
+2025-05-21 09:04:25: Insert successful. Affected rows: 1
+2025-05-21 09:04:25: Database connection closed
+2025-05-21 09:04:25: Sending response: {"success":true,"message":"User registered successfully","id":6,"role":"Applicant"}
+2025-05-21 09:04:25: Script completed
+2025-05-21 11:11:27: Script started
+2025-05-21 11:11:27: OPTIONS request received
+2025-05-21 11:11:27: Script started
+2025-05-21 11:11:27: Raw input data: {"firstName":"Precious","lastName":"Jewel","email":"perez@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 11:11:27: Decoded data: Array
+(
+    [firstName] => Precious
+    [lastName] => Jewel
+    [email] => perez@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 11:11:27: Including database connection file
+2025-05-21 11:11:27: Database connection successful
+2025-05-21 11:11:27: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 11:11:27: Binding email parameter: perez@gmail.com
+2025-05-21 11:11:27: Executing email check
+2025-05-21 11:11:27: Email check result: 0 rows found
+2025-05-21 11:11:27: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 11:11:27: id column exists: Yes
+2025-05-21 11:11:27: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 11:11:27: Next ID to be assigned: 7
+2025-05-21 11:11:27: Setting default role to: Applicant
+2025-05-21 11:11:27: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 11:11:27: Binding insert parameters with ID and role
+2025-05-21 11:11:27: Executing insert
+2025-05-21 11:11:27: Insert successful. Affected rows: 1
+2025-05-21 11:11:27: Database connection closed
+2025-05-21 11:11:27: Sending response: {"success":true,"message":"User registered successfully","id":7,"role":"Applicant"}
+2025-05-21 11:11:27: Script completed
+2025-05-21 12:06:38: Script started
+2025-05-21 12:06:38: OPTIONS request received
+2025-05-21 12:06:38: Script started
+2025-05-21 12:06:38: Raw input data: {"firstName":"Reswald","lastName":"Byron","email":"reswald@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:06:38: Decoded data: Array
+(
+    [firstName] => Reswald
+    [lastName] => Byron
+    [email] => reswald@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:06:38: Including database connection file
+2025-05-21 12:06:38: Database connection successful
+2025-05-21 12:06:38: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:06:38: Binding email parameter: reswald@gmail.com
+2025-05-21 12:06:38: Executing email check
+2025-05-21 12:06:38: Email check result: 0 rows found
+2025-05-21 12:06:38: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:06:38: id column exists: Yes
+2025-05-21 12:06:38: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:06:38: Next ID to be assigned: 8
+2025-05-21 12:06:38: Setting default role to: Applicant
+2025-05-21 12:06:38: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:06:38: Binding insert parameters with ID and role
+2025-05-21 12:06:38: Executing insert
+2025-05-21 12:06:38: Insert successful. Affected rows: 1
+2025-05-21 12:06:38: Database connection closed
+2025-05-21 12:06:38: Sending response: {"success":true,"message":"User registered successfully","id":8,"role":"Applicant"}
+2025-05-21 12:06:38: Script completed
+2025-05-21 12:06:50: Script started
+2025-05-21 12:06:50: OPTIONS request received
+2025-05-21 12:06:50: Script started
+2025-05-21 12:06:50: Raw input data: {"firstName":"Jennica","lastName":"Aseoche","email":"jen@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:06:50: Decoded data: Array
+(
+    [firstName] => Jennica
+    [lastName] => Aseoche
+    [email] => jen@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:06:50: Including database connection file
+2025-05-21 12:06:50: Database connection successful
+2025-05-21 12:06:50: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:06:50: Binding email parameter: jen@gmail.com
+2025-05-21 12:06:50: Executing email check
+2025-05-21 12:06:50: Email check result: 0 rows found
+2025-05-21 12:06:50: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:06:50: id column exists: Yes
+2025-05-21 12:06:50: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:06:50: Next ID to be assigned: 9
+2025-05-21 12:06:50: Setting default role to: Applicant
+2025-05-21 12:06:50: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:06:50: Binding insert parameters with ID and role
+2025-05-21 12:06:50: Executing insert
+2025-05-21 12:06:50: Insert successful. Affected rows: 1
+2025-05-21 12:06:50: Database connection closed
+2025-05-21 12:06:50: Sending response: {"success":true,"message":"User registered successfully","id":9,"role":"Applicant"}
+2025-05-21 12:06:50: Script completed
+2025-05-21 12:31:49: Script started
+2025-05-21 12:31:49: OPTIONS request received
+2025-05-21 12:31:49: Script started
+2025-05-21 12:31:49: Raw input data: {"firstName":"Jona","lastName":"Espinas","email":"asda@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:31:49: Decoded data: Array
+(
+    [firstName] => Jona
+    [lastName] => Espinas
+    [email] => asda@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:31:49: Including database connection file
+2025-05-21 12:31:49: Database connection successful
+2025-05-21 12:31:49: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:31:49: Binding email parameter: asda@gmail.com
+2025-05-21 12:31:49: Executing email check
+2025-05-21 12:31:49: Email check result: 0 rows found
+2025-05-21 12:31:49: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:31:49: id column exists: Yes
+2025-05-21 12:31:49: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:31:49: Next ID to be assigned: 10
+2025-05-21 12:31:49: Setting default role to: Applicant
+2025-05-21 12:31:49: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:31:49: Binding insert parameters with ID and role
+2025-05-21 12:31:49: Executing insert
+2025-05-21 12:31:49: Insert successful. Affected rows: 1
+2025-05-21 12:31:49: Database connection closed
+2025-05-21 12:31:49: Sending response: {"success":true,"message":"User registered successfully","id":10,"role":"Applicant"}
+2025-05-21 12:31:49: Script completed
+2025-05-21 12:32:09: Script started
+2025-05-21 12:32:09: OPTIONS request received
+2025-05-21 12:32:09: Script started
+2025-05-21 12:32:09: Raw input data: {"firstName":"Rinoa","lastName":"Banares","email":"rinoa@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:32:09: Decoded data: Array
+(
+    [firstName] => Rinoa
+    [lastName] => Banares
+    [email] => rinoa@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:32:09: Including database connection file
+2025-05-21 12:32:09: Database connection successful
+2025-05-21 12:32:09: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:32:09: Binding email parameter: rinoa@gmail.com
+2025-05-21 12:32:09: Executing email check
+2025-05-21 12:32:09: Email check result: 0 rows found
+2025-05-21 12:32:09: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:32:09: id column exists: Yes
+2025-05-21 12:32:09: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:32:09: Next ID to be assigned: 11
+2025-05-21 12:32:09: Setting default role to: Applicant
+2025-05-21 12:32:09: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:32:09: Binding insert parameters with ID and role
+2025-05-21 12:32:09: Executing insert
+2025-05-21 12:32:09: Insert successful. Affected rows: 1
+2025-05-21 12:32:09: Database connection closed
+2025-05-21 12:32:09: Sending response: {"success":true,"message":"User registered successfully","id":11,"role":"Applicant"}
+2025-05-21 12:32:09: Script completed
+2025-05-21 12:32:19: Script started
+2025-05-21 12:32:19: OPTIONS request received
+2025-05-21 12:32:19: Script started
+2025-05-21 12:32:19: Raw input data: {"firstName":"Kyla","lastName":"Caparal","email":"kyla@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:32:19: Decoded data: Array
+(
+    [firstName] => Kyla
+    [lastName] => Caparal
+    [email] => kyla@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:32:19: Including database connection file
+2025-05-21 12:32:19: Database connection successful
+2025-05-21 12:32:19: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:32:19: Binding email parameter: kyla@gmail.com
+2025-05-21 12:32:19: Executing email check
+2025-05-21 12:32:19: Email check result: 0 rows found
+2025-05-21 12:32:19: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:32:19: id column exists: Yes
+2025-05-21 12:32:19: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:32:19: Next ID to be assigned: 12
+2025-05-21 12:32:19: Setting default role to: Applicant
+2025-05-21 12:32:19: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:32:19: Binding insert parameters with ID and role
+2025-05-21 12:32:19: Executing insert
+2025-05-21 12:32:19: Insert successful. Affected rows: 1
+2025-05-21 12:32:19: Database connection closed
+2025-05-21 12:32:19: Sending response: {"success":true,"message":"User registered successfully","id":12,"role":"Applicant"}
+2025-05-21 12:32:19: Script completed
+2025-05-21 12:32:29: Script started
+2025-05-21 12:32:29: OPTIONS request received
+2025-05-21 12:32:29: Script started
+2025-05-21 12:32:29: Raw input data: {"firstName":"Edcer","lastName":"Genoso","email":"edcer@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:32:29: Decoded data: Array
+(
+    [firstName] => Edcer
+    [lastName] => Genoso
+    [email] => edcer@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:32:29: Including database connection file
+2025-05-21 12:32:29: Database connection successful
+2025-05-21 12:32:29: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:32:29: Binding email parameter: edcer@gmail.com
+2025-05-21 12:32:29: Executing email check
+2025-05-21 12:32:29: Email check result: 0 rows found
+2025-05-21 12:32:29: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:32:29: id column exists: Yes
+2025-05-21 12:32:29: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:32:29: Next ID to be assigned: 13
+2025-05-21 12:32:29: Setting default role to: Applicant
+2025-05-21 12:32:29: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:32:29: Binding insert parameters with ID and role
+2025-05-21 12:32:29: Executing insert
+2025-05-21 12:32:29: Insert successful. Affected rows: 1
+2025-05-21 12:32:29: Database connection closed
+2025-05-21 12:32:29: Sending response: {"success":true,"message":"User registered successfully","id":13,"role":"Applicant"}
+2025-05-21 12:32:29: Script completed
+2025-05-21 12:37:14: Script started
+2025-05-21 12:37:14: OPTIONS request received
+2025-05-21 12:37:14: Script started
+2025-05-21 12:37:14: Raw input data: {"firstName":"Flor","lastName":"Aseoche","email":"flor@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:37:14: Decoded data: Array
+(
+    [firstName] => Flor
+    [lastName] => Aseoche
+    [email] => flor@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:37:14: Including database connection file
+2025-05-21 12:37:14: Database connection successful
+2025-05-21 12:37:14: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:37:14: Binding email parameter: flor@gmail.com
+2025-05-21 12:37:14: Executing email check
+2025-05-21 12:37:14: Email check result: 0 rows found
+2025-05-21 12:37:14: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:37:14: id column exists: Yes
+2025-05-21 12:37:14: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:37:14: Next ID to be assigned: 14
+2025-05-21 12:37:14: Setting default role to: Applicant
+2025-05-21 12:37:14: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:37:14: Binding insert parameters with ID and role
+2025-05-21 12:37:14: Executing insert
+2025-05-21 12:37:14: Insert successful. Affected rows: 1
+2025-05-21 12:37:14: Database connection closed
+2025-05-21 12:37:14: Sending response: {"success":true,"message":"User registered successfully","id":14,"role":"Applicant"}
+2025-05-21 12:37:14: Script completed
+2025-05-21 12:37:27: Script started
+2025-05-21 12:37:27: OPTIONS request received
+2025-05-21 12:37:27: Script started
+2025-05-21 12:37:27: Raw input data: {"firstName":"Jonathan","lastName":"Aseoche","email":"jonathan@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:37:27: Decoded data: Array
+(
+    [firstName] => Jonathan
+    [lastName] => Aseoche
+    [email] => jonathan@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:37:27: Including database connection file
+2025-05-21 12:37:27: Database connection successful
+2025-05-21 12:37:27: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:37:27: Binding email parameter: jonathan@gmail.com
+2025-05-21 12:37:27: Executing email check
+2025-05-21 12:37:27: Email check result: 0 rows found
+2025-05-21 12:37:27: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:37:27: id column exists: Yes
+2025-05-21 12:37:27: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:37:27: Next ID to be assigned: 15
+2025-05-21 12:37:27: Setting default role to: Applicant
+2025-05-21 12:37:27: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:37:27: Binding insert parameters with ID and role
+2025-05-21 12:37:27: Executing insert
+2025-05-21 12:37:27: Insert successful. Affected rows: 1
+2025-05-21 12:37:27: Database connection closed
+2025-05-21 12:37:27: Sending response: {"success":true,"message":"User registered successfully","id":15,"role":"Applicant"}
+2025-05-21 12:37:27: Script completed
+2025-05-21 12:37:44: Script started
+2025-05-21 12:37:44: OPTIONS request received
+2025-05-21 12:37:44: Script started
+2025-05-21 12:37:44: Raw input data: {"firstName":"Zoe","lastName":"Espinas","email":"zoe@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:37:44: Decoded data: Array
+(
+    [firstName] => Zoe
+    [lastName] => Espinas
+    [email] => zoe@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:37:44: Including database connection file
+2025-05-21 12:37:44: Database connection successful
+2025-05-21 12:37:44: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:37:44: Binding email parameter: zoe@gmail.com
+2025-05-21 12:37:44: Executing email check
+2025-05-21 12:37:44: Email check result: 0 rows found
+2025-05-21 12:37:44: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:37:44: id column exists: Yes
+2025-05-21 12:37:44: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:37:44: Next ID to be assigned: 16
+2025-05-21 12:37:44: Setting default role to: Applicant
+2025-05-21 12:37:44: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:37:44: Binding insert parameters with ID and role
+2025-05-21 12:37:44: Executing insert
+2025-05-21 12:37:44: Insert successful. Affected rows: 1
+2025-05-21 12:37:44: Database connection closed
+2025-05-21 12:37:44: Sending response: {"success":true,"message":"User registered successfully","id":16,"role":"Applicant"}
+2025-05-21 12:37:44: Script completed
+2025-05-21 12:38:23: Script started
+2025-05-21 12:38:23: OPTIONS request received
+2025-05-21 12:38:23: Script started
+2025-05-21 12:38:23: Raw input data: {"firstName":"Pong","lastName":"Espinas","email":"pong@gmail.com","password":"123","confirmPassword":"123"}
+2025-05-21 12:38:23: Decoded data: Array
+(
+    [firstName] => Pong
+    [lastName] => Espinas
+    [email] => pong@gmail.com
+    [password] => 123
+    [confirmPassword] => 123
+)
+
+2025-05-21 12:38:23: Including database connection file
+2025-05-21 12:38:23: Database connection successful
+2025-05-21 12:38:23: Preparing email check query: SELECT email FROM useraccounts WHERE email = ?
+2025-05-21 12:38:23: Binding email parameter: pong@gmail.com
+2025-05-21 12:38:23: Executing email check
+2025-05-21 12:38:23: Email check result: 0 rows found
+2025-05-21 12:38:23: Checking if id column exists: SHOW COLUMNS FROM useraccounts LIKE 'id'
+2025-05-21 12:38:23: id column exists: Yes
+2025-05-21 12:38:23: Getting last used ID: SELECT MAX(id) as max_id FROM useraccounts
+2025-05-21 12:38:23: Next ID to be assigned: 17
+2025-05-21 12:38:23: Setting default role to: Applicant
+2025-05-21 12:38:23: Preparing insert statement with user_id and role: INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)
+2025-05-21 12:38:23: Binding insert parameters with ID and role
+2025-05-21 12:38:23: Executing insert
+2025-05-21 12:38:23: Insert successful. Affected rows: 1
+2025-05-21 12:38:23: Database connection closed
+2025-05-21 12:38:23: Sending response: {"success":true,"message":"User registered successfully","id":17,"role":"Applicant"}
+2025-05-21 12:38:23: Script completed
