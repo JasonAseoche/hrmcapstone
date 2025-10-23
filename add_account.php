@@ -9,6 +9,111 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit(0);
 }
 
+require_once 'vendor/autoload.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+function sendWelcomeEmail($email, $firstName, $password) {
+    $mail = new PHPMailer(true);
+    
+    try {
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'icongko09@gmail.com';
+        $mail->Password   = 'icys siar pbab bput';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
+        
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
+        
+        $mail->setFrom('icongko09@gmail.com', 'DIFSYS System');
+        $mail->addAddress($email, $firstName);
+
+        $mail->isHTML(true);
+        $mail->Subject = 'Welcome to DIFSYS - Your Account Has Been Created';
+        $mail->Body = "
+            <html>
+            <head>
+                <style>
+                    body { font-family: Arial, sans-serif; }
+                    .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                    .header { background-color: #007bff; color: white; padding: 20px; text-align: center; border-radius: 8px 8px 0 0; }
+                    .content { padding: 30px; background-color: #f8f9fa; border-radius: 0 0 8px 8px; }
+                    .password-box { 
+                        font-size: 20px; 
+                        font-weight: bold; 
+                        color: #007bff; 
+                        text-align: center; 
+                        padding: 20px; 
+                        background-color: white; 
+                        border: 2px solid #007bff; 
+                        margin: 20px 0; 
+                        border-radius: 8px;
+                        letter-spacing: 2px;
+                    }
+                    .info-box {
+                        background: white;
+                        padding: 15px;
+                        border-radius: 8px;
+                        margin: 15px 0;
+                    }
+                    .warning {
+                        color: #dc3545;
+                        font-weight: bold;
+                        margin-top: 20px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class='container'>
+                    <div class='header'>
+                        <h2>Welcome to DIFSYS!</h2>
+                    </div>
+                    <div class='content'>
+                        <p>Hello <strong>{$firstName}</strong>,</p>
+                        <p>Your account has been successfully created. Below are your login credentials:</p>
+                        
+                        <div class='info-box'>
+                            <p><strong>Email:</strong> {$email}</p>
+                        </div>
+                        
+                        <p><strong>Your temporary password is:</strong></p>
+                        <div class='password-box'>{$password}</div>
+                        
+                        <div class='warning'>
+                            <p>⚠️ IMPORTANT SECURITY NOTICE:</p>
+                            <ul>
+                                <li>You will be required to change this password upon your first login</li>
+                                <li>Do not share this password with anyone</li>
+                                <li>Keep this email secure or delete it after changing your password</li>
+                            </ul>
+                        </div>
+                        
+                        <p style='margin-top: 30px;'>If you did not request this account or have any questions, please contact your administrator immediately.</p>
+                        
+                        <br>
+                        <p>Best regards,<br><strong>DIFSYS Team</strong></p>
+                    </div>
+                </div>
+            </body>
+            </html>
+        ";
+
+        $mail->send();
+        return true;
+    } catch (Exception $e) {
+        error_log("Email sending failed: " . $mail->ErrorInfo);
+        return false;
+    }
+}
+
 // Include database connection
 include 'db_connection.php';
 
@@ -62,9 +167,14 @@ try {
     $nextUserId = $maxIdRow['next_id'];
 
     // Insert into useraccounts table with explicit ID
-    $insertUserSql = "INSERT INTO useraccounts (id, firstName, lastName, email, password, role) VALUES (?, ?, ?, ?, ?, ?)";
+    // Hash the password before storing
+$hashedPassword = password_hash($password, PASSWORD_BCRYPT);
+
+$insertUserSql = "INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status, change_pass_status, created_at) VALUES (?, ?, ?, ?, ?, ?, 'New Account', 'Not Yet', NOW())";
     $userStmt = $conn->prepare($insertUserSql);
-    $userStmt->bind_param("isssss", $nextUserId, $firstName, $lastName, $email, $password, $role);
+    $userStmt->bind_param("isssss", $nextUserId, $firstName, $lastName, $email, $hashedPassword, $role);
+
+
     
     if (!$userStmt->execute()) {
         throw new Exception('Failed to create user account: ' . $userStmt->error);
@@ -205,13 +315,27 @@ try {
     $conn->commit();
     $conn->autocommit(TRUE);
 
+    // Send welcome email with the PLAIN PASSWORD (before it was hashed)
+    $emailSent = sendWelcomeEmail($email, $firstName, $password);
+
     // Success response
-    echo json_encode([
-        'success' => true,
-        'message' => 'Account created successfully!',
-        'user_id' => $userId,
-        'role' => $role
-    ]);
+    if ($emailSent) {
+        echo json_encode([
+            'success' => true,
+            'message' => 'Account created successfully and credentials sent to email!',
+            'user_id' => $userId,
+            'role' => $role
+        ]);
+    } else {
+        echo json_encode([
+            'success' => true,
+            'message' => 'Account created successfully but failed to send email. Please provide credentials manually.',
+            'user_id' => $userId,
+            'role' => $role
+        ]);
+    }
+
+
 
 } catch (Exception $e) {
     // Rollback transaction on error

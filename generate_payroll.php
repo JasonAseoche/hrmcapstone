@@ -119,6 +119,9 @@ function handlePostRequest($action) {
         case 'generate_payroll':
             generatePayroll($input);
             break;
+        case 'regenerate_payroll':
+            regeneratePayroll($input);
+            break;
         case 'release_payslip':
             releasePayslip($input);
             break;
@@ -540,12 +543,16 @@ function generatePayroll($input) {
         $totalAmount = 0;
         
         // Create or update generation history record
+        if ($regenerate) {
+            $deleteSql = "DELETE FROM payroll_generation_history WHERE payroll_period_id = ?";
+            $deleteStmt = $conn->prepare($deleteSql);
+            $deleteStmt->bind_param("i", $currentPeriod['id']);
+            $deleteStmt->execute();
+        }
+        
+        // Create or update generation history record
         $historySql = "INSERT INTO payroll_generation_history (payroll_period_id, total_employees, generation_status, created_at) 
-                      VALUES (?, ?, 'Processing', NOW())
-                      ON DUPLICATE KEY UPDATE 
-                      total_employees = VALUES(total_employees),
-                      generation_status = 'Processing',
-                      created_at = NOW()";
+                      VALUES (?, ?, 'Processing', NOW())";
         $historyStmt = $conn->prepare($historySql);
         $totalEmployees = count($selectedEmployees);
         $historyStmt->bind_param("ii", $currentPeriod['id'], $totalEmployees);
@@ -704,6 +711,190 @@ function generatePayroll($input) {
     }
 }
 
+function regeneratePayroll($input) {
+    global $conn;
+    
+    try {
+        error_log("Regenerate Payroll - Start");
+        error_log("Input: " . json_encode($input));
+        
+        $conn->begin_transaction();
+        
+        // Get current period
+        $currentPeriod = getCurrentPayrollPeriodData();
+        if (!$currentPeriod) {
+            throw new Exception('No active payroll period found');
+        }
+        
+        $payrollPeriodId = $currentPeriod['id'];
+        $selectedEmployees = $input['selected_employees'] ?? [];
+        
+        if (empty($selectedEmployees)) {
+            throw new Exception('No employees selected for regeneration');
+        }
+        
+        // Delete existing history for this period to prevent duplicates
+        $deleteSql = "DELETE FROM payroll_generation_history WHERE payroll_period_id = ?";
+        $deleteStmt = $conn->prepare($deleteSql);
+        $deleteStmt->bind_param("i", $payrollPeriodId);
+        $deleteStmt->execute();
+        
+        // Initialize counters
+        $totalAmount = 0;
+        $generatedCount = 0;
+        
+        // Process each employee
+        foreach ($selectedEmployees as $empId) {
+            // Get employee info
+            $empSql = "SELECT firstName, lastName FROM employeelist WHERE emp_id = ?";
+            $empStmt = $conn->prepare($empSql);
+            $empStmt->bind_param("i", $empId);
+            $empStmt->execute();
+            $empResult = $empStmt->get_result();
+            $employee = $empResult->fetch_assoc();
+            
+            if (!$employee) continue;
+            
+            $employeeName = $employee['firstName'] . ' ' . $employee['lastName'];
+            
+            // Compute payroll with fresh calculations
+            $computation = computeEmployeePayroll($empId, $payrollPeriodId);
+            
+            // Extract values to variables for bind_param
+            $grossPay = floatval($computation['gross_pay']);
+            $netPay = floatval($computation['net_pay']);
+            $totalDeductions = floatval($computation['total_deductions']);
+            
+            // Insert or update payroll record
+            $recordSql = "INSERT INTO payroll_records (payroll_period_id, emp_id, employee_name, status, gross_pay, net_pay, total_deductions, created_at, updated_at)
+                         VALUES (?, ?, ?, 'Generated', ?, ?, ?, NOW(), NOW())
+                         ON DUPLICATE KEY UPDATE
+                         status = 'Generated',
+                         gross_pay = VALUES(gross_pay),
+                         net_pay = VALUES(net_pay),
+                         total_deductions = VALUES(total_deductions),
+                         updated_at = NOW()";
+                         
+            $recordStmt = $conn->prepare($recordSql);
+            $recordStmt->bind_param("iisddd", 
+                $payrollPeriodId, 
+                $empId, 
+                $employeeName, 
+                $grossPay, 
+                $netPay, 
+                $totalDeductions
+            );
+            $recordStmt->execute();
+            
+            $recordId = $conn->insert_id ?: getPayrollRecordId($payrollPeriodId, $empId);
+            
+            // Save detailed computation
+            savePayrollComputation($recordId, $empId, $payrollPeriodId, $computation);
+            
+            // Update employee_payroll rates
+            try {
+                $updateRatesSql = "UPDATE employee_payroll SET 
+                    basic_pay_monthly = ?, basic_pay_semi_monthly = ?, rate_per_day = ?, rate_per_hour = ?, rate_per_minute = ?,
+                    site_allowance = ?, transportation_allowance = ?,
+                    regular_ot_rate = ?, regular_ot_nd = ?, 
+                    rest_day_ot = ?, rest_day_ot_plus_ot = ?, rest_day_nd = ?,
+                    rh_rate = ?, rh_ot_rate = ?, rh_nd_rate = ?, rh_rot_ot_rate = ?,
+                    sh_rate = ?, sh_ot_rate = ?, sh_nd_rate = ?, sh_rot = ?, sh_rot_ot_rate = ?, sh_rot_ot_plus_ot_rate = ?, sh_rot_nd = ?,
+                    sss = ?, phic = ?, hdmf = ?, tax = ?,
+                    sss_loan = ?, hdmf_loan = ?, teed = ?, staff_house = ?, cash_advance = ?
+                    WHERE emp_id = ?";
+            
+                $updateRatesStmt = $conn->prepare($updateRatesSql);
+                
+                if ($updateRatesStmt) {
+                    // Extract all values
+                    $basic_pay_monthly = floatval($computation['basic_pay_monthly'] ?? 0);
+                    $basic_pay_semi_monthly = floatval($computation['basic_pay_semi_monthly'] ?? 0);
+                    $rate_per_day = floatval($computation['rate_per_day'] ?? 0);
+                    $rate_per_hour = floatval($computation['rate_per_hour'] ?? 0);
+                    $rate_per_minute = floatval($computation['rate_per_minute'] ?? 0);
+                    $site_allowance = floatval($computation['site_allowance'] ?? 0);
+                    $transportation_allowance = floatval($computation['transportation_allowance'] ?? 0);
+                    $regular_ot_rate = floatval($computation['regular_ot_rate'] ?? 0);
+                    $regular_ot_nd_rate = floatval($computation['regular_ot_nd_rate'] ?? 0);
+                    $rest_day_ot_rate = floatval($computation['rest_day_ot_rate'] ?? 0);
+                    $rest_day_ot_plus_ot_rate = floatval($computation['rest_day_ot_plus_ot_rate'] ?? 0);
+                    $rest_day_nd_rate = floatval($computation['rest_day_nd_rate'] ?? 0);
+                    $regular_holiday_rate = floatval($computation['regular_holiday_rate'] ?? 0);
+                    $regular_holiday_ot_rate = floatval($computation['regular_holiday_ot_rate'] ?? 0);
+                    $regular_holiday_nd_rate = floatval($computation['regular_holiday_nd_rate'] ?? 0);
+                    $regular_holiday_rot_ot_rate = floatval($computation['regular_holiday_rot_ot_rate'] ?? 0);
+                    $special_holiday_rate = floatval($computation['special_holiday_rate'] ?? 0);
+                    $special_holiday_ot_rate = floatval($computation['special_holiday_ot_rate'] ?? 0);
+                    $special_holiday_nd_rate = floatval($computation['special_holiday_nd_rate'] ?? 0);
+                    $special_holiday_rot_rate = floatval($computation['special_holiday_rot_rate'] ?? 0);
+                    $special_holiday_rot_ot_rate = floatval($computation['special_holiday_rot_ot_rate'] ?? 0);
+                    $special_holiday_rot_ot_plus_ot_rate = floatval($computation['special_holiday_rot_ot_plus_ot_rate'] ?? 0);
+                    $special_holiday_rot_nd_rate = floatval($computation['special_holiday_rot_nd_rate'] ?? 0);
+                    $sss_contribution = floatval($computation['sss_contribution'] ?? 0);
+                    $phic_contribution = floatval($computation['phic_contribution'] ?? 0);
+                    $hdmf_contribution = floatval($computation['hdmf_contribution'] ?? 0);
+                    $tax_amount = floatval($computation['tax_amount'] ?? 0);
+                    $sss_loan = floatval($computation['sss_loan'] ?? 0);
+                    $hdmf_loan = floatval($computation['hdmf_loan'] ?? 0);
+                    $teed = floatval($computation['teed'] ?? 0);
+                    $staff_house = floatval($computation['staff_house'] ?? 0);
+                    $cash_advance = floatval($computation['cash_advance'] ?? 0);
+                    
+                    $updateRatesStmt->bind_param("ddddddddddddddddddddddddddddddddi",
+                        $basic_pay_monthly, $basic_pay_semi_monthly, $rate_per_day, $rate_per_hour, $rate_per_minute,
+                        $site_allowance, $transportation_allowance,
+                        $regular_ot_rate, $regular_ot_nd_rate,
+                        $rest_day_ot_rate, $rest_day_ot_plus_ot_rate, $rest_day_nd_rate,
+                        $regular_holiday_rate, $regular_holiday_ot_rate, $regular_holiday_nd_rate, $regular_holiday_rot_ot_rate,
+                        $special_holiday_rate, $special_holiday_ot_rate, $special_holiday_nd_rate, $special_holiday_rot_rate,
+                        $special_holiday_rot_ot_rate, $special_holiday_rot_ot_plus_ot_rate, $special_holiday_rot_nd_rate,
+                        $sss_contribution, $phic_contribution, $hdmf_contribution, $tax_amount,
+                        $sss_loan, $hdmf_loan, $teed, $staff_house, $cash_advance,
+                        $empId
+                    );
+                    
+                    if (!$updateRatesStmt->execute()) {
+                        error_log("Failed to update employee_payroll rates for emp_id: $empId - " . $updateRatesStmt->error);
+                    }
+                }
+            } catch (Exception $e) {
+                error_log("Error updating employee_payroll rates: " . $e->getMessage());
+            }
+            
+            $totalAmount += floatval($computation['net_pay'] ?? 0);
+            $generatedCount++;
+        }
+        
+        // Insert new history record
+        $historySql = "INSERT INTO payroll_generation_history 
+                       (payroll_period_id, total_employees, total_amount, generation_status, created_at, completed_at) 
+                       VALUES (?, ?, ?, 'Completed', NOW(), NOW())";
+        $historyStmt = $conn->prepare($historySql);
+        $historyStmt->bind_param("iid", $payrollPeriodId, $generatedCount, $totalAmount);
+        $historyStmt->execute();
+        $historyId = $conn->insert_id;
+        
+        $conn->commit();
+        
+        echo json_encode([
+            'success' => true,
+            'message' => 'Payroll regenerated successfully',
+            'generated_count' => $generatedCount,
+            'history_id' => $historyId,
+            'total_amount' => $totalAmount,
+            'export_data' => prepareExportData($selectedEmployees, $currentPeriod)
+        ]);
+        
+    } catch (Exception $e) {
+        if ($conn->inTransaction()) {
+            $conn->rollback();
+        }
+        error_log("Regenerate Error: " . $e->getMessage());
+        throw $e;
+    }
+}
+
 function releasePayslip($input) {
     global $conn;
     
@@ -841,6 +1032,7 @@ function updateEmployeePayrollData($input) {
                     $updateCount++;
                     error_log("Updated site_allowance to: $floatValue (affected rows: " . $stmt->affected_rows . ")");
                     break;
+
                     
                 case 'transportation_allowance':
                     $sql = "UPDATE employee_payroll SET transportation_allowance = ? WHERE emp_id = ?";
@@ -860,6 +1052,12 @@ function updateEmployeePayrollData($input) {
                     $updateCount++;
                     error_log("Updated training_days to: $intValue");
                     break;
+
+                    case 'travel_time_hours':
+                        updateAttendanceField($empId, $payrollPeriodId, 'travel_time', intval($value));
+                        $updateCount++;
+                        error_log("Updated travel_time_hours to: " . intval($value));
+                        break;
                     
                 case 'sss_contribution':
                     $sql = "UPDATE employee_payroll SET sss = ? WHERE emp_id = ?";
@@ -1434,29 +1632,30 @@ function computeEmployeePayroll($empId, $payrollPeriodId) {
         
         // Get attendance data using YOUR ACTUAL COLUMN NAMES
         $attendanceSql = "SELECT 
-                     SUM(COALESCE(total_workhours, 0)) as total_regular_minutes,
-                     SUM(COALESCE(overtime, 0)) as total_overtime_minutes,
-                     SUM(COALESCE(regular_ot, 0)) as total_regular_ot_minutes,
-                     SUM(COALESCE(regular_ot_nd, 0)) as total_regular_ot_nd_minutes,
-                     SUM(COALESCE(rest_day_ot, 0)) as total_rest_day_ot_minutes,
-                     SUM(COALESCE(rest_day_ot_plus_ot, 0)) as total_rest_day_ot_plus_ot_minutes,
-                     SUM(COALESCE(rest_day_nd, 0)) as total_rest_day_nd_minutes,
-                     SUM(COALESCE(regular_holiday, 0)) as total_regular_holiday_minutes,
-                     SUM(COALESCE(regular_holiday_ot, 0)) as total_regular_holiday_ot_minutes,
-                     SUM(COALESCE(regular_holiday_nd, 0)) as total_regular_holiday_nd_minutes,
-                     SUM(COALESCE(regular_holiday_rot_ot, 0)) as total_regular_holiday_rot_ot_minutes,
-                     SUM(COALESCE(special_holiday, 0)) as total_special_holiday_minutes,
-                     SUM(COALESCE(special_holiday_ot, 0)) as total_special_holiday_ot_minutes,
-                     SUM(COALESCE(special_holiday_nd, 0)) as total_special_holiday_nd_minutes,
-                     SUM(COALESCE(special_holiday_rot, 0)) as total_special_holiday_rot_minutes,
-                     SUM(COALESCE(special_holiday_rot_ot, 0)) as total_special_holiday_rot_ot_minutes,
-                     SUM(COALESCE(special_holiday_rot_nd, 0)) as total_special_holiday_rot_nd_minutes,
-                     SUM(COALESCE(late_undertime, 0)) as total_late_undertime_minutes,
-                     COUNT(CASE WHEN absent = 1 THEN 1 END) as absent_days
-                 FROM attendancelist 
-                 WHERE emp_id = ? 
-                 AND date >= ? 
-                 AND date <= ?";
+                SUM(COALESCE(total_workhours, 0)) as total_regular_minutes,
+                SUM(COALESCE(overtime, 0)) as total_overtime_minutes,
+                SUM(COALESCE(regular_ot, 0)) as total_regular_ot_minutes,
+                SUM(COALESCE(regular_ot_nd, 0)) as total_regular_ot_nd_minutes,
+                SUM(COALESCE(rest_day_ot, 0)) as total_rest_day_ot_minutes,
+                SUM(COALESCE(rest_day_ot_plus_ot, 0)) as total_rest_day_ot_plus_ot_minutes,
+                SUM(COALESCE(rest_day_nd, 0)) as total_rest_day_nd_minutes,
+                SUM(COALESCE(regular_holiday, 0)) as total_regular_holiday_minutes,
+                SUM(COALESCE(regular_holiday_ot, 0)) as total_regular_holiday_ot_minutes,
+                SUM(COALESCE(regular_holiday_nd, 0)) as total_regular_holiday_nd_minutes,
+                SUM(COALESCE(regular_holiday_rot_ot, 0)) as total_regular_holiday_rot_ot_minutes,
+                SUM(COALESCE(special_holiday, 0)) as total_special_holiday_minutes,
+                SUM(COALESCE(special_holiday_ot, 0)) as total_special_holiday_ot_minutes,
+                SUM(COALESCE(special_holiday_nd, 0)) as total_special_holiday_nd_minutes,
+                SUM(COALESCE(special_holiday_rot, 0)) as total_special_holiday_rot_minutes,
+                SUM(COALESCE(special_holiday_rot_ot, 0)) as total_special_holiday_rot_ot_minutes,
+                SUM(COALESCE(special_holiday_rot_nd, 0)) as total_special_holiday_rot_nd_minutes,
+                SUM(COALESCE(late_undertime, 0)) as total_late_undertime_minutes,
+                SUM(COALESCE(travel_time, 0)) as total_travel_time_hours,
+                COUNT(CASE WHEN absent = 1 THEN 1 END) as absent_days
+            FROM attendancelist 
+            WHERE emp_id = ? 
+            AND date >= ? 
+            AND date <= ?";
                          
         $attendanceStmt = $conn->prepare($attendanceSql);
         $attendanceStmt->bind_param("iss", $empId, $period['date_from'], $period['date_to']);
@@ -1480,6 +1679,9 @@ function computeEmployeePayroll($empId, $payrollPeriodId) {
             
             // Training Days
             'training_days' => intval($payrollData['number_of_training_days'] ?? 0),
+
+            'travel_time_hours' => intval($attendance['total_travel_time_hours'] ?? 0),
+            'travel_time_amount' => 0, // Will be calculated by formula
             
             // Regular Hours
             'regular_hours' => floor(floatval($attendance['total_regular_minutes'] ?? 0) / 60),
@@ -1788,6 +1990,24 @@ function computeEmployeePayroll($empId, $payrollPeriodId) {
                 $computation['regular_ot_hours']
             );
         }
+
+         // TRAVEL TIME CALCULATION
+         if (isset($formulas['Travel Time'])) {
+            $rateFormula = $formulas['Travel Time']['rate_formula'];
+            $amountFormula = $formulas['Travel Time']['amount_formula'];
+            
+            if (!empty($rateFormula)) {
+                $computation['travel_time_rate'] = applyRateFormula($rateFormula, $baseRates);
+                $computation['travel_time_amount'] = applyAmountFormula(
+                    $amountFormula, 
+                    $computation['travel_time_rate'], 
+                    $computation['travel_time_hours']
+                );
+                error_log("Applied Travel Time formula - Rate: " . $computation['travel_time_rate'] . ", Amount: " . $computation['travel_time_amount'] . ", Hours: " . $computation['travel_time_hours']);
+            }
+        } else {
+            error_log("No Travel Time formula found - amount stays 0");
+    }
         
         if (isset($formulas['Regular OT+ND'])) {
             $rateFormula = $formulas['Regular OT+ND']['rate_formula'];
@@ -1825,9 +2045,7 @@ function computeEmployeePayroll($empId, $payrollPeriodId) {
             );
         }
 
-
-
-
+        
         if (isset($formulas['Rest Day ND'])) {
             $rateFormula = $formulas['Rest Day ND']['rate_formula'];
             $amountFormula = $formulas['Rest Day ND']['amount_formula'];
@@ -1839,6 +2057,7 @@ function computeEmployeePayroll($empId, $payrollPeriodId) {
                 $computation['rest_day_nd_hours']
             );
         }
+
         
         // ONLY calculate late/undertime if formula exists - TRY BOTH POSSIBLE NAMES
         $undertimeFormula = null;
@@ -1898,7 +2117,8 @@ function computeEmployeePayroll($empId, $payrollPeriodId) {
         $computation['gross_pay'] = $computation['basic_pay_semi_monthly'] + 
                                   $computation['total_allowances'] + 
                                   $computation['total_overtime_pay'] + 
-                                  $computation['total_holiday_pay'];
+                                  $computation['total_holiday_pay'] +
+                                  $computation['travel_time_amount'];
         
         // Calculate total deductions - late_undertime_amount and absences_amount are 0 unless formulas exist
         $computation['total_deductions'] = $computation['late_undertime_amount'] + 
@@ -2055,6 +2275,7 @@ function savePayrollComputation($recordId, $empId, $payrollPeriodId, $computatio
                 payroll_record_id, emp_id, payroll_period_id,
                 basic_pay_monthly, basic_pay_semi_monthly, rate_per_day, rate_per_hour, rate_per_minute,
                 site_allowance, transportation_allowance, total_allowances,
+                travel_time_hours, travel_time_amount,
                 regular_hours, regular_hours_amount,
                 regular_ot_hours, regular_ot_amount,
                 regular_holiday_hours, regular_holiday_amount,
@@ -2078,6 +2299,7 @@ function savePayrollComputation($recordId, $empId, $payrollPeriodId, $computatio
                 ?, ?,
                 ?, ?,
                 ?, ?,
+                ?, ?,
                 ?, ?, ?,
                 ?, ?,
                 ?, ?,
@@ -2095,6 +2317,8 @@ function savePayrollComputation($recordId, $empId, $payrollPeriodId, $computatio
                 site_allowance = VALUES(site_allowance),
                 transportation_allowance = VALUES(transportation_allowance),
                 total_allowances = VALUES(total_allowances),
+                travel_time_hours = VALUES(travel_time_hours),
+                travel_time_amount = VALUES(travel_time_amount),
                 regular_hours = VALUES(regular_hours),
                 regular_hours_amount = VALUES(regular_hours_amount),
                 regular_ot_hours = VALUES(regular_ot_hours),
@@ -2129,7 +2353,7 @@ function savePayrollComputation($recordId, $empId, $payrollPeriodId, $computatio
     
     $stmt = $conn->prepare($sql);
     
-    // Extract all values to variables for bind_param (41 parameters total)
+    // Extract all values to variables for bind_param (43 parameters total - was 41, now +2)
     $payrollRecordId = intval($recordId);
     $employeeId = intval($empId);
     $payrollPeriodIdParam = intval($payrollPeriodId);
@@ -2144,14 +2368,15 @@ function savePayrollComputation($recordId, $empId, $payrollPeriodId, $computatio
     $transportationAllowance = floatval($computation['transportation_allowance'] ?? 0);
     $totalAllowances = floatval($computation['total_allowances'] ?? 0);
     
+    $travelTimeHours = intval($computation['travel_time_hours'] ?? 0);
+    $travelTimeAmount = floatval($computation['travel_time_amount'] ?? 0);
+    
     $regularHours = floatval($computation['regular_hours'] ?? 0);
     $regularHoursAmount = floatval($computation['regular_hours_amount'] ?? 0);
     
     $regularOtHours = floatval($computation['regular_ot_hours'] ?? 0);
     $regularOtAmount = floatval($computation['regular_ot_amount'] ?? 0);
     
-    $regularHolidayRate = floatval($computation['regular_holiday_rate'] ?? 0);  // ADD THIS LINE
-    $regularHolidayAmount = floatval($computation['regular_holiday_amount'] ?? 0);  
     $regularHolidayHours = floatval($computation['regular_holiday_hours'] ?? 0);
     $regularHolidayAmount = floatval($computation['regular_holiday_amount'] ?? 0);
     $regularHolidayOtHours = floatval($computation['regular_holiday_ot_hours'] ?? 0);
@@ -2185,8 +2410,8 @@ function savePayrollComputation($recordId, $empId, $payrollPeriodId, $computatio
     $totalDeductions = floatval($computation['total_deductions'] ?? 0);
     $netPay = floatval($computation['net_pay'] ?? 0);
     
-    // Bind all parameters (3 integers + 38 doubles = 41 parameters)
-    $stmt->bind_param("iiidddddddddddddddddddddddddddddddddddddd", 
+    // Bind all parameters (3 integers + 40 doubles = 43 parameters)
+    $stmt->bind_param("iiiidddddddiidddddddddddddddddddddddddddddd",
         $payrollRecordId,
         $employeeId,
         $payrollPeriodIdParam,
@@ -2198,6 +2423,8 @@ function savePayrollComputation($recordId, $empId, $payrollPeriodId, $computatio
         $siteAllowance,
         $transportationAllowance,
         $totalAllowances,
+        $travelTimeHours,
+        $travelTimeAmount,
         $regularHours,
         $regularHoursAmount,
         $regularOtHours,

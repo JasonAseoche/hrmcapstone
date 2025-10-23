@@ -347,6 +347,77 @@ class ServiceApprovalAPI {
             }
             
             $this->conn->commit();
+
+            // Insert travel time to attendancelist
+if ($source === 'employee' && $total_hours !== null && $total_hours > 0) {
+    // Get employee ID and OB dates
+    $emp_sql = "SELECT employee_id FROM service_reports WHERE id = ?";
+    $emp_stmt = $this->conn->prepare($emp_sql);
+    $emp_stmt->bind_param("i", $report_id);
+    $emp_stmt->execute();
+    $emp_result = $emp_stmt->get_result();
+    $emp_data = $emp_result->fetch_assoc();
+    $employee_id = $emp_data['employee_id'];
+    
+    // Get all OB entry dates for this report
+    $dates_sql = "SELECT DISTINCT ob_date FROM ob_form_entries WHERE report_id = ?";
+    $dates_stmt = $this->conn->prepare($dates_sql);
+    $dates_stmt->bind_param("i", $report_id);
+    $dates_stmt->execute();
+    $dates_result = $dates_stmt->get_result();
+    
+    $ob_dates = [];
+    while ($date_row = $dates_result->fetch_assoc()) {
+        $ob_dates[] = $date_row['ob_date'];
+    }
+    
+    // Distribute travel time evenly across all OB dates
+    $hours_per_date = $total_hours / count($ob_dates);
+    
+    foreach ($ob_dates as $ob_date) {
+        // Check if attendance record exists
+        $check_sql = "SELECT id, travel_time FROM attendancelist 
+                     WHERE emp_id = ? AND date = ?";
+        $check_stmt = $this->conn->prepare($check_sql);
+        $check_stmt->bind_param("is", $employee_id, $ob_date);
+        $check_stmt->execute();
+        $check_result = $check_stmt->get_result();
+        
+        if ($check_result->num_rows > 0) {
+            // Update existing record - add to existing travel_time
+            $existing = $check_result->fetch_assoc();
+            $new_travel_time = $existing['travel_time'] + $hours_per_date;
+            
+            $update_sql = "UPDATE attendancelist 
+                          SET travel_time = ? 
+                          WHERE id = ?";
+            $update_stmt = $this->conn->prepare($update_sql);
+            $update_stmt->bind_param("ii", $new_travel_time, $existing['id']);
+            $update_stmt->execute();
+        } else {
+            // Create new attendance record
+            $emp_info_sql = "SELECT firstName, lastName FROM employeelist WHERE emp_id = ?";
+            $emp_info_stmt = $this->conn->prepare($emp_info_sql);
+            $emp_info_stmt->bind_param("i", $employee_id);
+            $emp_info_stmt->execute();
+            $emp_info_result = $emp_info_stmt->get_result();
+            $emp_info = $emp_info_result->fetch_assoc();
+            
+            $insert_sql = "INSERT INTO attendancelist 
+                          (emp_id, date, firstName, lastName, travel_time) 
+                          VALUES (?, ?, ?, ?, ?)";
+            $insert_stmt = $this->conn->prepare($insert_sql);
+            $insert_stmt->bind_param("isssi", 
+                $employee_id, 
+                $ob_date, 
+                $emp_info['firstName'], 
+                $emp_info['lastName'], 
+                $hours_per_date
+            );
+            $insert_stmt->execute();
+        }
+    }
+}
             
             return [
                 'success' => true,

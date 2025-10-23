@@ -241,7 +241,8 @@ try {
                                     "firstName" => $user['firstName'],
                                     "lastName" => $user['lastName'],
                                     "role" => $user['role'],
-                                    "auth_status" => "Verified"
+                                    "auth_status" => "Verified",
+                                     "change_pass_status" => $user['change_pass_status'] ?? "Changed"
                                 ]
                             ]);
                         } else {

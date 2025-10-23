@@ -286,20 +286,24 @@ try {
     } elseif ($action === 'change_password') {
         logDebug("Processing change_password action");
         
-        if (!isset($data['user_id']) || !isset($data['current_password']) || !isset($data['new_password'])) {
+        if (!isset($data['user_id']) || !isset($data['new_password'])) {
             logDebug("Missing required fields for change_password action");
-            echo json_encode(["success" => false, "message" => "User ID, current password, and new password are required."]);
+            echo json_encode(["success" => false, "message" => "User ID and new password are required."]);
             exit;
         }
-
+    
         $user_id = (int)$data['user_id'];
-        $current_password = $data['current_password'];
+        $current_password = $data['current_password'] ?? '';
         $new_password = $data['new_password'];
+        $is_first_login = $data['is_first_login'] ?? false;
+        $bypass_current_check = $data['bypass_current_check'] ?? false;
         
         logDebug("Changing password for user_id: $user_id");
-
-        // Get user's current password using PDO
-        $stmt = $pdo->prepare("SELECT id, firstName, email, password FROM useraccounts WHERE id = :user_id");
+        logDebug("Is first login: " . ($is_first_login ? 'YES' : 'NO'));
+        logDebug("Bypass current check: " . ($bypass_current_check ? 'YES' : 'NO'));
+    
+        // Get user's current password and change_pass_status using PDO
+        $stmt = $pdo->prepare("SELECT id, firstName, email, password, change_pass_status FROM useraccounts WHERE id = :user_id");
         $stmt->bindParam(':user_id', $user_id, PDO::PARAM_INT);
         $stmt->execute();
         
@@ -307,46 +311,91 @@ try {
         
         if ($user) {
             logDebug("User found for password change: " . $user['email']);
+            logDebug("User change_pass_status: " . ($user['change_pass_status'] ?? 'NULL'));
             
-            // Verify current password
             $stored_password = $user['password'];
+            $password_verified = false;
             
-            // Check if current password matches (assuming passwords are hashed)
-            if ($current_password === $stored_password) {
-                logDebug("Current password verified successfully");
-
-                logDebug("Stored password: " . substr($stored_password, 0, 20) . "...");
-                logDebug("Current password provided: " . $current_password);
-                logDebug("Password verify result: " . (password_verify($current_password, $stored_password) ? 'TRUE' : 'FALSE'));
+            // If NOT bypassing (normal password change), verify current password
+            if (!$bypass_current_check && !$is_first_login) {
+                logDebug("Verifying current password (normal password change)");
+                
+                if (empty($current_password)) {
+                    logDebug("Current password is required but not provided");
+                    echo json_encode(["success" => false, "message" => "Current password is required."]);
+                    exit;
+                }
+                
+                // Check both hashed and plain text password for compatibility
+                if (password_verify($current_password, $stored_password)) {
+                    logDebug("Current password verified (hashed)");
+                    $password_verified = true;
+                } elseif ($current_password === $stored_password) {
+                    logDebug("Current password verified (plain text)");
+                    $password_verified = true;
+                } else {
+                    logDebug("Current password verification failed");
+                    echo json_encode(["success" => false, "message" => "Current password is incorrect."]);
+                    exit;
+                }
+            } else {
+                logDebug("Bypassing current password check (first login or bypass flag set)");
+                $password_verified = true;
+            }
+            
+            if ($password_verified) {
+                logDebug("Proceeding with password update");
+                
+                // Validate new password strength
+                if (strlen($new_password) < 6) {
+                    logDebug("New password too short");
+                    echo json_encode(["success" => false, "message" => "New password must be at least 6 characters long."]);
+                    exit;
+                }
                 
                 // Hash the new password
-                $hashed_new_password = password_hash($new_password, PASSWORD_DEFAULT);
+                $hashed_new_password = password_hash($new_password, PASSWORD_BCRYPT);
+                logDebug("New password hashed successfully");
                 
-                // Update password and clear OTP using PDO
-                $update_stmt = $pdo->prepare("UPDATE useraccounts SET password = :new_password, otp_code = NULL, otp_expiry = NULL WHERE id = :user_id");
+                // Update password, clear OTP, and update change_pass_status if first login
+                if ($is_first_login || $user['change_pass_status'] === 'Not Yet') {
+                    logDebug("Updating password and setting change_pass_status to 'Changed'");
+                    $update_stmt = $pdo->prepare("UPDATE useraccounts SET password = :new_password, change_pass_status = 'Changed', otp_code = NULL, otp_expiry = NULL WHERE id = :user_id");
+                } else {
+                    logDebug("Updating password only (regular password change)");
+                    $update_stmt = $pdo->prepare("UPDATE useraccounts SET password = :new_password, otp_code = NULL, otp_expiry = NULL WHERE id = :user_id");
+                }
+                
                 $update_stmt->bindParam(':new_password', $hashed_new_password);
                 $update_stmt->bindParam(':user_id', $user_id, PDO::PARAM_INT);
                 
                 if ($update_stmt->execute()) {
                     logDebug("Password updated successfully for user: " . $user['email']);
-                    echo json_encode([
-                        "success" => true,
-                        "message" => "Password changed successfully!"
-                    ]);
+                    
+                    // Return appropriate message based on context
+                    if ($is_first_login) {
+                        echo json_encode([
+                            "success" => true,
+                            "message" => "Password set successfully! You can now log in with your new password.",
+                            "is_first_login" => true
+                        ]);
+                    } else {
+                        echo json_encode([
+                            "success" => true,
+                            "message" => "Password changed successfully!"
+                        ]);
+                    }
                 } else {
                     logDebug("Failed to update password");
-                    echo json_encode(["success" => false, "message" => "Failed to update password."]);
+                    echo json_encode(["success" => false, "message" => "Failed to update password. Please try again."]);
                 }
-            } else {
-                logDebug("Current password verification failed");
-                echo json_encode(["success" => false, "message" => "Current password is incorrect."]);
             }
         } else {
             logDebug("User not found for user_id: $user_id");
             echo json_encode(["success" => false, "message" => "User not found."]);
         }
         
-    } else {
+    }else {
         logDebug("Invalid action received: $action");
         echo json_encode(["success" => false, "message" => "Invalid action."]);
     }

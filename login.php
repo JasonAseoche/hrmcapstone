@@ -102,16 +102,16 @@ logDebug("Login attempt for email: $email");
 
 try {
     // Prepare SQL statement
-    $sql = "SELECT * FROM useraccounts WHERE email=? AND password=?";
+    $sql = "SELECT * FROM useraccounts WHERE email=?";
     $stmt = $conn->prepare($sql);
-    
+
     if (!$stmt) {
         logDebug("Prepare statement failed: " . $conn->error);
         echo json_encode(["success" => false, "message" => "Database error. Please try again later."]);
         exit;
     }
-    
-    $stmt->bind_param("ss", $email, $password);
+
+    $stmt->bind_param("s", $email);
     $stmt->execute();
     $result = $stmt->get_result();
     
@@ -119,6 +119,25 @@ try {
     
     if ($result->num_rows === 1) {
         $user = $result->fetch_assoc();
+        
+        // Verify password (supports both hashed and plain text for backward compatibility)
+        $password_valid = false;
+        if (password_verify($password, $user['password'])) {
+            // Password is hashed and matches
+            logDebug("Password verified (hashed)");
+            $password_valid = true;
+        } elseif ($password === $user['password']) {
+            // Password is plain text and matches (backward compatibility)
+            logDebug("Password verified (plain text)");
+            $password_valid = true;
+        }
+        
+        if (!$password_valid) {
+            logDebug("Invalid password for user: " . $email);
+            echo json_encode(["success" => false, "message" => "Invalid email or password."]);
+            exit;
+        }
+        
         logDebug("Login successful for user: " . $email . " with ID: " . $user['id']);
         logDebug("User role: " . $user['role']);
         logDebug("User auth_status: " . ($user['auth_status'] ?? 'NULL'));
@@ -191,7 +210,9 @@ try {
                                 "firstName" => $user['firstName'],
                                 "lastName" => $user['lastName'],
                                 "role" => $user['role'],
-                                "auth_status" => $user['auth_status']
+                                "auth_status" => $user['auth_status'],
+                                "change_pass_status" => $user['change_pass_status'] ?? "Changed"
+
                             ]
                         ]);
                     } else {
@@ -231,7 +252,8 @@ try {
                     "firstName" => $user['firstName'],
                     "lastName" => $user['lastName'],
                     "role" => $user['role'],
-                    "auth_status" => $user['auth_status'] ?? "Verified"
+                    "auth_status" => $user['auth_status'] ?? "Verified",
+                    "change_pass_status" => $user['change_pass_status'] ?? "Changed"
                 ]
             ]);
         }
