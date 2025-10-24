@@ -6338,3 +6338,110 @@ GET, Action: leave_credits
 2025-10-23 21:00:40 - Request: GET /difsysapi/leave_management.php?action=leave_credits
 2025-10-23 21:00:40 - Input: 
 2025-10-23 21:00:40 - Method: GET, Action: leave_credits
+2025-10-24 08:10:15 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 08:10:15 - Input: 
+2025-10-24 08:10:15 - Method: GET, Action: leave_credits
+2025-10-24 08:10:15 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 08:10:15 - Input: 
+2025-10-24 08:10:15 - Method: GET, Action: all_requests
+2025-10-24 08:10:15 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 08:10:15 - Input: 
+2025-10-24 08:10:15 - Method: GET, Action: leave_credits
+2025-10-24 08:10:15 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 08:10:15 - Input: 
+2025-10-24 08:10:15 - Method: GET, Action: all_requests
+2025-10-24 08:10:18 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 08:10:18 - Input: 
+2025-10-24 08:10:18 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 08:10:18 - Method: GET, Action: leave_credits
+2025-10-24 08:10:18 - Input: 
+2025-10-24 08:10:18 - Method: GET, Action: all_requests
+2025-10-24 08:10:18 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 08:10:18 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 08:10:18 - Input: 
+2025-10-24 08:10:18 - Input: 
+2025-10-24 08:10:18 - Method: GET, Action: all_requests
+2025-10-24 08:10:18 - Method: GET, Action: leave_credits
+2025-10-24 08:19:46 - Request: GET /difsysapi/leave_management.php?action=employee_requests&emp_id=122
+2025-10-24 08:19:46 - Input: 
+2025-10-24 08:19:46 - Method: GET, Action: employee_requests
+2025-10-24 08:19:46 - Request: GET /difsysapi/leave_management.php?action=leave_types
+2025-10-24 08:19:46 - Input: 
+2025-10-24 08:19:46 - Method: GET, Action: leave_types
+2025-10-24 08:19:46 - Request: GET /difsysapi/leave_management.php?action=leave_types
+2025-10-24 08:19:46 - Input: 
+2025-10-24 08:19:46 - Method: GET, Action: leave_types
+2025-10-24 08:19:46 - Request: GET /difsysapi/leave_management.php?action=employee_requests&emp_id=122
+2025-10-24 08:19:46 - Input: 
+2025-10-24 08:19:46 - Method: GET, Action: employee_requests
+2025-10-24 10:53:17 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 10:53:17 - Input: 
+2025-10-24 10:53:17 - Method: GET, Action: leave_credits
+2025-10-24 10:53:17 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 10:53:17 - Input: 
+2025-10-24 10:53:17 - Method: GET, Action: leave_credits
+2025-10-24 10:53:17 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 10:53:17 - Input: 
+2025-10-24 10:53:17 - Method: GET, Action: all_requests
+2025-10-24 10:53:17 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 10:53:17 - Input: 
+2025-10-24 10:53:17 - Method: GET, Action: all_requests
+2025-10-24 12:30:20 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 12:30:20 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 12:30:20 - Input: 
+2025-10-24 12:30:20 - Input: 
+2025-10-24 12:30:20 - Method: GET, Action: leave_credits
+2025-10-24 12:30:20 - Method: GET, Action: all_requests
+2025-10-24 12:30:20 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 12:30:20 - Input: 
+2025-10-24 12:30:20 - Method: GET, Action: leave_credits
+2025-10-24 12:30:20 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 12:30:20 - Input: 
+2025-10-24 12:30:20 - Method: GET, Action: all_requests
+2025-10-24 12:30:26 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 12:30:26 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 12:30:26 - Input: 
+2025-10-24 12:30:26 - Input: 
+2025-10-24 12:30:26 - Method: GET, Action: leave_credits
+2025-10-24 12:30:26 - Method: GET, Action: all_requests
+2025-10-24 12:30:26 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 12:30:26 - Input: 
+2025-10-24 12:30:26 - Method: GET, Action: leave_credits
+2025-10-24 12:30:26 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 12:30:26 - Input: 
+2025-10-24 12:30:26 - Method: GET, Action: all_requests
+2025-10-24 12:30:27 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 12:30:27 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 12:30:27 - Input: 
+2025-10-24 12:30:27 - Input: 
+2025-10-24 12:30:27 - Method: GET, Action: leave_credits
+2025-10-24 12:30:27 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 12:30:27 - Input: 
+2025-10-24 12:30:27 - Method: GET, Action: leave_credits
+2025-10-24 12:30:27 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 12:30:27 - Input: 
+2025-10-24 12:30:27 - Method: GET, Action: all_requests
+2025-10-24 12:30:37 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 12:30:37 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 12:30:37 - Input: 
+2025-10-24 12:30:37 - Input: 
+2025-10-24 12:30:37 - Method: GET, Action: leave_credits
+2025-10-24 12:30:37 - Method: GET, Action: all_requests
+2025-10-24 12:30:37 - Request: GET /difsysapi/leave_management.php?action=leave_credits
+2025-10-24 12:30:37 - Input: 
+2025-10-24 12:30:37 - Method: GET, Action: leave_credits
+2025-10-24 12:30:37 - Request: GET /difsysapi/leave_management.php?action=all_requests
+2025-10-24 12:30:37 - Input: 
+2025-10-24 12:30:37 - Method: GET, Action: all_requests
+2025-10-24 16:02:31 - Request: GET /difsysapi/leave_management.php?action=employee_requests&emp_id=122
+2025-10-24 16:02:31 - Input: 
+2025-10-24 16:02:31 - Method: GET, Action: employee_requests
+2025-10-24 16:02:31 - Request: GET /difsysapi/leave_management.php?action=leave_types
+2025-10-24 16:02:31 - Input: 
+2025-10-24 16:02:31 - Method: GET, Action: leave_types
+2025-10-24 16:02:31 - Request: GET /difsysapi/leave_management.php?action=leave_types
+2025-10-24 16:02:31 - Input: 
+2025-10-24 16:02:31 - Method: GET, Action: leave_types
+2025-10-24 16:02:31 - Request: GET /difsysapi/leave_management.php?action=employee_requests&emp_id=122
+2025-10-24 16:02:31 - Input: 
+2025-10-24 16:02:31 - Method: GET, Action: employee_requests

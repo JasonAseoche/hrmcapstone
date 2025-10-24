@@ -120,6 +120,13 @@ try {
     if ($result->num_rows === 1) {
         $user = $result->fetch_assoc();
         
+        // Check if user is archived - prevent login
+        if ($user['role'] === 'archived') {
+            logDebug("Login attempt by archived user: " . $email);
+            echo json_encode(["success" => false, "message" => "Invalid email or password."]);
+            exit;
+        }
+        
         // Verify password (supports both hashed and plain text for backward compatibility)
         $password_valid = false;
         if (password_verify($password, $user['password'])) {

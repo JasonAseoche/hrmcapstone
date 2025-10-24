@@ -664,12 +664,13 @@ class ApplicantTracker {
             
             // Update applicant status
             $updateSql = "UPDATE applicantlist SET 
-                         status = ?,
-                         updated_at = CURRENT_TIMESTAMP
-                         WHERE app_id = ?";
-            
+             status = ?,
+             updated_at = CURRENT_TIMESTAMP
+             WHERE app_id = ?";
+
             $stmt = $this->conn->prepare($updateSql);
-            $stmt->bind_param('si', strtolower($status), $app_id);
+            $statusLower = strtolower($status);
+            $stmt->bind_param('si', $statusLower, $app_id);
             $stmt->execute();
             
             // Send status update email

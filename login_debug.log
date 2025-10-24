@@ -22145,3 +22145,778 @@
 2025-10-23 21:00:28: Final user ID to be returned: 102
 2025-10-23 21:00:28: User is already verified or auth_status not set, proceeding with normal login
 2025-10-23 21:00:28: === Login Script Completed ===
+2025-10-24 08:04:13: === Login Script Started ===
+2025-10-24 08:04:13: OPTIONS request received
+2025-10-24 08:04:13: === Login Script Started ===
+2025-10-24 08:04:13: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 08:04:13: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 08:04:13: Login attempt for email: hr@gmail.com
+2025-10-24 08:04:13: Query executed. Found rows: 1
+2025-10-24 08:04:13: Password verified (plain text)
+2025-10-24 08:04:13: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 08:04:13: User role: HR
+2025-10-24 08:04:13: User auth_status: Verified
+2025-10-24 08:04:13: Final user ID to be returned: 102
+2025-10-24 08:04:13: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 08:04:13: === Login Script Completed ===
+2025-10-24 08:19:20: === Login Script Started ===
+2025-10-24 08:19:20: OPTIONS request received
+2025-10-24 08:19:20: === Login Script Started ===
+2025-10-24 08:19:20: Raw input data: {"email":"aldrin.reyes@gmail.com","password":"123"}
+2025-10-24 08:19:20: Decoded data: Array
+(
+    [email] => aldrin.reyes@gmail.com
+    [password] => 123
+)
+
+2025-10-24 08:19:20: Login attempt for email: aldrin.reyes@gmail.com
+2025-10-24 08:19:20: Query executed. Found rows: 1
+2025-10-24 08:19:20: Password verified (plain text)
+2025-10-24 08:19:20: Login successful for user: aldrin.reyes@gmail.com with ID: 122
+2025-10-24 08:19:20: User role: employee
+2025-10-24 08:19:20: User auth_status: Verified
+2025-10-24 08:19:20: Final user ID to be returned: 122
+2025-10-24 08:19:20: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 08:19:20: === Login Script Completed ===
+2025-10-24 08:20:20: === Login Script Started ===
+2025-10-24 08:20:20: OPTIONS request received
+2025-10-24 08:20:20: === Login Script Started ===
+2025-10-24 08:20:20: Raw input data: {"email":"admin@gmail.com","password":"123"}
+2025-10-24 08:20:20: Decoded data: Array
+(
+    [email] => admin@gmail.com
+    [password] => 123
+)
+
+2025-10-24 08:20:20: Login attempt for email: admin@gmail.com
+2025-10-24 08:20:20: Query executed. Found rows: 1
+2025-10-24 08:20:20: Password verified (plain text)
+2025-10-24 08:20:20: Login successful for user: admin@gmail.com with ID: 101
+2025-10-24 08:20:20: User role: Admin
+2025-10-24 08:20:20: User auth_status: Verified
+2025-10-24 08:20:20: Final user ID to be returned: 101
+2025-10-24 08:20:20: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 08:20:20: === Login Script Completed ===
+2025-10-24 08:37:46: === Login Script Started ===
+2025-10-24 08:37:46: OPTIONS request received
+2025-10-24 08:37:46: === Login Script Started ===
+2025-10-24 08:37:46: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 08:37:46: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 08:37:46: Login attempt for email: hr@gmail.com
+2025-10-24 08:37:46: Query executed. Found rows: 1
+2025-10-24 08:37:46: Password verified (plain text)
+2025-10-24 08:37:46: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 08:37:46: User role: HR
+2025-10-24 08:37:46: User auth_status: Verified
+2025-10-24 08:37:46: Final user ID to be returned: 102
+2025-10-24 08:37:46: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 08:37:46: === Login Script Completed ===
+2025-10-24 08:44:33: === Login Script Started ===
+2025-10-24 08:44:33: OPTIONS request received
+2025-10-24 08:44:33: === Login Script Started ===
+2025-10-24 08:44:33: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 08:44:33: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 08:44:33: Login attempt for email: hr@gmail.com
+2025-10-24 08:44:33: Query executed. Found rows: 1
+2025-10-24 08:44:33: Password verified (plain text)
+2025-10-24 08:44:33: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 08:44:33: User role: HR
+2025-10-24 08:44:33: User auth_status: Verified
+2025-10-24 08:44:33: Final user ID to be returned: 102
+2025-10-24 08:44:33: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 08:44:33: === Login Script Completed ===
+2025-10-24 09:14:50: === Login Script Started ===
+2025-10-24 09:14:50: OPTIONS request received
+2025-10-24 09:14:50: === Login Script Started ===
+2025-10-24 09:14:50: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:14:50: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:14:50: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:14:50: Query executed. Found rows: 1
+2025-10-24 09:14:50: Login attempt by archived user: icongko09@gmail.com
+2025-10-24 09:14:59: === Login Script Started ===
+2025-10-24 09:14:59: OPTIONS request received
+2025-10-24 09:14:59: === Login Script Started ===
+2025-10-24 09:14:59: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 09:14:59: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:14:59: Login attempt for email: hr@gmail.com
+2025-10-24 09:14:59: Query executed. Found rows: 1
+2025-10-24 09:14:59: Password verified (plain text)
+2025-10-24 09:14:59: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 09:14:59: User role: HR
+2025-10-24 09:14:59: User auth_status: Verified
+2025-10-24 09:14:59: Final user ID to be returned: 102
+2025-10-24 09:14:59: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 09:14:59: === Login Script Completed ===
+2025-10-24 09:15:41: === Login Script Started ===
+2025-10-24 09:15:41: OPTIONS request received
+2025-10-24 09:15:41: === Login Script Started ===
+2025-10-24 09:15:41: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:41: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:41: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:41: Query executed. Found rows: 1
+2025-10-24 09:15:41: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:44: === Login Script Started ===
+2025-10-24 09:15:44: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:44: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:44: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:44: Query executed. Found rows: 1
+2025-10-24 09:15:44: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:44: === Login Script Started ===
+2025-10-24 09:15:44: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:44: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:44: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:44: Query executed. Found rows: 1
+2025-10-24 09:15:44: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:44: === Login Script Started ===
+2025-10-24 09:15:44: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:44: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:44: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:44: Query executed. Found rows: 1
+2025-10-24 09:15:44: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:45: === Login Script Started ===
+2025-10-24 09:15:45: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:45: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:45: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:45: Query executed. Found rows: 1
+2025-10-24 09:15:45: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:45: === Login Script Started ===
+2025-10-24 09:15:45: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:45: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:45: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:45: Query executed. Found rows: 1
+2025-10-24 09:15:45: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:45: === Login Script Started ===
+2025-10-24 09:15:45: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:45: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:45: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:45: Query executed. Found rows: 1
+2025-10-24 09:15:45: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:45: === Login Script Started ===
+2025-10-24 09:15:45: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:45: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:45: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:45: Query executed. Found rows: 1
+2025-10-24 09:15:45: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:45: === Login Script Started ===
+2025-10-24 09:15:45: Raw input data: {"email":"icongko09@gmail.com","password":"123"}
+2025-10-24 09:15:45: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:45: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:15:45: Query executed. Found rows: 1
+2025-10-24 09:15:45: Invalid password for user: icongko09@gmail.com
+2025-10-24 09:15:49: === Login Script Started ===
+2025-10-24 09:15:49: OPTIONS request received
+2025-10-24 09:15:49: === Login Script Started ===
+2025-10-24 09:15:49: Raw input data: {"email":"admin@gmail.com","password":"123"}
+2025-10-24 09:15:49: Decoded data: Array
+(
+    [email] => admin@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:15:49: Login attempt for email: admin@gmail.com
+2025-10-24 09:15:49: Query executed. Found rows: 1
+2025-10-24 09:15:49: Password verified (plain text)
+2025-10-24 09:15:49: Login successful for user: admin@gmail.com with ID: 101
+2025-10-24 09:15:49: User role: Admin
+2025-10-24 09:15:49: User auth_status: Verified
+2025-10-24 09:15:49: Final user ID to be returned: 101
+2025-10-24 09:15:49: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 09:15:49: === Login Script Completed ===
+2025-10-24 09:16:20: === Login Script Started ===
+2025-10-24 09:16:20: OPTIONS request received
+2025-10-24 09:16:20: === Login Script Started ===
+2025-10-24 09:16:20: Raw input data: {"email":"icongko09@gmail.com","password":"123456"}
+2025-10-24 09:16:20: Decoded data: Array
+(
+    [email] => icongko09@gmail.com
+    [password] => 123456
+)
+
+2025-10-24 09:16:20: Login attempt for email: icongko09@gmail.com
+2025-10-24 09:16:20: Query executed. Found rows: 1
+2025-10-24 09:16:20: Password verified (plain text)
+2025-10-24 09:16:20: Login successful for user: icongko09@gmail.com with ID: 148
+2025-10-24 09:16:20: User role: employee
+2025-10-24 09:16:20: User auth_status: Verified
+2025-10-24 09:16:20: Final user ID to be returned: 148
+2025-10-24 09:16:20: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 09:16:20: === Login Script Completed ===
+2025-10-24 09:17:57: === Login Script Started ===
+2025-10-24 09:17:57: OPTIONS request received
+2025-10-24 09:17:57: === Login Script Started ===
+2025-10-24 09:17:57: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 09:17:57: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:17:57: Login attempt for email: hr@gmail.com
+2025-10-24 09:17:57: Query executed. Found rows: 1
+2025-10-24 09:17:57: Password verified (plain text)
+2025-10-24 09:17:57: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 09:17:57: User role: HR
+2025-10-24 09:17:57: User auth_status: Verified
+2025-10-24 09:17:57: Final user ID to be returned: 102
+2025-10-24 09:17:57: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 09:17:57: === Login Script Completed ===
+2025-10-24 09:23:43: === Login Script Started ===
+2025-10-24 09:23:43: OPTIONS request received
+2025-10-24 09:23:43: === Login Script Started ===
+2025-10-24 09:23:43: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 09:23:43: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:23:43: Login attempt for email: hr@gmail.com
+2025-10-24 09:23:43: Query executed. Found rows: 1
+2025-10-24 09:23:43: Password verified (plain text)
+2025-10-24 09:23:43: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 09:23:43: User role: HR
+2025-10-24 09:23:43: User auth_status: Verified
+2025-10-24 09:23:43: Final user ID to be returned: 102
+2025-10-24 09:23:43: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 09:23:43: === Login Script Completed ===
+2025-10-24 09:26:48: === Login Script Started ===
+2025-10-24 09:26:48: OPTIONS request received
+2025-10-24 09:26:48: === Login Script Started ===
+2025-10-24 09:26:48: Raw input data: {"email":"app1@gmail.com","password":"Jason@100903"}
+2025-10-24 09:26:48: Decoded data: Array
+(
+    [email] => app1@gmail.com
+    [password] => Jason@100903
+)
+
+2025-10-24 09:26:48: Login attempt for email: app1@gmail.com
+2025-10-24 09:26:48: Query executed. Found rows: 1
+2025-10-24 09:26:48: Password verified (plain text)
+2025-10-24 09:26:48: Login successful for user: app1@gmail.com with ID: 153
+2025-10-24 09:26:48: User role: Applicant
+2025-10-24 09:26:48: User auth_status: New Account
+2025-10-24 09:26:48: Final user ID to be returned: 153
+2025-10-24 09:26:48: User requires email verification
+2025-10-24 09:26:48: Generated OTP: 647048, expires: 2025-10-24 09:36:48
+2025-10-24 09:26:48: OTP stored in database successfully
+2025-10-24 09:26:48: Attempting to send OTP to: app1@gmail.com
+2025-10-24 09:26:51: OTP email sent successfully to: app1@gmail.com
+2025-10-24 09:26:51: OTP sent successfully, responding with verification required
+2025-10-24 09:26:51: === Login Script Completed ===
+2025-10-24 09:29:43: === Login Script Started ===
+2025-10-24 09:29:43: OPTIONS request received
+2025-10-24 09:29:43: === Login Script Started ===
+2025-10-24 09:29:43: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 09:29:43: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 09:29:43: Login attempt for email: hr@gmail.com
+2025-10-24 09:29:43: Query executed. Found rows: 1
+2025-10-24 09:29:43: Password verified (plain text)
+2025-10-24 09:29:43: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 09:29:43: User role: HR
+2025-10-24 09:29:43: User auth_status: Verified
+2025-10-24 09:29:43: Final user ID to be returned: 102
+2025-10-24 09:29:43: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 09:29:43: === Login Script Completed ===
+2025-10-24 11:09:31: === Login Script Started ===
+2025-10-24 11:09:31: OPTIONS request received
+2025-10-24 11:09:31: === Login Script Started ===
+2025-10-24 11:09:31: Raw input data: {"email":"sup@gmail.com","password":"123"}
+2025-10-24 11:09:31: Decoded data: Array
+(
+    [email] => sup@gmail.com
+    [password] => 123
+)
+
+2025-10-24 11:09:31: Login attempt for email: sup@gmail.com
+2025-10-24 11:09:31: Query executed. Found rows: 0
+2025-10-24 11:09:31: Login failed for user: sup@gmail.com
+2025-10-24 11:09:31: === Login Script Completed ===
+2025-10-24 11:09:34: === Login Script Started ===
+2025-10-24 11:09:34: Raw input data: {"email":"sup1@gmail.com","password":"123"}
+2025-10-24 11:09:34: Decoded data: Array
+(
+    [email] => sup1@gmail.com
+    [password] => 123
+)
+
+2025-10-24 11:09:34: Login attempt for email: sup1@gmail.com
+2025-10-24 11:09:34: Query executed. Found rows: 1
+2025-10-24 11:09:34: Password verified (plain text)
+2025-10-24 11:09:34: Login successful for user: sup1@gmail.com with ID: 145
+2025-10-24 11:09:34: User role: supervisor
+2025-10-24 11:09:34: User auth_status: Verified
+2025-10-24 11:09:34: User is supervisor, fetching sup_id from supervisorlist
+2025-10-24 11:09:34: Found supervisor with sup_id: 145
+2025-10-24 11:09:34: Final user ID to be returned: 145
+2025-10-24 11:09:34: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 11:09:34: === Login Script Completed ===
+2025-10-24 11:49:52: === Login Script Started ===
+2025-10-24 11:49:52: OPTIONS request received
+2025-10-24 11:49:52: === Login Script Started ===
+2025-10-24 11:49:52: Raw input data: {"email":"icongko21@gmail.com","password":"Jason@100903"}
+2025-10-24 11:49:52: Decoded data: Array
+(
+    [email] => icongko21@gmail.com
+    [password] => Jason@100903
+)
+
+2025-10-24 11:49:52: Login attempt for email: icongko21@gmail.com
+2025-10-24 11:49:52: Query executed. Found rows: 1
+2025-10-24 11:49:52: Password verified (plain text)
+2025-10-24 11:49:52: Login successful for user: icongko21@gmail.com with ID: 155
+2025-10-24 11:49:52: User role: Applicant
+2025-10-24 11:49:52: User auth_status: New Account
+2025-10-24 11:49:52: Final user ID to be returned: 155
+2025-10-24 11:49:52: User requires email verification
+2025-10-24 11:49:52: Generated OTP: 281468, expires: 2025-10-24 11:59:52
+2025-10-24 11:49:52: OTP stored in database successfully
+2025-10-24 11:49:52: Attempting to send OTP to: icongko21@gmail.com
+2025-10-24 11:49:56: OTP email sent successfully to: icongko21@gmail.com
+2025-10-24 11:49:56: OTP sent successfully, responding with verification required
+2025-10-24 11:49:56: === Login Script Completed ===
+2025-10-24 11:51:05: === Login Script Started ===
+2025-10-24 11:51:05: OPTIONS request received
+2025-10-24 11:51:05: === Login Script Started ===
+2025-10-24 11:51:05: Raw input data: {"email":"sups@gmail.com","password":"123123asdas"}
+2025-10-24 11:51:05: Decoded data: Array
+(
+    [email] => sups@gmail.com
+    [password] => 123123asdas
+)
+
+2025-10-24 11:51:05: Login attempt for email: sups@gmail.com
+2025-10-24 11:51:05: Query executed. Found rows: 1
+2025-10-24 11:51:05: Password verified (plain text)
+2025-10-24 11:51:05: Login successful for user: sups@gmail.com with ID: 156
+2025-10-24 11:51:05: User role: Applicant
+2025-10-24 11:51:05: User auth_status: New Account
+2025-10-24 11:51:05: Final user ID to be returned: 156
+2025-10-24 11:51:05: User requires email verification
+2025-10-24 11:51:05: Generated OTP: 125920, expires: 2025-10-24 12:01:05
+2025-10-24 11:51:05: OTP stored in database successfully
+2025-10-24 11:51:05: Attempting to send OTP to: sups@gmail.com
+2025-10-24 11:51:08: OTP email sent successfully to: sups@gmail.com
+2025-10-24 11:51:08: OTP sent successfully, responding with verification required
+2025-10-24 11:51:08: === Login Script Completed ===
+2025-10-24 11:51:32: === Login Script Started ===
+2025-10-24 11:51:32: OPTIONS request received
+2025-10-24 11:51:32: === Login Script Started ===
+2025-10-24 11:51:32: Raw input data: {"email":"cfryujin@gmail.com","password":"Jason@123"}
+2025-10-24 11:51:32: Decoded data: Array
+(
+    [email] => cfryujin@gmail.com
+    [password] => Jason@123
+)
+
+2025-10-24 11:51:32: Login attempt for email: cfryujin@gmail.com
+2025-10-24 11:51:32: Query executed. Found rows: 1
+2025-10-24 11:51:32: Password verified (plain text)
+2025-10-24 11:51:32: Login successful for user: cfryujin@gmail.com with ID: 157
+2025-10-24 11:51:32: User role: Applicant
+2025-10-24 11:51:32: User auth_status: New Account
+2025-10-24 11:51:32: Final user ID to be returned: 157
+2025-10-24 11:51:32: User requires email verification
+2025-10-24 11:51:32: Generated OTP: 575154, expires: 2025-10-24 12:01:32
+2025-10-24 11:51:32: OTP stored in database successfully
+2025-10-24 11:51:32: Attempting to send OTP to: cfryujin@gmail.com
+2025-10-24 11:51:35: OTP email sent successfully to: cfryujin@gmail.com
+2025-10-24 11:51:35: OTP sent successfully, responding with verification required
+2025-10-24 11:51:35: === Login Script Completed ===
+2025-10-24 12:16:14: === Login Script Started ===
+2025-10-24 12:16:14: OPTIONS request received
+2025-10-24 12:16:14: === Login Script Started ===
+2025-10-24 12:16:14: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 12:16:14: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 12:16:14: Login attempt for email: hr@gmail.com
+2025-10-24 12:16:14: Query executed. Found rows: 1
+2025-10-24 12:16:14: Password verified (plain text)
+2025-10-24 12:16:14: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 12:16:14: User role: HR
+2025-10-24 12:16:14: User auth_status: Verified
+2025-10-24 12:16:14: Final user ID to be returned: 102
+2025-10-24 12:16:14: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 12:16:14: === Login Script Completed ===
+2025-10-24 12:24:06: === Login Script Started ===
+2025-10-24 12:24:06: OPTIONS request received
+2025-10-24 12:24:06: === Login Script Started ===
+2025-10-24 12:24:06: Raw input data: {"email":"admin@gmail.com","password":"123"}
+2025-10-24 12:24:06: Decoded data: Array
+(
+    [email] => admin@gmail.com
+    [password] => 123
+)
+
+2025-10-24 12:24:06: Login attempt for email: admin@gmail.com
+2025-10-24 12:24:06: Query executed. Found rows: 1
+2025-10-24 12:24:06: Password verified (plain text)
+2025-10-24 12:24:06: Login successful for user: admin@gmail.com with ID: 101
+2025-10-24 12:24:06: User role: Admin
+2025-10-24 12:24:06: User auth_status: Verified
+2025-10-24 12:24:06: Final user ID to be returned: 101
+2025-10-24 12:24:06: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 12:24:06: === Login Script Completed ===
+2025-10-24 12:25:15: === Login Script Started ===
+2025-10-24 12:25:15: OPTIONS request received
+2025-10-24 12:25:15: === Login Script Started ===
+2025-10-24 12:25:15: Raw input data: {"email":"aldrin.reyes@gmail.com","password":"123"}
+2025-10-24 12:25:15: Decoded data: Array
+(
+    [email] => aldrin.reyes@gmail.com
+    [password] => 123
+)
+
+2025-10-24 12:25:15: Login attempt for email: aldrin.reyes@gmail.com
+2025-10-24 12:25:15: Query executed. Found rows: 1
+2025-10-24 12:25:15: Password verified (plain text)
+2025-10-24 12:25:15: Login successful for user: aldrin.reyes@gmail.com with ID: 122
+2025-10-24 12:25:15: User role: employee
+2025-10-24 12:25:15: User auth_status: Verified
+2025-10-24 12:25:15: Final user ID to be returned: 122
+2025-10-24 12:25:15: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 12:25:15: === Login Script Completed ===
+2025-10-24 12:26:17: === Login Script Started ===
+2025-10-24 12:26:17: OPTIONS request received
+2025-10-24 12:26:17: === Login Script Started ===
+2025-10-24 12:26:17: Raw input data: {"email":"accountant@gmail.com","password":"123"}
+2025-10-24 12:26:17: Decoded data: Array
+(
+    [email] => accountant@gmail.com
+    [password] => 123
+)
+
+2025-10-24 12:26:17: Login attempt for email: accountant@gmail.com
+2025-10-24 12:26:17: Query executed. Found rows: 1
+2025-10-24 12:26:17: Password verified (plain text)
+2025-10-24 12:26:17: Login successful for user: accountant@gmail.com with ID: 103
+2025-10-24 12:26:17: User role: Accountant
+2025-10-24 12:26:17: User auth_status: Verified
+2025-10-24 12:26:17: Final user ID to be returned: 103
+2025-10-24 12:26:17: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 12:26:17: === Login Script Completed ===
+2025-10-24 12:30:16: === Login Script Started ===
+2025-10-24 12:30:16: OPTIONS request received
+2025-10-24 12:30:16: === Login Script Started ===
+2025-10-24 12:30:16: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 12:30:16: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 12:30:16: Login attempt for email: hr@gmail.com
+2025-10-24 12:30:16: Query executed. Found rows: 1
+2025-10-24 12:30:16: Password verified (plain text)
+2025-10-24 12:30:16: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 12:30:16: User role: HR
+2025-10-24 12:30:16: User auth_status: Verified
+2025-10-24 12:30:16: Final user ID to be returned: 102
+2025-10-24 12:30:16: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 12:30:16: === Login Script Completed ===
+2025-10-24 15:31:13: === Login Script Started ===
+2025-10-24 15:31:13: OPTIONS request received
+2025-10-24 15:31:13: === Login Script Started ===
+2025-10-24 15:31:13: Raw input data: {"email":"accountant@gmail.com","password":"123"}
+2025-10-24 15:31:13: Decoded data: Array
+(
+    [email] => accountant@gmail.com
+    [password] => 123
+)
+
+2025-10-24 15:31:13: Login attempt for email: accountant@gmail.com
+2025-10-24 15:31:14: Query executed. Found rows: 1
+2025-10-24 15:31:14: Password verified (plain text)
+2025-10-24 15:31:14: Login successful for user: accountant@gmail.com with ID: 103
+2025-10-24 15:31:14: User role: Accountant
+2025-10-24 15:31:14: User auth_status: Verified
+2025-10-24 15:31:14: Final user ID to be returned: 103
+2025-10-24 15:31:14: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 15:31:14: === Login Script Completed ===
+2025-10-24 15:59:48: === Login Script Started ===
+2025-10-24 15:59:48: OPTIONS request received
+2025-10-24 15:59:48: === Login Script Started ===
+2025-10-24 15:59:48: Raw input data: {"email":"aldrin.reyes@gmail.com","password":"123"}
+2025-10-24 15:59:48: Decoded data: Array
+(
+    [email] => aldrin.reyes@gmail.com
+    [password] => 123
+)
+
+2025-10-24 15:59:48: Login attempt for email: aldrin.reyes@gmail.com
+2025-10-24 15:59:48: Query executed. Found rows: 1
+2025-10-24 15:59:48: Password verified (plain text)
+2025-10-24 15:59:48: Login successful for user: aldrin.reyes@gmail.com with ID: 122
+2025-10-24 15:59:48: User role: employee
+2025-10-24 15:59:48: User auth_status: Verified
+2025-10-24 15:59:48: Final user ID to be returned: 122
+2025-10-24 15:59:48: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 15:59:48: === Login Script Completed ===
+2025-10-24 15:59:55: === Login Script Started ===
+2025-10-24 15:59:55: OPTIONS request received
+2025-10-24 15:59:55: === Login Script Started ===
+2025-10-24 15:59:55: Raw input data: {"email":"hr@gmail.com","password":"123"}
+2025-10-24 15:59:55: Decoded data: Array
+(
+    [email] => hr@gmail.com
+    [password] => 123
+)
+
+2025-10-24 15:59:55: Login attempt for email: hr@gmail.com
+2025-10-24 15:59:55: Query executed. Found rows: 1
+2025-10-24 15:59:55: Password verified (plain text)
+2025-10-24 15:59:55: Login successful for user: hr@gmail.com with ID: 102
+2025-10-24 15:59:55: User role: HR
+2025-10-24 15:59:55: User auth_status: Verified
+2025-10-24 15:59:55: Final user ID to be returned: 102
+2025-10-24 15:59:55: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 15:59:55: === Login Script Completed ===
+2025-10-24 16:02:00: === Login Script Started ===
+2025-10-24 16:02:00: OPTIONS request received
+2025-10-24 16:02:00: === Login Script Started ===
+2025-10-24 16:02:00: Raw input data: {"email":"accountant@gmail.com","password":"123"}
+2025-10-24 16:02:00: Decoded data: Array
+(
+    [email] => accountant@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:02:00: Login attempt for email: accountant@gmail.com
+2025-10-24 16:02:00: Query executed. Found rows: 1
+2025-10-24 16:02:00: Password verified (plain text)
+2025-10-24 16:02:00: Login successful for user: accountant@gmail.com with ID: 103
+2025-10-24 16:02:00: User role: Accountant
+2025-10-24 16:02:00: User auth_status: Verified
+2025-10-24 16:02:00: Final user ID to be returned: 103
+2025-10-24 16:02:00: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:02:00: === Login Script Completed ===
+2025-10-24 16:02:25: === Login Script Started ===
+2025-10-24 16:02:25: OPTIONS request received
+2025-10-24 16:02:26: === Login Script Started ===
+2025-10-24 16:02:26: Raw input data: {"email":"aldrin.reyes@gmail.com","password":"123"}
+2025-10-24 16:02:26: Decoded data: Array
+(
+    [email] => aldrin.reyes@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:02:26: Login attempt for email: aldrin.reyes@gmail.com
+2025-10-24 16:02:26: Query executed. Found rows: 1
+2025-10-24 16:02:26: Password verified (plain text)
+2025-10-24 16:02:26: Login successful for user: aldrin.reyes@gmail.com with ID: 122
+2025-10-24 16:02:26: User role: employee
+2025-10-24 16:02:26: User auth_status: Verified
+2025-10-24 16:02:26: Final user ID to be returned: 122
+2025-10-24 16:02:26: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:02:26: === Login Script Completed ===
+2025-10-24 16:05:53: === Login Script Started ===
+2025-10-24 16:05:53: OPTIONS request received
+2025-10-24 16:05:53: === Login Script Started ===
+2025-10-24 16:05:53: Raw input data: {"email":"accountant@gmail.com","password":"123"}
+2025-10-24 16:05:53: Decoded data: Array
+(
+    [email] => accountant@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:05:53: Login attempt for email: accountant@gmail.com
+2025-10-24 16:05:53: Query executed. Found rows: 1
+2025-10-24 16:05:53: Password verified (plain text)
+2025-10-24 16:05:53: Login successful for user: accountant@gmail.com with ID: 103
+2025-10-24 16:05:53: User role: Accountant
+2025-10-24 16:05:53: User auth_status: Verified
+2025-10-24 16:05:53: Final user ID to be returned: 103
+2025-10-24 16:05:53: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:05:53: === Login Script Completed ===
+2025-10-24 16:06:41: === Login Script Started ===
+2025-10-24 16:06:41: OPTIONS request received
+2025-10-24 16:06:41: === Login Script Started ===
+2025-10-24 16:06:41: Raw input data: {"email":"aldrin.reyes@gmail.com","password":"123"}
+2025-10-24 16:06:41: Decoded data: Array
+(
+    [email] => aldrin.reyes@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:06:41: Login attempt for email: aldrin.reyes@gmail.com
+2025-10-24 16:06:41: Query executed. Found rows: 1
+2025-10-24 16:06:41: Password verified (plain text)
+2025-10-24 16:06:41: Login successful for user: aldrin.reyes@gmail.com with ID: 122
+2025-10-24 16:06:41: User role: employee
+2025-10-24 16:06:41: User auth_status: Verified
+2025-10-24 16:06:41: Final user ID to be returned: 122
+2025-10-24 16:06:41: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:06:41: === Login Script Completed ===
+2025-10-24 16:07:35: === Login Script Started ===
+2025-10-24 16:07:35: OPTIONS request received
+2025-10-24 16:07:35: === Login Script Started ===
+2025-10-24 16:07:35: Raw input data: {"email":"accountant@gmail.com","password":"123"}
+2025-10-24 16:07:35: Decoded data: Array
+(
+    [email] => accountant@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:07:35: Login attempt for email: accountant@gmail.com
+2025-10-24 16:07:35: Query executed. Found rows: 1
+2025-10-24 16:07:35: Password verified (plain text)
+2025-10-24 16:07:35: Login successful for user: accountant@gmail.com with ID: 103
+2025-10-24 16:07:35: User role: Accountant
+2025-10-24 16:07:35: User auth_status: Verified
+2025-10-24 16:07:35: Final user ID to be returned: 103
+2025-10-24 16:07:35: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:07:35: === Login Script Completed ===
+2025-10-24 16:08:14: === Login Script Started ===
+2025-10-24 16:08:14: OPTIONS request received
+2025-10-24 16:08:14: === Login Script Started ===
+2025-10-24 16:08:14: Raw input data: {"email":"aldrin.reyes@gmail.com","password":"123"}
+2025-10-24 16:08:14: Decoded data: Array
+(
+    [email] => aldrin.reyes@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:08:14: Login attempt for email: aldrin.reyes@gmail.com
+2025-10-24 16:08:14: Query executed. Found rows: 1
+2025-10-24 16:08:14: Password verified (plain text)
+2025-10-24 16:08:14: Login successful for user: aldrin.reyes@gmail.com with ID: 122
+2025-10-24 16:08:14: User role: employee
+2025-10-24 16:08:14: User auth_status: Verified
+2025-10-24 16:08:14: Final user ID to be returned: 122
+2025-10-24 16:08:14: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:08:14: === Login Script Completed ===
+2025-10-24 16:10:32: === Login Script Started ===
+2025-10-24 16:10:32: OPTIONS request received
+2025-10-24 16:10:32: === Login Script Started ===
+2025-10-24 16:10:32: Raw input data: {"email":"accountant@gmail.com","password":"123"}
+2025-10-24 16:10:32: Decoded data: Array
+(
+    [email] => accountant@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:10:32: Login attempt for email: accountant@gmail.com
+2025-10-24 16:10:32: Query executed. Found rows: 1
+2025-10-24 16:10:32: Password verified (plain text)
+2025-10-24 16:10:32: Login successful for user: accountant@gmail.com with ID: 103
+2025-10-24 16:10:32: User role: Accountant
+2025-10-24 16:10:32: User auth_status: Verified
+2025-10-24 16:10:32: Final user ID to be returned: 103
+2025-10-24 16:10:32: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:10:32: === Login Script Completed ===
+2025-10-24 16:10:54: === Login Script Started ===
+2025-10-24 16:10:54: OPTIONS request received
+2025-10-24 16:10:54: === Login Script Started ===
+2025-10-24 16:10:54: Raw input data: {"email":"analyn.mendoza@gmail.com","password":"123"}
+2025-10-24 16:10:54: Decoded data: Array
+(
+    [email] => analyn.mendoza@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:10:54: Login attempt for email: analyn.mendoza@gmail.com
+2025-10-24 16:10:54: Query executed. Found rows: 1
+2025-10-24 16:10:54: Password verified (plain text)
+2025-10-24 16:10:54: Login successful for user: analyn.mendoza@gmail.com with ID: 124
+2025-10-24 16:10:54: User role: employee
+2025-10-24 16:10:54: User auth_status: Verified
+2025-10-24 16:10:54: Final user ID to be returned: 124
+2025-10-24 16:10:54: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:10:54: === Login Script Completed ===
+2025-10-24 16:57:47: === Login Script Started ===
+2025-10-24 16:57:47: OPTIONS request received
+2025-10-24 16:57:47: === Login Script Started ===
+2025-10-24 16:57:47: Raw input data: {"email":"accountant@gmail.com","password":"123"}
+2025-10-24 16:57:47: Decoded data: Array
+(
+    [email] => accountant@gmail.com
+    [password] => 123
+)
+
+2025-10-24 16:57:47: Login attempt for email: accountant@gmail.com
+2025-10-24 16:57:47: Query executed. Found rows: 1
+2025-10-24 16:57:47: Password verified (plain text)
+2025-10-24 16:57:47: Login successful for user: accountant@gmail.com with ID: 103
+2025-10-24 16:57:47: User role: Accountant
+2025-10-24 16:57:47: User auth_status: Verified
+2025-10-24 16:57:47: Final user ID to be returned: 103
+2025-10-24 16:57:47: User is already verified or auth_status not set, proceeding with normal login
+2025-10-24 16:57:47: === Login Script Completed ===

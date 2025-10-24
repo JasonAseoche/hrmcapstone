@@ -185,7 +185,7 @@ logDebug("Started database transaction");
 try {
     // Prepare and execute the insert statement for useraccounts table
     if ($user_id_exists) {
-        $insert_sql = "INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        $insert_sql = "INSERT INTO useraccounts (id, firstName, lastName, email, password, role, auth_status, change_pass_status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         logDebug("Preparing insert statement with user_id, role, and auth_status: $insert_sql");
         $insert_stmt = $conn->prepare($insert_sql);
         
@@ -194,11 +194,12 @@ try {
         }
         
         logDebug("Binding insert parameters with ID, role, and auth_status");
-        $insert_stmt->bind_param("issssss", $next_id, $data['firstName'], $data['lastName'], $data['email'], $password, $role, $auth_status);
+        $change_pass_status = "Changed";
+        $insert_stmt->bind_param("isssssss", $next_id, $data['firstName'], $data['lastName'], $data['email'], $password, $role, $auth_status, $change_pass_status);
         $user_id_for_applicant = $next_id;
     } else {
         // Original query without user_id but with role and auth_status
-        $insert_sql = "INSERT INTO useraccounts (firstName, lastName, email, password, role, auth_status) VALUES (?, ?, ?, ?, ?, ?)";
+        $insert_sql = "INSERT INTO useraccounts (firstName, lastName, email, password, role, auth_status, change_pass_status) VALUES (?, ?, ?, ?, ?, ?, ?)";
         logDebug("Preparing insert statement with role and auth_status: $insert_sql");
         $insert_stmt = $conn->prepare($insert_sql);
         
@@ -207,7 +208,8 @@ try {
         }
         
         logDebug("Binding insert parameters with role and auth_status");
-        $insert_stmt->bind_param("ssssss", $data['firstName'], $data['lastName'], $data['email'], $password, $role, $auth_status);
+        $change_pass_status = "Changed";
+        $insert_stmt->bind_param("sssssss", $data['firstName'], $data['lastName'], $data['email'], $password, $role, $auth_status, $change_pass_status);
         $user_id_for_applicant = null; // Will be set after insert
     }
 
